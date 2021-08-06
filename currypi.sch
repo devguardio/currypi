@@ -1,0 +1,43 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4350 2300 1000 2300
+U 610DBB8D
+F0 "pi" 50
+F1 "pi.sch" 50
+F2 "5V" I R 5350 2650 50 
+F3 "BOOT" I L 4350 2700 50 
+F4 "RX" I L 4350 2800 50 
+F5 "TX" I L 4350 2900 50 
+F6 "USB+" I L 4350 3050 50 
+F7 "USB-" I L 4350 3150 50 
+F8 "ETH0+" I L 4350 3450 50 
+F9 "ETH0-" I L 4350 3550 50 
+F10 "ETH1+" I L 4350 3700 50 
+F11 "ETH1-" I L 4350 3800 50 
+F12 "ETH2+" I L 4350 3950 50 
+F13 "ETH2-" I L 4350 4050 50 
+F14 "ETH3+" I L 4350 4200 50 
+F15 "ETH3-" I L 4350 4300 50 
+F16 "3.3V" I R 5350 2750 50 
+$EndSheet
+$Sheet
+S 5550 2300 700  1050
+U 610F006D
+F0 "dcdc" 50
+F1 "dcdc.sch" 50
+$EndSheet
+$EndSCHEMATC
