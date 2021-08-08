@@ -13,11 +13,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1550 1400 0    50   Input ~ 0
+Text HLabel 7250 1250 1    50   Input ~ 0
 5V
 Text HLabel 1550 1700 0    50   Input ~ 0
 3.3V
-Text HLabel 1550 1100 0    50   Input ~ 0
+Text HLabel 2850 1250 0    50   Input ~ 0
 VIN
 Text HLabel 1550 1950 0    50   Input ~ 0
 DISABLE
@@ -289,29 +289,6 @@ F 3 "~" H 3150 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
-U 1 1 61114473
-P 3150 1400
-F 0 "#PWR?" H 3150 1250 50  0001 C CNN
-F 1 "+12V" H 3165 1573 50  0000 C CNN
-F 2 "" H 3150 1400 50  0001 C CNN
-F 3 "" H 3150 1400 50  0001 C CNN
-	1    3150 1400
-	1    0    0    -1  
-$EndComp
-Connection ~ 3150 1400
-$Comp
-L power:+12V #PWR?
-U 1 1 61114CBD
-P 3150 2150
-F 0 "#PWR?" H 3150 2000 50  0001 C CNN
-F 1 "+12V" H 3165 2323 50  0000 C CNN
-F 2 "" H 3150 2150 50  0001 C CNN
-F 3 "" H 3150 2150 50  0001 C CNN
-	1    3150 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 61113B66
 P 3150 2300
@@ -345,34 +322,34 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 6111DEF4
-P 5950 2500
-F 0 "R?" V 5950 2450 50  0000 L CNN
-F 1 "102K" V 5850 2400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 2500 50  0001 C CNN
-F 3 "~" H 5950 2500 50  0001 C CNN
-	1    5950 2500
+P 8300 1850
+F 0 "R?" V 8300 1800 50  0000 L CNN
+F 1 "102K" V 8200 1750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8230 1850 50  0001 C CNN
+F 3 "~" H 8300 1850 50  0001 C CNN
+	1    8300 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6111E4B3
-P 6450 2350
-F 0 "R?" V 6450 2300 50  0000 L CNN
-F 1 "53.6K" V 6350 2250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6380 2350 50  0001 C CNN
-F 3 "~" H 6450 2350 50  0001 C CNN
-	1    6450 2350
-	0    1    1    0   
+P 7800 1700
+F 0 "R?" V 7800 1650 50  0000 L CNN
+F 1 "53.6K" V 7700 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7730 1700 50  0001 C CNN
+F 3 "~" H 7800 1700 50  0001 C CNN
+	1    7800 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 611237EC
-P 5950 2650
-F 0 "#PWR?" H 5950 2400 50  0001 C CNN
-F 1 "GND" H 5955 2477 50  0000 C CNN
-F 2 "" H 5950 2650 50  0001 C CNN
-F 3 "" H 5950 2650 50  0001 C CNN
-	1    5950 2650
+P 8300 2000
+F 0 "#PWR?" H 8300 1750 50  0001 C CNN
+F 1 "GND" H 8305 1827 50  0000 C CNN
+F 2 "" H 8300 2000 50  0001 C CNN
+F 3 "" H 8300 2000 50  0001 C CNN
+	1    8300 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -417,7 +394,6 @@ Wire Wire Line
 Connection ~ 6950 1700
 Wire Wire Line
 	6950 1800 6950 1700
-Connection ~ 7250 1700
 Wire Wire Line
 	6350 1700 6650 1700
 Wire Wire Line
@@ -496,17 +472,6 @@ F 3 "~" H 6350 1900 50  0001 C CNN
 	1    6350 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 61124A2B
-P 7250 1700
-F 0 "#PWR?" H 7250 1550 50  0001 C CNN
-F 1 "+5V" H 7265 1873 50  0000 C CNN
-F 2 "" H 7250 1700 50  0001 C CNN
-F 3 "" H 7250 1700 50  0001 C CNN
-	1    7250 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 1700 6350 1700
 Connection ~ 6350 1700
@@ -519,25 +484,38 @@ Wire Wire Line
 Wire Wire Line
 	5600 1700 5850 1700
 Connection ~ 5850 1700
-Text Label 5600 1900 0    50   ~ 0
-TPS_FB
 Wire Wire Line
 	5500 1900 5900 1900
-Text Label 5950 2350 0    50   ~ 0
-TPS_FB
 Wire Wire Line
-	5950 2350 6300 2350
-$Comp
-L power:+5V #PWR?
-U 1 1 611559B1
-P 6600 2350
-F 0 "#PWR?" H 6600 2200 50  0001 C CNN
-F 1 "+5V" V 6615 2478 50  0000 L CNN
-F 2 "" H 6600 2350 50  0001 C CNN
-F 3 "" H 6600 2350 50  0001 C CNN
-	1    6600 2350
-	0    1    1    0   
-$EndComp
+	8300 1700 8050 1700
 Text Notes 2850 3300 0    50   ~ 0
 DNP Enable Resistors \nto disable UVLO.
+Connection ~ 7250 1700
+Wire Wire Line
+	7650 1700 7250 1700
+Wire Wire Line
+	7250 1250 7250 1700
+Wire Wire Line
+	8050 1700 8050 2650
+Wire Wire Line
+	8050 2650 5900 2650
+Wire Wire Line
+	5900 2650 5900 1900
+Connection ~ 8050 1700
+Wire Wire Line
+	8050 1700 7950 1700
+Wire Wire Line
+	2850 1250 2950 1250
+Wire Wire Line
+	3150 1250 3150 1400
+Connection ~ 3150 1400
+Wire Wire Line
+	3150 2150 3150 2050
+Wire Wire Line
+	3150 2050 2950 2050
+Wire Wire Line
+	2950 2050 2950 1250
+Connection ~ 2950 1250
+Wire Wire Line
+	2950 1250 3150 1250
 $EndSCHEMATC
