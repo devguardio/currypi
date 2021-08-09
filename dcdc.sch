@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -277,10 +277,10 @@ VIN1
 Text Label 2200 1000 0    50   ~ 0
 VIN1
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F1
 U 1 1 624CFE29
 P 800 800
-F 0 "F?" H 888 846 50  0000 L CNN
+F 0 "F1" H 888 846 50  0000 L CNN
 F 1 "Polyfuse" H 888 755 50  0000 L CNN
 F 2 "" H 850 600 50  0001 L CNN
 F 3 "~" H 800 800 50  0001 C CNN

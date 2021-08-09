@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -1515,22 +1515,22 @@ Wire Wire Line
 $Comp
 L dg_transformers:QT24A01 T2
 U 1 1 62435BC4
-P 6900 850
+P 6450 900
 AR Path="/620E19B3/62435BC4" Ref="T2"  Part="1" 
 AR Path="/613B6EFF/62435BC4" Ref="T1"  Part="1" 
 AR Path="/62156471/62435BC4" Ref="T3"  Part="1" 
 AR Path="/62171C6A/62435BC4" Ref="T4"  Part="1" 
 AR Path="/6218DDB9/62435BC4" Ref="T5"  Part="1" 
-F 0 "T1" H 7450 1205 50  0000 C CNN
-F 1 "QT24A01" H 7450 1114 50  0000 C CNN
-F 2 "dg_transformers:SOP100P1000X450-24N" H 7050 -500 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/TNK-QT24A01_C216359.pdf" H 7850 850 50  0001 L CNN
-F 4 "10/100/1000Base-T Single Port Transformer Module" H 7050 -600 50  0001 L CNN "Description"
-F 5 "4.5" H 7850 -700 50  0001 L CNN "Height"
-F 6 "TNK" H 7050 -700 50  0001 L CNN "Manufacturer_Name"
-F 7 "QT24A01" H 7300 -700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "C216359" H 7450 1023 50  0000 C CNN "LCSC#"
-	1    6900 850 
+F 0 "T1" H 7000 1255 50  0000 C CNN
+F 1 "QT24A01" H 7000 1164 50  0000 C CNN
+F 2 "dg_transformers:SOP100P1000X450-24N" H 6600 -450 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/TNK-QT24A01_C216359.pdf" H 7400 900 50  0001 L CNN
+F 4 "10/100/1000Base-T Single Port Transformer Module" H 6600 -550 50  0001 L CNN "Description"
+F 5 "4.5" H 7400 -650 50  0001 L CNN "Height"
+F 6 "TNK" H 6600 -650 50  0001 L CNN "Manufacturer_Name"
+F 7 "QT24A01" H 6850 -650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C216359" H 7000 1073 50  0000 C CNN "LCSC#"
+	1    6450 900 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
