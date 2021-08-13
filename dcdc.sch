@@ -15,8 +15,6 @@ Comment4 ""
 $EndDescr
 Text HLabel 4850 1700 0    50   Input ~ 0
 5V
-Wire Wire Line
-	4950 2000 4800 2000
 $Comp
 L power:GND #PWR0103
 U 1 1 61F5E18B
@@ -52,8 +50,8 @@ AR Path="/62156477/6205DE31" Ref="IC5"  Part="1"
 AR Path="/62171C70/6205DE31" Ref="IC7"  Part="1" 
 AR Path="/6218DDBF/6205DE31" Ref="IC9"  Part="1" 
 AR Path="/61DCBD06/6205DE31" Ref="IC3"  Part="1" 
-F 0 "IC1" H 6578 1446 50  0000 L CNN
-F 1 "OKR-T_6-W12-C" H 6578 1355 50  0000 L CNN
+F 0 "IC1" H 6400 1750 50  0000 L CNN
+F 1 "OKR-T_6-W12-C" H 5850 1650 50  0000 L CNN
 F 2 "dg_power:MURATACASEC90" H 6600 1700 50  0001 L CNN
 F 3 "http://power.murata.com/data/power/okr-t6-w12.pdf" H 6600 1600 50  0001 L CNN
 F 4 "Adjustable Output 6-Amp SIP-mount DC/DC Converters" H 6600 1500 50  0001 L CNN "Description"
@@ -110,41 +108,14 @@ F 3 "~" H 2800 2500 50  0001 C CNN
 $EndComp
 Text HLabel 2400 2600 0    50   Input ~ 0
 5V
-Text HLabel 4800 2000 0    50   Input ~ 0
+Text HLabel 7650 2650 0    50   Input ~ 0
 DISABLE
-$Comp
-L Device:R R?
-U 1 1 620D7FAF
-P 4800 4400
-AR Path="/611D29B0/620D7FAF" Ref="R?"  Part="1" 
-AR Path="/613B6F05/620D7FAF" Ref="R3"  Part="1" 
-AR Path="/620E19B9/620D7FAF" Ref="R10"  Part="1" 
-AR Path="/620FBA52/620D7FAF" Ref="R?"  Part="1" 
-AR Path="/62117961/620D7FAF" Ref="R?"  Part="1" 
-AR Path="/62132900/620D7FAF" Ref="R?"  Part="1" 
-AR Path="/62156477/620D7FAF" Ref="R80"  Part="1" 
-AR Path="/62171C70/620D7FAF" Ref="R93"  Part="1" 
-AR Path="/6218DDBF/620D7FAF" Ref="R109"  Part="1" 
-AR Path="/61DCBD06/620D7FAF" Ref="R28"  Part="1" 
-F 0 "R3" V 5007 4400 50  0000 C CNN
-F 1 "DNC" V 4916 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4730 4400 50  0001 C CNN
-F 3 "~" H 4800 4400 50  0001 C CNN
-	1    4800 4400
-	-1   0    0    1   
-$EndComp
-Text HLabel 2850 4700 0    50   Input ~ 0
-DISABLE
-Wire Wire Line
-	4800 4150 4800 4250
 Text Notes 1700 2100 0    50   ~ 0
 Best efficiency isnt entirely clear yet,\nWe can switch input for 3.3 between 5V and 12V here
 Text HLabel 2450 1600 0    50   Input ~ 0
 VIN
 Wire Wire Line
 	2450 1600 2550 1600
-Text Label 4800 4150 1    50   ~ 0
-VIN1
 $Comp
 L Device:Polyfuse F1
 U 1 1 624CFE29
@@ -161,55 +132,21 @@ $EndComp
 $Comp
 L dg_relay:G3VM-61VY2-TR RLA1
 U 1 1 61CDA64C
-P 3350 4600
+P 8150 2550
 AR Path="/613B6F05/61CDA64C" Ref="RLA1"  Part="1" 
 AR Path="/61DCBD06/61CDA64C" Ref="RLA2"  Part="1" 
-F 0 "RLA1" H 4050 4827 60  0000 C CNN
-F 1 "G3VM-61VY2-TR" H 4050 4721 60  0000 C CNN
-F 2 "dg_relay:G3VM-SOP" H 4250 4740 60  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/307/omron_04102018_G3VM-6_G__61VY1_DS_E-1317117.pdf" H 3350 4600 60  0001 C CNN
-F 4 "C306896" H 4050 4623 50  0000 C CNN "LCSC#"
-	1    3350 4600
+F 0 "RLA1" H 8850 2777 60  0000 C CNN
+F 1 "G3VM-61VY2-TR" H 8850 2671 60  0000 C CNN
+F 2 "dg_relay:G3VM-SOP" H 9050 2690 60  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/307/omron_04102018_G3VM-6_G__61VY1_DS_E-1317117.pdf" H 8150 2550 60  0001 C CNN
+F 4 "C306896" H 8850 2573 50  0000 C CNN "LCSC#"
+	1    8150 2550
 	1    0    0    -1  
 $EndComp
-Text HLabel 5000 4700 2    50   Input ~ 0
-DISABLE
-Wire Wire Line
-	4600 4700 4800 4700
-Wire Wire Line
-	4800 4550 4800 4700
-Connection ~ 4800 4700
-Wire Wire Line
-	4800 4700 5000 4700
-$Comp
-L power:GND #PWR0116
-U 1 1 61CE1EC9
-P 3200 5200
-AR Path="/613B6F05/61CE1EC9" Ref="#PWR0116"  Part="1" 
-AR Path="/611D29B0/61CE1EC9" Ref="#PWR?"  Part="1" 
-AR Path="/620E19B9/61CE1EC9" Ref="#PWR?"  Part="1" 
-AR Path="/620FBA52/61CE1EC9" Ref="#PWR?"  Part="1" 
-AR Path="/62117961/61CE1EC9" Ref="#PWR?"  Part="1" 
-AR Path="/62132900/61CE1EC9" Ref="#PWR?"  Part="1" 
-AR Path="/62156477/61CE1EC9" Ref="#PWR?"  Part="1" 
-AR Path="/62171C70/61CE1EC9" Ref="#PWR?"  Part="1" 
-AR Path="/6218DDBF/61CE1EC9" Ref="#PWR?"  Part="1" 
-AR Path="/61DCBD06/61CE1EC9" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0116" H 3200 4950 50  0001 C CNN
-F 1 "GND" H 3205 5027 50  0000 C CNN
-F 2 "" H 3200 5200 50  0001 C CNN
-F 3 "" H 3200 5200 50  0001 C CNN
-	1    3200 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 5200 3200 5100
-Wire Wire Line
-	3200 5100 3500 5100
 $Comp
 L power:GND #PWR0117
 U 1 1 61CE3867
-P 4900 5200
+P 9400 3150
 AR Path="/613B6F05/61CE3867" Ref="#PWR0117"  Part="1" 
 AR Path="/611D29B0/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/620E19B9/61CE3867" Ref="#PWR?"  Part="1" 
@@ -220,21 +157,19 @@ AR Path="/62156477/61CE3867" Ref="#PWR?"  Part="1"
 AR Path="/62171C70/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/6218DDBF/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/61DCBD06/61CE3867" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR0117" H 4900 4950 50  0001 C CNN
-F 1 "GND" H 4905 5027 50  0000 C CNN
-F 2 "" H 4900 5200 50  0001 C CNN
-F 3 "" H 4900 5200 50  0001 C CNN
-	1    4900 5200
+F 0 "#PWR0117" H 9400 2900 50  0001 C CNN
+F 1 "GND" H 9405 2977 50  0000 C CNN
+F 2 "" H 9400 3150 50  0001 C CNN
+F 3 "" H 9400 3150 50  0001 C CNN
+	1    9400 3150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 5200 4900 5100
-Wire Wire Line
-	4900 5100 4600 5100
+	9400 3150 9400 3050
 $Comp
 L Device:R R?
 U 1 1 61CE43D9
-P 3250 4700
+P 8050 2650
 AR Path="/611D29B0/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/613B6F05/61CE43D9" Ref="R4"  Part="1" 
 AR Path="/620E19B9/61CE43D9" Ref="R?"  Part="1" 
@@ -245,17 +180,17 @@ AR Path="/62156477/61CE43D9" Ref="R?"  Part="1"
 AR Path="/62171C70/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/6218DDBF/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/61DCBD06/61CE43D9" Ref="R13"  Part="1" 
-F 0 "R4" V 3457 4700 50  0000 C CNN
-F 1 "1K" V 3366 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 3180 4700 50  0001 C CNN
-F 3 "~" H 3250 4700 50  0001 C CNN
-	1    3250 4700
+F 0 "R4" V 8257 2650 50  0000 C CNN
+F 1 "1K" V 8166 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7980 2650 50  0001 C CNN
+F 3 "~" H 8050 2650 50  0001 C CNN
+	1    8050 2650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2850 4700 3100 4700
+	7650 2650 7900 2650
 Wire Wire Line
-	3400 4700 3500 4700
+	8200 2650 8300 2650
 Text HLabel 7650 1900 0    50   Input ~ 0
 3.3V
 $Comp
@@ -453,10 +388,6 @@ F 3 "" H 4400 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4400 1800 4950 1800
-Text HLabel 4850 2500 0    50   Input ~ 0
-5V
-Wire Wire Line
-	4950 2800 4800 2800
 $Comp
 L power:GND #PWR?
 U 1 1 61162826
@@ -492,8 +423,8 @@ AR Path="/62156477/61162834" Ref="IC?"  Part="1"
 AR Path="/62171C70/61162834" Ref="IC?"  Part="1" 
 AR Path="/6218DDBF/61162834" Ref="IC?"  Part="1" 
 AR Path="/61DCBD06/61162834" Ref="IC?"  Part="1" 
-F 0 "IC?" H 6578 2246 50  0000 L CNN
-F 1 "OKR-T_6-W12-C" H 6578 2155 50  0000 L CNN
+F 0 "IC?" H 6400 2550 50  0000 L CNN
+F 1 "OKR-T_6-W12-C" H 5850 2450 50  0000 L CNN
 F 2 "dg_power:MURATACASEC90" H 6600 2500 50  0001 L CNN
 F 3 "http://power.murata.com/data/power/okr-t6-w12.pdf" H 6600 2400 50  0001 L CNN
 F 4 "Adjustable Output 6-Amp SIP-mount DC/DC Converters" H 6600 2300 50  0001 L CNN "Description"
@@ -528,8 +459,6 @@ F 3 "~" H 4550 2400 50  0001 C CNN
 	1    4550 2400
 	0    -1   -1   0   
 $EndComp
-Text HLabel 4800 2800 0    50   Input ~ 0
-DISABLE
 Wire Wire Line
 	4950 2500 4850 2500
 Wire Wire Line
@@ -557,20 +486,14 @@ F 3 "" H 4400 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4400 2600 4950 2600
-Text Label 3500 2400 2    50   ~ 0
-VIN_5V_DCDC
 Wire Wire Line
 	2400 2600 2500 2600
 Text HLabel 3100 2600 2    50   Input ~ 0
 5V
 Wire Wire Line
 	3100 2600 3000 2600
-Text Label 2450 2400 2    50   ~ 0
-VIN_5V_DCDC
-Text Label 2500 2500 2    50   ~ 0
-VIN_3V3_DCDC
 Text Label 3550 2500 2    50   ~ 0
-VIN_3V3_DCDC
+VIN_DCDC_3V3
 Wire Wire Line
 	3000 2500 3550 2500
 Wire Wire Line
@@ -579,14 +502,118 @@ Wire Wire Line
 	1950 2400 2500 2400
 Wire Wire Line
 	1950 2500 2500 2500
-Text Label 4950 1900 2    50   ~ 0
-VIN_5V_DCDC
-Text Label 4950 2700 2    50   ~ 0
-VIN_3V3_DCDC
 Wire Wire Line
 	4400 2700 4950 2700
 Text Label 3400 1600 2    50   ~ 0
-VIN_5V_DCDC
+VIN_DCDC_5V
 Wire Wire Line
 	3400 1600 2850 1600
+Text Label 3500 2400 2    50   ~ 0
+VIN_DCDC_5V
+Text Label 2450 2400 2    50   ~ 0
+VIN_DCDC_5V
+Text Label 2500 2500 2    50   ~ 0
+VIN_DCDC_3V3
+Text Label 4950 1900 2    50   ~ 0
+VIN_DCDC_5V
+Text Label 4950 2700 2    50   ~ 0
+VIN_DCDC_3V3
+Text HLabel 4850 2500 0    50   Input ~ 0
+3.3V
+$Comp
+L Device:R R?
+U 1 1 6116D895
+P 9600 2450
+AR Path="/611D29B0/6116D895" Ref="R?"  Part="1" 
+AR Path="/613B6F05/6116D895" Ref="R?"  Part="1" 
+AR Path="/620E19B9/6116D895" Ref="R?"  Part="1" 
+AR Path="/620FBA52/6116D895" Ref="R?"  Part="1" 
+AR Path="/62117961/6116D895" Ref="R?"  Part="1" 
+AR Path="/62132900/6116D895" Ref="R?"  Part="1" 
+AR Path="/62156477/6116D895" Ref="R?"  Part="1" 
+AR Path="/62171C70/6116D895" Ref="R?"  Part="1" 
+AR Path="/6218DDBF/6116D895" Ref="R?"  Part="1" 
+AR Path="/61DCBD06/6116D895" Ref="R?"  Part="1" 
+F 0 "R?" V 9700 2450 50  0000 C CNN
+F 1 "1k" V 9600 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9530 2450 50  0001 C CNN
+F 3 "~" H 9600 2450 50  0001 C CNN
+	1    9600 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 2650 9450 2650
+Wire Wire Line
+	9450 2650 9450 2450
+Text Label 10250 2450 2    50   ~ 0
+VIN_DCDC_5V
+Wire Wire Line
+	9750 2450 10250 2450
+$Comp
+L power:GND #PWR?
+U 1 1 61173063
+P 8300 3150
+AR Path="/613B6F05/61173063" Ref="#PWR?"  Part="1" 
+AR Path="/611D29B0/61173063" Ref="#PWR?"  Part="1" 
+AR Path="/620E19B9/61173063" Ref="#PWR?"  Part="1" 
+AR Path="/620FBA52/61173063" Ref="#PWR?"  Part="1" 
+AR Path="/62117961/61173063" Ref="#PWR?"  Part="1" 
+AR Path="/62132900/61173063" Ref="#PWR?"  Part="1" 
+AR Path="/62156477/61173063" Ref="#PWR?"  Part="1" 
+AR Path="/62171C70/61173063" Ref="#PWR?"  Part="1" 
+AR Path="/6218DDBF/61173063" Ref="#PWR?"  Part="1" 
+AR Path="/61DCBD06/61173063" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8300 2900 50  0001 C CNN
+F 1 "GND" H 8305 2977 50  0000 C CNN
+F 2 "" H 8300 3150 50  0001 C CNN
+F 3 "" H 8300 3150 50  0001 C CNN
+	1    8300 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3150 8300 3050
+Text Label 4950 2000 2    50   ~ 0
+DISABLE_DCDC
+Wire Wire Line
+	4400 2000 4950 2000
+Text Label 4950 2800 2    50   ~ 0
+DISABLE_DCDC
+Wire Wire Line
+	4400 2800 4950 2800
+Text Label 10250 2650 2    50   ~ 0
+DISABLE_DCDC
+Wire Wire Line
+	9450 2650 10250 2650
+Connection ~ 9450 2650
+Text Label 10450 1650 2    50   ~ 0
+DISABLE_DCDC
+Text HLabel 9400 1650 0    50   Input ~ 0
+DISABLE
+$Comp
+L Device:R R?
+U 1 1 61184138
+P 9650 1650
+AR Path="/611D29B0/61184138" Ref="R?"  Part="1" 
+AR Path="/613B6F05/61184138" Ref="R?"  Part="1" 
+AR Path="/620E19B9/61184138" Ref="R?"  Part="1" 
+AR Path="/620FBA52/61184138" Ref="R?"  Part="1" 
+AR Path="/62117961/61184138" Ref="R?"  Part="1" 
+AR Path="/62132900/61184138" Ref="R?"  Part="1" 
+AR Path="/62156477/61184138" Ref="R?"  Part="1" 
+AR Path="/62171C70/61184138" Ref="R?"  Part="1" 
+AR Path="/6218DDBF/61184138" Ref="R?"  Part="1" 
+AR Path="/61DCBD06/61184138" Ref="R?"  Part="1" 
+F 0 "R?" V 9750 1650 50  0000 C CNN
+F 1 "DNC" V 9650 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9580 1650 50  0001 C CNN
+F 3 "~" H 9650 1650 50  0001 C CNN
+	1    9650 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 1650 9400 1650
+Wire Wire Line
+	9800 1650 10450 1650
+Text Notes 9000 1450 0    50   ~ 0
+Jumper to Bypass Mosfet Disable Control.
 $EndSCHEMATC
