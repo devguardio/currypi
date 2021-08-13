@@ -192,7 +192,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 2650 7900 2650
 Text HLabel 7250 1900 0    50   Input ~ 0
-3.3V
+3V3
 $Comp
 L Device:LED D?
 U 1 1 611489B3
@@ -519,7 +519,7 @@ VIN_DCDC_5V
 Text Label 4550 2700 2    50   ~ 0
 VIN_DCDC_3V3
 Text HLabel 4450 2500 0    50   Input ~ 0
-3.3V
+3V3
 $Comp
 L Device:R R?
 U 1 1 6116D895
