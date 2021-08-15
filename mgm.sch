@@ -1264,28 +1264,6 @@ F 3 "" H 8100 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dg_transformers:QT24A01 T?
-U 1 1 618693F9
-P 6550 3900
-AR Path="/620E19B3/618693F9" Ref="T?"  Part="1" 
-AR Path="/613B6EFF/618693F9" Ref="T?"  Part="1" 
-AR Path="/62156471/618693F9" Ref="T?"  Part="1" 
-AR Path="/62171C6A/618693F9" Ref="T?"  Part="1" 
-AR Path="/6218DDB9/618693F9" Ref="T?"  Part="1" 
-AR Path="/613B5606/618693F9" Ref="T2"  Part="1" 
-F 0 "T2" H 7100 4255 50  0000 C CNN
-F 1 "QT24A01" H 7100 4164 50  0000 C CNN
-F 2 "dg_transformers:SOP100P1000X450-24N" H 6700 2550 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/TNK-QT24A01_C216359.pdf" H 7500 3900 50  0001 L CNN
-F 4 "10/100/1000Base-T Single Port Transformer Module" H 6700 2450 50  0001 L CNN "Description"
-F 5 "4.5" H 7500 2350 50  0001 L CNN "Height"
-F 6 "TNK" H 6700 2350 50  0001 L CNN "Manufacturer_Name"
-F 7 "QT24A01" H 6950 2350 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "C216359" H 7100 4073 50  0000 C CNN "LCSC#"
-	1    6550 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L dg_rpi:rpi_cm4 U?
 U 6 1 618D9DD5
 P 5400 700
@@ -1396,4 +1374,47 @@ Wire Wire Line
 	4850 2950 4600 2950
 Text HLabel 4600 2650 0    50   Input ~ 0
 c1_boot
+$Comp
+L dg_connectors:0826-1X1T-GH-F J6
+U 1 1 612127DD
+P 6200 5200
+F 0 "J6" H 6100 6767 50  0000 C CNN
+F 1 "0826-1X1T-GH-F" H 6100 6676 50  0000 C CNN
+F 2 "dg_connectors:BEL_0826-1X1T-GH-F" H 5750 6950 50  0001 L BNN
+F 3 "" H 6250 7100 50  0001 L BNN
+	1    6200 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4300 7150 4300
+Wire Wire Line
+	7150 4100 7400 4100
+Wire Wire Line
+	7400 3900 7150 3900
+Text HLabel 7400 4300 2    50   Input ~ 0
+ETH1+
+Text HLabel 7400 4100 2    50   Input ~ 0
+ETH0-
+Text HLabel 7400 3900 2    50   Input ~ 0
+ETH0+
+Text HLabel 7400 4500 2    50   Input ~ 0
+ETH1-
+Text HLabel 7400 4700 2    50   Input ~ 0
+ETH2+
+Wire Wire Line
+	7150 4500 7400 4500
+Wire Wire Line
+	7400 4700 7150 4700
+Text HLabel 7400 4900 2    50   Input ~ 0
+ETH2-
+Text HLabel 7400 5100 2    50   Input ~ 0
+ETH3+
+Wire Wire Line
+	7150 4900 7400 4900
+Wire Wire Line
+	7400 5100 7150 5100
+Text HLabel 7400 5300 2    50   Input ~ 0
+ETH3-
+Wire Wire Line
+	7150 5300 7400 5300
 $EndSCHEMATC

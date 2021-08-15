@@ -198,213 +198,6 @@ F 3 "" H 7400 1050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7650 1500 7700 1500
-$Comp
-L dg_connectors:SS-74500-024 J?
-U 1 1 613C515B
-P 7050 2100
-AR Path="/6133068E/613C515B" Ref="J?"  Part="1" 
-AR Path="/613C515B" Ref="J3"  Part="1" 
-F 0 "J3" V 6897 2830 50  0000 L CNN
-F 1 "SS-74500-024" V 6988 2830 50  0000 L CNN
-F 2 "dg_connectors:BEL_SS-74500-024" H 7050 2100 50  0001 L BNN
-F 3 "" H 7050 2100 50  0001 L BNN
-F 4 "A3" H 7050 2100 50  0001 L BNN "PARTREV"
-F 5 "27.41mm" H 7050 2100 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-	1    7050 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L dg_connectors:SS-74500-024 J?
-U 2 1 61466F14
-P -3550 4200
-AR Path="/6133068E/61466F14" Ref="J?"  Part="2" 
-AR Path="/61466F14" Ref="J3"  Part="2" 
-AR Path="/6144F58C/61466F14" Ref="J?"  Part="2" 
-F 0 "J3" V -3703 4930 50  0000 L CNN
-F 1 "SS-74500-024" V -3612 4930 50  0000 L CNN
-F 2 "dg_connectors:BEL_SS-74500-024" H -3550 4200 50  0001 L BNN
-F 3 "" H -3550 4200 50  0001 L BNN
-F 4 "A3" H -3550 4200 50  0001 L BNN "PARTREV"
-F 5 "27.41mm" H -3550 4200 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-	2    -3550 4200
-	0    1    1    0   
-$EndComp
-Text HLabel -4050 3400 1    50   Input ~ 0
-c2_vref
-Text HLabel -3850 3400 1    50   Input ~ 0
-c2_vref
-Text HLabel -3950 3400 1    50   Input ~ 0
-c2_eth_link
-Text HLabel -4150 3400 1    50   Input ~ 0
-c2_eth_act
-Text HLabel -3650 3400 1    50   Input ~ 0
-c2_eth_p1+
-Text HLabel -3550 3400 1    50   Input ~ 0
-c2_eth_p1-
-Wire Wire Line
-	-3650 3400 -3650 3600
-Wire Wire Line
-	-3550 3400 -3550 3600
-Text HLabel -3450 3400 1    50   Input ~ 0
-c2_eth_p2+
-Text HLabel -3350 3400 1    50   Input ~ 0
-c2_eth_p2-
-Wire Wire Line
-	-3450 3400 -3450 3600
-Wire Wire Line
-	-3350 3400 -3350 3600
-Text HLabel -3250 3400 1    50   Input ~ 0
-c2_eth_p3+
-Text HLabel -3150 3400 1    50   Input ~ 0
-c2_eth_p3-
-Wire Wire Line
-	-3250 3400 -3250 3600
-Wire Wire Line
-	-3150 3400 -3150 3600
-Text HLabel -3050 3400 1    50   Input ~ 0
-c2_eth_p4+
-Text HLabel -2950 3400 1    50   Input ~ 0
-c2_eth_p4-
-Wire Wire Line
-	-3050 3400 -3050 3600
-Wire Wire Line
-	-2950 3400 -2950 3600
-Wire Wire Line
-	-3850 3400 -3850 3600
-Wire Wire Line
-	-3950 3400 -3950 3600
-Wire Wire Line
-	-4050 3400 -4050 3600
-Wire Wire Line
-	-4150 3400 -4150 3600
-$Comp
-L dg_connectors:SS-74500-024 J?
-U 3 1 61466F34
-P -3850 6550
-AR Path="/6133068E/61466F34" Ref="J?"  Part="3" 
-AR Path="/61466F34" Ref="J3"  Part="3" 
-AR Path="/6144F58C/61466F34" Ref="J?"  Part="3" 
-F 0 "J3" V -4003 7280 50  0000 L CNN
-F 1 "SS-74500-024" V -3912 7280 50  0000 L CNN
-F 2 "dg_connectors:BEL_SS-74500-024" H -3850 6550 50  0001 L BNN
-F 3 "" H -3850 6550 50  0001 L BNN
-F 4 "A3" H -3850 6550 50  0001 L BNN "PARTREV"
-F 5 "27.41mm" H -3850 6550 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-	3    -3850 6550
-	0    1    1    0   
-$EndComp
-Text HLabel -4350 5750 1    50   Input ~ 0
-c3_vref
-Text HLabel -4150 5750 1    50   Input ~ 0
-c3_vref
-Text HLabel -4250 5750 1    50   Input ~ 0
-c3_eth_link
-Text HLabel -4450 5750 1    50   Input ~ 0
-c3_eth_act
-Text HLabel -3950 5750 1    50   Input ~ 0
-c3_eth_p1+
-Text HLabel -3850 5750 1    50   Input ~ 0
-c3_eth_p1-
-Wire Wire Line
-	-3950 5750 -3950 5950
-Wire Wire Line
-	-3850 5750 -3850 5950
-Text HLabel -3750 5750 1    50   Input ~ 0
-c3_eth_p2+
-Text HLabel -3650 5750 1    50   Input ~ 0
-c3_eth_p2-
-Wire Wire Line
-	-3750 5750 -3750 5950
-Wire Wire Line
-	-3650 5750 -3650 5950
-Text HLabel -3550 5750 1    50   Input ~ 0
-c3_eth_p3+
-Text HLabel -3450 5750 1    50   Input ~ 0
-c3_eth_p3-
-Wire Wire Line
-	-3550 5750 -3550 5950
-Wire Wire Line
-	-3450 5750 -3450 5950
-Text HLabel -3350 5750 1    50   Input ~ 0
-c3_eth_p4+
-Text HLabel -3250 5750 1    50   Input ~ 0
-c3_eth_p4-
-Wire Wire Line
-	-3350 5750 -3350 5950
-Wire Wire Line
-	-3250 5750 -3250 5950
-Wire Wire Line
-	-4150 5750 -4150 5950
-Wire Wire Line
-	-4250 5750 -4250 5950
-Wire Wire Line
-	-4350 5750 -4350 5950
-Wire Wire Line
-	-4450 5750 -4450 5950
-$Comp
-L dg_connectors:SS-74500-024 J?
-U 4 1 61466F54
-P -1050 5850
-AR Path="/6133068E/61466F54" Ref="J?"  Part="4" 
-AR Path="/61466F54" Ref="J3"  Part="4" 
-AR Path="/6144F58C/61466F54" Ref="J?"  Part="4" 
-F 0 "J3" V -1203 6580 50  0000 L CNN
-F 1 "SS-74500-024" V -1112 6580 50  0000 L CNN
-F 2 "dg_connectors:BEL_SS-74500-024" H -1050 5850 50  0001 L BNN
-F 3 "" H -1050 5850 50  0001 L BNN
-F 4 "A3" H -1050 5850 50  0001 L BNN "PARTREV"
-F 5 "27.41mm" H -1050 5850 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-	4    -1050 5850
-	0    1    1    0   
-$EndComp
-Text HLabel -1550 5050 1    50   Input ~ 0
-c4_vref
-Text HLabel -1350 5050 1    50   Input ~ 0
-c4_vref
-Text HLabel -1450 5050 1    50   Input ~ 0
-c4_eth_link
-Text HLabel -1650 5050 1    50   Input ~ 0
-c4_eth_act
-Text HLabel -1150 5050 1    50   Input ~ 0
-c4_eth_p1+
-Text HLabel -1050 5050 1    50   Input ~ 0
-c4_eth_p1-
-Wire Wire Line
-	-1150 5050 -1150 5250
-Wire Wire Line
-	-1050 5050 -1050 5250
-Text HLabel -750 5050 1    50   Input ~ 0
-c4_eth_p3+
-Text HLabel -650 5050 1    50   Input ~ 0
-c4_eth_p3-
-Wire Wire Line
-	-750 5050 -750 5250
-Wire Wire Line
-	-650 5050 -650 5250
-Text HLabel -550 5050 1    50   Input ~ 0
-c4_eth_p4+
-Text HLabel -450 5050 1    50   Input ~ 0
-c4_eth_p4-
-Wire Wire Line
-	-550 5050 -550 5250
-Wire Wire Line
-	-450 5050 -450 5250
-Wire Wire Line
-	-1350 5050 -1350 5250
-Wire Wire Line
-	-1450 5050 -1450 5250
-Wire Wire Line
-	-1550 5050 -1550 5250
-Wire Wire Line
-	-1650 5050 -1650 5250
-Wire Wire Line
-	-850 5050 -850 5250
-Wire Wire Line
-	-950 5050 -950 5250
-Text HLabel -850 5050 1    50   Input ~ 0
-c4_eth_p2-
-Text HLabel -950 5050 1    50   Input ~ 0
-c4_eth_p2+
 Text Label 8650 1250 2    50   ~ 0
 c1_boot
 Text Label 8650 1350 2    50   ~ 0
@@ -622,10 +415,10 @@ F 3 "~" H 7550 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 61E81B31
 P 7800 6800
-F 0 "H?" H 7900 6849 50  0000 L CNN
+F 0 "H2" H 7900 6849 50  0000 L CNN
 F 1 "MountingHole" H 7900 6758 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7800 6800 50  0001 C CNN
 F 3 "~" H 7800 6800 50  0001 C CNN
@@ -633,10 +426,10 @@ F 3 "~" H 7800 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H3
 U 1 1 61E86A8D
 P 8050 6800
-F 0 "H?" H 8150 6849 50  0000 L CNN
+F 0 "H3" H 8150 6849 50  0000 L CNN
 F 1 "MountingHole" H 8150 6758 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8050 6800 50  0001 C CNN
 F 3 "~" H 8050 6800 50  0001 C CNN
@@ -644,10 +437,10 @@ F 3 "~" H 8050 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H4
 U 1 1 61E8B967
 P 8300 6800
-F 0 "H?" H 8400 6849 50  0000 L CNN
+F 0 "H4" H 8400 6849 50  0000 L CNN
 F 1 "MountingHole" H 8400 6758 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8300 6800 50  0001 C CNN
 F 3 "~" H 8300 6800 50  0001 C CNN
@@ -655,10 +448,10 @@ F 3 "~" H 8300 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H5
 U 1 1 61E90820
 P 8500 6800
-F 0 "H?" H 8600 6849 50  0000 L CNN
+F 0 "H5" H 8600 6849 50  0000 L CNN
 F 1 "MountingHole" H 8600 6758 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8500 6800 50  0001 C CNN
 F 3 "~" H 8500 6800 50  0001 C CNN
@@ -666,10 +459,10 @@ F 3 "~" H 8500 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H6
 U 1 1 61E9569B
 P 8750 6800
-F 0 "H?" H 8850 6849 50  0000 L CNN
+F 0 "H6" H 8850 6849 50  0000 L CNN
 F 1 "MountingHole" H 8850 6758 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8750 6800 50  0001 C CNN
 F 3 "~" H 8750 6800 50  0001 C CNN
@@ -677,10 +470,10 @@ F 3 "~" H 8750 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 61EA49C7
 P 8150 7000
-F 0 "#PWR?" H 8150 6750 50  0001 C CNN
+F 0 "#PWR0104" H 8150 6750 50  0001 C CNN
 F 1 "GND" H 8155 6827 50  0000 C CNN
 F 2 "" H 8150 7000 50  0001 C CNN
 F 3 "" H 8150 7000 50  0001 C CNN
@@ -721,10 +514,10 @@ Wire Wire Line
 Wire Wire Line
 	1450 1450 1450 1550
 $Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J?
+L Connector_Generic:Conn_02x04_Counter_Clockwise J5
 U 1 1 61E42D2B
 P 2050 1350
-F 0 "J?" H 2100 1550 50  0000 C CNN
+F 0 "J5" H 2100 1550 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 2100 1576 50  0001 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" H 2050 1350 50  0001 C CNN
 F 3 "~" H 2050 1350 50  0001 C CNN
@@ -756,10 +549,10 @@ Connection ~ 2150 1550
 Wire Wire Line
 	2150 1550 2250 1550
 $Comp
-L Device:D_TVS D?
+L Device:D_TVS D7
 U 1 1 61E42D3F
 P 2450 1300
-F 0 "D?" V 2404 1380 50  0000 L CNN
+F 0 "D7" V 2404 1380 50  0000 L CNN
 F 1 "D_TVS" V 2495 1380 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 2450 1300 50  0001 C CNN
 F 3 "~" H 2450 1300 50  0001 C CNN
@@ -773,10 +566,10 @@ Wire Wire Line
 	2250 1550 2450 1550
 Connection ~ 2250 1550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 61E42D49
 P 2250 1600
-F 0 "#PWR?" H 2250 1350 50  0001 C CNN
+F 0 "#PWR0116" H 2250 1350 50  0001 C CNN
 F 1 "GND" H 2255 1427 50  0000 C CNN
 F 2 "" H 2250 1600 50  0001 C CNN
 F 3 "" H 2250 1600 50  0001 C CNN
@@ -784,10 +577,10 @@ F 3 "" H 2250 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0125
 U 1 1 61E42D4F
 P 2250 950
-F 0 "#PWR?" H 2250 800 50  0001 C CNN
+F 0 "#PWR0125" H 2250 800 50  0001 C CNN
 F 1 "+12V" H 2265 1123 50  0000 C CNN
 F 2 "" H 2250 950 50  0001 C CNN
 F 3 "" H 2250 950 50  0001 C CNN
@@ -823,4 +616,64 @@ F14 "ETH3+" I L 8750 2750 50
 F15 "ETH3-" I L 8750 2850 50 
 F16 "3V3" I R 9450 1300 50 
 $EndSheet
+$Comp
+L dg_connectors:SS-74500-020 J3
+U 1 1 611D6319
+P 7050 2100
+F 0 "J3" H 6943 1233 50  0000 C CNN
+F 1 "SS-74500-020" H 6943 1324 50  0000 C CNN
+F 2 "dg_connectors:BEL_SS-74500-020" H 7050 2100 50  0001 L BNN
+F 3 "" H 7050 2100 50  0001 L BNN
+F 4 "A4" H 7050 2100 50  0001 L BNN "PARTREV"
+F 5 "Bel Magnetic Solutions" H 7050 2100 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendations" H 7050 2100 50  0001 L BNN "STANDARD"
+F 7 "27.41mm" H 7050 2100 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	1    7050 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L dg_connectors:SS-74500-020 J3
+U 2 1 611D8906
+P 3650 -1750
+F 0 "J3" H 4080 -1704 50  0000 L CNN
+F 1 "SS-74500-020" H 4080 -1795 50  0000 L CNN
+F 2 "dg_connectors:BEL_SS-74500-020" H 3650 -1750 50  0001 L BNN
+F 3 "" H 3650 -1750 50  0001 L BNN
+F 4 "A4" H 3650 -1750 50  0001 L BNN "PARTREV"
+F 5 "Bel Magnetic Solutions" H 3650 -1750 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendations" H 3650 -1750 50  0001 L BNN "STANDARD"
+F 7 "27.41mm" H 3650 -1750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	2    3650 -1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L dg_connectors:SS-74500-020 J3
+U 3 1 611DAAD0
+P 5700 -1750
+F 0 "J3" H 6130 -1704 50  0000 L CNN
+F 1 "SS-74500-020" H 6130 -1795 50  0000 L CNN
+F 2 "dg_connectors:BEL_SS-74500-020" H 5700 -1750 50  0001 L BNN
+F 3 "" H 5700 -1750 50  0001 L BNN
+F 4 "A4" H 5700 -1750 50  0001 L BNN "PARTREV"
+F 5 "Bel Magnetic Solutions" H 5700 -1750 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendations" H 5700 -1750 50  0001 L BNN "STANDARD"
+F 7 "27.41mm" H 5700 -1750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	3    5700 -1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L dg_connectors:SS-74500-020 J3
+U 4 1 611DD33A
+P 7300 -1750
+F 0 "J3" H 7730 -1704 50  0000 L CNN
+F 1 "SS-74500-020" H 7730 -1795 50  0000 L CNN
+F 2 "dg_connectors:BEL_SS-74500-020" H 7300 -1750 50  0001 L BNN
+F 3 "" H 7300 -1750 50  0001 L BNN
+F 4 "A4" H 7300 -1750 50  0001 L BNN "PARTREV"
+F 5 "Bel Magnetic Solutions" H 7300 -1750 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendations" H 7300 -1750 50  0001 L BNN "STANDARD"
+F 7 "27.41mm" H 7300 -1750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	4    7300 -1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
