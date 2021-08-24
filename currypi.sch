@@ -52,102 +52,6 @@ Text Label 3950 1900 0    50   ~ 0
 c1_usb-
 Text Label 4850 1000 0    50   ~ 0
 c1_disable
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 61E61BF3
-P 7550 6800
-F 0 "H1" H 7650 6849 50  0000 L CNN
-F 1 "MountingHole" H 7650 6758 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7550 6800 50  0001 C CNN
-F 3 "~" H 7550 6800 50  0001 C CNN
-	1    7550 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 61E81B31
-P 7800 6800
-F 0 "H2" H 7900 6849 50  0000 L CNN
-F 1 "MountingHole" H 7900 6758 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7800 6800 50  0001 C CNN
-F 3 "~" H 7800 6800 50  0001 C CNN
-	1    7800 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 61E86A8D
-P 8050 6800
-F 0 "H3" H 8150 6849 50  0000 L CNN
-F 1 "MountingHole" H 8150 6758 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8050 6800 50  0001 C CNN
-F 3 "~" H 8050 6800 50  0001 C CNN
-	1    8050 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 61E8B967
-P 8300 6800
-F 0 "H4" H 8400 6849 50  0000 L CNN
-F 1 "MountingHole" H 8400 6758 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8300 6800 50  0001 C CNN
-F 3 "~" H 8300 6800 50  0001 C CNN
-	1    8300 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 61E90820
-P 8500 6800
-F 0 "H5" H 8600 6849 50  0000 L CNN
-F 1 "MountingHole" H 8600 6758 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8500 6800 50  0001 C CNN
-F 3 "~" H 8500 6800 50  0001 C CNN
-	1    8500 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H6
-U 1 1 61E9569B
-P 8750 6800
-F 0 "H6" H 8850 6849 50  0000 L CNN
-F 1 "MountingHole" H 8850 6758 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8750 6800 50  0001 C CNN
-F 3 "~" H 8750 6800 50  0001 C CNN
-	1    8750 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 61EA49C7
-P 8150 7000
-F 0 "#PWR0104" H 8150 6750 50  0001 C CNN
-F 1 "GND" H 8155 6827 50  0000 C CNN
-F 2 "" H 8150 7000 50  0001 C CNN
-F 3 "" H 8150 7000 50  0001 C CNN
-	1    8150 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 7000 8150 6900
-Wire Wire Line
-	8150 6900 8050 6900
-Connection ~ 7800 6900
-Wire Wire Line
-	7800 6900 7550 6900
-Connection ~ 8050 6900
-Wire Wire Line
-	8050 6900 7800 6900
-Wire Wire Line
-	8150 6900 8300 6900
-Connection ~ 8150 6900
-Connection ~ 8300 6900
-Wire Wire Line
-	8300 6900 8500 6900
-Connection ~ 8500 6900
-Wire Wire Line
-	8500 6900 8750 6900
 Wire Wire Line
 	4750 1000 5250 1000
 $Sheet
@@ -176,47 +80,47 @@ $EndSheet
 $Comp
 L dg_connectors:SS-74500-020 J3
 U 2 1 611D8906
-P 3650 -1750
-F 0 "J3" H 4080 -1704 50  0000 L CNN
-F 1 "SS-74500-020" H 4080 -1795 50  0000 L CNN
-F 2 "dg_connectors:BEL_SS-74500-020" H 3650 -1750 50  0001 L BNN
-F 3 "" H 3650 -1750 50  0001 L BNN
-F 4 "A4" H 3650 -1750 50  0001 L BNN "PARTREV"
-F 5 "Bel Magnetic Solutions" H 3650 -1750 50  0001 L BNN "MANUFACTURER"
-F 6 "Manufacturer Recommendations" H 3650 -1750 50  0001 L BNN "STANDARD"
-F 7 "27.41mm" H 3650 -1750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-	2    3650 -1750
-	1    0    0    -1  
+P 3850 -1750
+F 0 "J3" H 3500 -1000 50  0000 L CNN
+F 1 "SS-74500-020" H 3600 -2500 50  0000 L CNN
+F 2 "dg_connectors:BEL_SS-74500-020" H 3850 -1750 50  0001 L BNN
+F 3 "" H 3850 -1750 50  0001 L BNN
+F 4 "A4" H 3850 -1750 50  0001 L BNN "PARTREV"
+F 5 "Bel Magnetic Solutions" H 3850 -1750 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendations" H 3850 -1750 50  0001 L BNN "STANDARD"
+F 7 "27.41mm" H 3850 -1750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	2    3850 -1750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L dg_connectors:SS-74500-020 J3
 U 3 1 611DAAD0
-P 5700 -1750
-F 0 "J3" H 6130 -1704 50  0000 L CNN
-F 1 "SS-74500-020" H 6130 -1795 50  0000 L CNN
-F 2 "dg_connectors:BEL_SS-74500-020" H 5700 -1750 50  0001 L BNN
-F 3 "" H 5700 -1750 50  0001 L BNN
-F 4 "A4" H 5700 -1750 50  0001 L BNN "PARTREV"
-F 5 "Bel Magnetic Solutions" H 5700 -1750 50  0001 L BNN "MANUFACTURER"
-F 6 "Manufacturer Recommendations" H 5700 -1750 50  0001 L BNN "STANDARD"
-F 7 "27.41mm" H 5700 -1750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-	3    5700 -1750
-	1    0    0    -1  
+P 4900 -1750
+F 0 "J3" H 4500 -1000 50  0000 L CNN
+F 1 "SS-74500-020" H 4700 -2500 50  0000 L CNN
+F 2 "dg_connectors:BEL_SS-74500-020" H 4900 -1750 50  0001 L BNN
+F 3 "" H 4900 -1750 50  0001 L BNN
+F 4 "A4" H 4900 -1750 50  0001 L BNN "PARTREV"
+F 5 "Bel Magnetic Solutions" H 4900 -1750 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendations" H 4900 -1750 50  0001 L BNN "STANDARD"
+F 7 "27.41mm" H 4900 -1750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	3    4900 -1750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L dg_connectors:SS-74500-020 J3
 U 4 1 611DD33A
-P 7300 -1750
-F 0 "J3" H 7730 -1704 50  0000 L CNN
-F 1 "SS-74500-020" H 7730 -1795 50  0000 L CNN
-F 2 "dg_connectors:BEL_SS-74500-020" H 7300 -1750 50  0001 L BNN
-F 3 "" H 7300 -1750 50  0001 L BNN
-F 4 "A4" H 7300 -1750 50  0001 L BNN "PARTREV"
-F 5 "Bel Magnetic Solutions" H 7300 -1750 50  0001 L BNN "MANUFACTURER"
-F 6 "Manufacturer Recommendations" H 7300 -1750 50  0001 L BNN "STANDARD"
-F 7 "27.41mm" H 7300 -1750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-	4    7300 -1750
-	1    0    0    -1  
+P 5950 -1750
+F 0 "J3" H 5600 -1000 50  0000 L CNN
+F 1 "SS-74500-020" H 5750 -2500 50  0000 L CNN
+F 2 "dg_connectors:BEL_SS-74500-020" H 5950 -1750 50  0001 L BNN
+F 3 "" H 5950 -1750 50  0001 L BNN
+F 4 "A4" H 5950 -1750 50  0001 L BNN "PARTREV"
+F 5 "Bel Magnetic Solutions" H 5950 -1750 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendations" H 5950 -1750 50  0001 L BNN "STANDARD"
+F 7 "27.41mm" H 5950 -1750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	4    5950 -1750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0302
@@ -325,317 +229,284 @@ LED_3V3
 Wire Wire Line
 	1800 1700 2250 1700
 Wire Wire Line
-	7600 4750 7750 4750
+	7300 3750 7450 3750
 Wire Wire Line
-	7600 4650 7750 4650
+	7300 3650 7450 3650
 Wire Wire Line
-	6450 3900 6350 3900
-Text Label 6350 4000 2    50   ~ 0
+	6150 4000 6050 4000
+Text Label 6050 4100 2    50   ~ 0
 c4_disable
 Wire Wire Line
-	6350 4200 6450 4200
+	6050 4300 6150 4300
 Wire Wire Line
-	6450 4100 6350 4100
+	6150 4200 6050 4200
 Wire Wire Line
-	6350 4000 6450 4000
-Text Label 6350 4200 2    50   ~ 0
+	6050 4100 6150 4100
+Text Label 6050 4300 2    50   ~ 0
 c4_tx
-Text Label 6350 4100 2    50   ~ 0
+Text Label 6050 4200 2    50   ~ 0
 c4_rx
-Text Label 6350 3900 2    50   ~ 0
+Text Label 6050 4000 2    50   ~ 0
 c4_boot
 Wire Wire Line
-	6450 3450 6350 3450
-Text Label 6350 3550 2    50   ~ 0
+	6150 3550 6050 3550
+Text Label 6050 3650 2    50   ~ 0
 c3_disable
 Wire Wire Line
-	6350 3750 6450 3750
+	6050 3850 6150 3850
 Wire Wire Line
-	6450 3650 6350 3650
+	6150 3750 6050 3750
 Wire Wire Line
-	6350 3550 6450 3550
-Text Label 6350 3750 2    50   ~ 0
+	6050 3650 6150 3650
+Text Label 6050 3850 2    50   ~ 0
 c3_tx
-Text Label 6350 3650 2    50   ~ 0
+Text Label 6050 3750 2    50   ~ 0
 c3_rx
-Text Label 6350 3450 2    50   ~ 0
+Text Label 6050 3550 2    50   ~ 0
 c3_boot
 Wire Wire Line
-	6450 3000 6350 3000
-Text Label 6350 3100 2    50   ~ 0
+	6150 3100 6050 3100
+Text Label 6050 3200 2    50   ~ 0
 c2_disable
 Wire Wire Line
-	6350 3300 6450 3300
+	6050 3400 6150 3400
 Wire Wire Line
-	6450 3200 6350 3200
+	6150 3300 6050 3300
 Wire Wire Line
-	6350 3100 6450 3100
-Text Label 6350 3300 2    50   ~ 0
+	6050 3200 6150 3200
+Text Label 6050 3400 2    50   ~ 0
 c2_tx
-Text Label 6350 3200 2    50   ~ 0
+Text Label 6050 3300 2    50   ~ 0
 c2_rx
-Text Label 6350 3000 2    50   ~ 0
+Text Label 6050 3100 2    50   ~ 0
 c2_boot
 Wire Wire Line
-	6450 2450 6350 2450
-Text Label 6350 2550 2    50   ~ 0
+	6150 2550 6050 2550
+Text Label 6050 2650 2    50   ~ 0
 c1_disable
 $Sheet
-S 7750 4350 1350 1100
+S 7450 3350 1350 1100
 U 6130ED51
 F0 "usbhub" 50
 F1 "usbhub.sch" 50
-F2 "root_usb+" I L 7750 4750 50 
-F3 "root_usb-" I L 7750 4650 50 
-F4 "c1_usb+" I R 9100 4600 50 
-F5 "c1_usb-" I R 9100 4700 50 
-F6 "c2_usb-" I R 9100 4900 50 
-F7 "c2_usb+" I R 9100 4800 50 
-F8 "c3_usb-" I R 9100 5100 50 
-F9 "c3_usb+" I R 9100 5000 50 
-F10 "c4_usb-" I R 9100 5300 50 
-F11 "c4_usb+" I R 9100 5200 50 
-F12 "3.3V" I R 9100 4450 50 
-$EndSheet
-$Sheet
-S 6450 1950 1150 3000
-U 613B5606
-F0 "mgm" 50
-F1 "mgm.sch" 50
-F2 "c1_boot" I L 6450 2450 50 
-F3 "c1_rx" I L 6450 2650 50 
-F4 "c1_tx" I L 6450 2750 50 
-F5 "5V" I R 7600 2100 50 
-F6 "USB+" I R 7600 4750 50 
-F7 "USB-" I R 7600 4650 50 
-F8 "ETH0+" I R 7600 2400 50 
-F9 "ETH0-" I R 7600 3100 50 
-F10 "ETH1+" I R 7600 2500 50 
-F11 "ETH1-" I R 7600 2600 50 
-F12 "ETH2+" I R 7600 2700 50 
-F13 "ETH2-" I R 7600 2800 50 
-F14 "ETH3+" I R 7600 2900 50 
-F15 "ETH3-" I R 7600 3000 50 
-F16 "c2_tx" I L 6450 3200 50 
-F17 "c2_rx" I L 6450 3300 50 
-F18 "c3_tx" I L 6450 3650 50 
-F19 "c3_rx" I L 6450 3750 50 
-F20 "c4_tx" I L 6450 4100 50 
-F21 "c4_rx" I L 6450 4200 50 
-F22 "c2_disable" I L 6450 3100 50 
-F23 "c3_disable" I L 6450 3550 50 
-F24 "c4_disable" I L 6450 4000 50 
-F25 "c1_disable" I L 6450 2550 50 
-F26 "c2_boot" I L 6450 3000 50 
-F27 "c3_boot" I L 6450 3450 50 
-F28 "c4_boot" I L 6450 3900 50 
+F2 "root_usb+" I L 7450 3750 50 
+F3 "root_usb-" I L 7450 3650 50 
+F4 "c1_usb+" I R 8800 3600 50 
+F5 "c1_usb-" I R 8800 3700 50 
+F6 "c2_usb-" I R 8800 3900 50 
+F7 "c2_usb+" I R 8800 3800 50 
+F8 "c3_usb-" I R 8800 4100 50 
+F9 "c3_usb+" I R 8800 4000 50 
+F10 "c4_usb-" I R 8800 4300 50 
+F11 "c4_usb+" I R 8800 4200 50 
+F12 "3.3V" I R 8800 3450 50 
 $EndSheet
 Wire Wire Line
-	9100 5300 9200 5300
+	8800 4300 8900 4300
 Wire Wire Line
-	9200 5200 9100 5200
-Text Label 9200 5300 0    50   ~ 0
+	8900 4200 8800 4200
+Text Label 8900 4300 0    50   ~ 0
 c4_usb-
-Text Label 9200 5200 0    50   ~ 0
+Text Label 8900 4200 0    50   ~ 0
 c4_usb+
 Wire Wire Line
-	9100 5100 9200 5100
+	8800 4100 8900 4100
 Wire Wire Line
-	9200 5000 9100 5000
-Text Label 9200 5100 0    50   ~ 0
+	8900 4000 8800 4000
+Text Label 8900 4100 0    50   ~ 0
 c3_usb-
-Text Label 9200 5000 0    50   ~ 0
+Text Label 8900 4000 0    50   ~ 0
 c3_usb+
 Wire Wire Line
-	9100 4900 9200 4900
+	8800 3900 8900 3900
 Wire Wire Line
-	9200 4800 9100 4800
-Text Label 9200 4900 0    50   ~ 0
+	8900 3800 8800 3800
+Text Label 8900 3900 0    50   ~ 0
 c2_usb-
-Text Label 9200 4800 0    50   ~ 0
+Text Label 8900 3800 0    50   ~ 0
 c2_usb+
 Wire Wire Line
-	9100 4700 9200 4700
+	8800 3700 8900 3700
 Wire Wire Line
-	9200 4600 9100 4600
+	8900 3600 8800 3600
 Wire Wire Line
-	6350 2750 6450 2750
+	6050 2850 6150 2850
 Wire Wire Line
-	6450 2650 6350 2650
+	6150 2750 6050 2750
 Wire Wire Line
-	6350 2550 6450 2550
-Text Label 9200 4700 0    50   ~ 0
+	6050 2650 6150 2650
+Text Label 8900 3700 0    50   ~ 0
 c1_usb-
-Text Label 9200 4600 0    50   ~ 0
+Text Label 8900 3600 0    50   ~ 0
 c1_usb+
-Text Label 6350 2750 2    50   ~ 0
+Text Label 6050 2850 2    50   ~ 0
 c1_tx
-Text Label 6350 2650 2    50   ~ 0
+Text Label 6050 2750 2    50   ~ 0
 c1_rx
-Text Label 6350 2450 2    50   ~ 0
+Text Label 6050 2550 2    50   ~ 0
 c1_boot
 Wire Wire Line
-	7500 1300 7500 1400
+	7700 1350 7700 1450
 Wire Wire Line
-	7500 1000 7500 850 
+	7700 1050 7700 900 
 Wire Wire Line
-	7300 850  7300 800 
+	7500 900  7500 850 
 Wire Wire Line
-	7300 1450 7300 1400
+	7500 1500 7500 1450
 $Comp
 L power:+12V #PWR0125
 U 1 1 61E42D4F
-P 7300 800
-F 0 "#PWR0125" H 7300 650 50  0001 C CNN
-F 1 "+12V" H 7315 973 50  0000 C CNN
-F 2 "" H 7300 800 50  0001 C CNN
-F 3 "" H 7300 800 50  0001 C CNN
-	1    7300 800 
+P 7500 850
+F 0 "#PWR0125" H 7500 700 50  0001 C CNN
+F 1 "+12V" H 7515 1023 50  0000 C CNN
+F 2 "" H 7500 850 50  0001 C CNN
+F 3 "" H 7500 850 50  0001 C CNN
+	1    7500 850 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 61E42D49
-P 7300 1450
-F 0 "#PWR0116" H 7300 1200 50  0001 C CNN
-F 1 "GND" H 7305 1277 50  0000 C CNN
-F 2 "" H 7300 1450 50  0001 C CNN
-F 3 "" H 7300 1450 50  0001 C CNN
-	1    7300 1450
+P 7500 1500
+F 0 "#PWR0116" H 7500 1250 50  0001 C CNN
+F 1 "GND" H 7505 1327 50  0000 C CNN
+F 2 "" H 7500 1500 50  0001 C CNN
+F 3 "" H 7500 1500 50  0001 C CNN
+	1    7500 1500
 	1    0    0    -1  
 $EndComp
-Connection ~ 7300 1400
+Connection ~ 7500 1450
 Wire Wire Line
-	7300 1400 7500 1400
-Connection ~ 7300 850 
+	7500 1450 7700 1450
+Connection ~ 7500 900 
 Wire Wire Line
-	7300 850  7500 850 
+	7500 900  7700 900 
 $Comp
 L Device:D_TVS D7
 U 1 1 61E42D3F
-P 7500 1150
-F 0 "D7" V 7454 1230 50  0000 L CNN
-F 1 "D_TVS" V 7545 1230 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 7500 1150 50  0001 C CNN
-F 3 "~" H 7500 1150 50  0001 C CNN
-	1    7500 1150
+P 7700 1200
+F 0 "D7" V 7654 1280 50  0000 L CNN
+F 1 "D_TVS" V 7745 1280 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 7700 1200 50  0001 C CNN
+F 3 "~" H 7700 1200 50  0001 C CNN
+	1    7700 1200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7200 1400 7300 1400
-Connection ~ 7200 1400
+	7400 1450 7500 1450
+Connection ~ 7400 1450
 Wire Wire Line
-	7100 1400 7200 1400
-Connection ~ 7100 1400
+	7300 1450 7400 1450
+Connection ~ 7300 1450
 Wire Wire Line
-	7000 1400 7100 1400
+	7200 1450 7300 1450
 Wire Wire Line
-	7000 850  7100 850 
+	7200 900  7300 900 
 Wire Wire Line
-	7000 900  7000 850 
+	7200 950  7200 900 
 Wire Wire Line
-	7100 850  7200 850 
-Connection ~ 7100 850 
+	7300 900  7400 900 
+Connection ~ 7300 900 
 Wire Wire Line
-	7100 900  7100 850 
+	7300 950  7300 900 
 Wire Wire Line
-	7200 850  7300 850 
-Connection ~ 7200 850 
+	7400 900  7500 900 
+Connection ~ 7400 900 
 Wire Wire Line
-	7200 900  7200 850 
+	7400 950  7400 900 
 Wire Wire Line
-	7300 850  7300 900 
+	7500 900  7500 950 
 $Comp
 L Connector_Generic:Conn_02x04_Counter_Clockwise J5
 U 1 1 61E42D2B
-P 7100 1200
-F 0 "J5" H 7150 1400 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 7150 1426 50  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" H 7100 1200 50  0001 C CNN
-F 3 "~" H 7100 1200 50  0001 C CNN
-	1    7100 1200
+P 7300 1250
+F 0 "J5" H 7350 1450 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 7350 1476 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" H 7300 1250 50  0001 C CNN
+F 3 "~" H 7300 1250 50  0001 C CNN
+	1    7300 1250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6500 1300 6500 1400
+	6700 1350 6700 1450
 Wire Wire Line
-	6500 1000 6500 850 
+	6700 1050 6700 900 
 Wire Wire Line
-	6300 850  6300 800 
+	6500 900  6500 850 
 Wire Wire Line
-	6300 1450 6300 1400
+	6500 1500 6500 1450
 $Comp
 L power:+12V #PWR0101
 U 1 1 6246A425
-P 6300 800
-F 0 "#PWR0101" H 6300 650 50  0001 C CNN
-F 1 "+12V" H 6315 973 50  0000 C CNN
-F 2 "" H 6300 800 50  0001 C CNN
-F 3 "" H 6300 800 50  0001 C CNN
-	1    6300 800 
+P 6500 850
+F 0 "#PWR0101" H 6500 700 50  0001 C CNN
+F 1 "+12V" H 6515 1023 50  0000 C CNN
+F 2 "" H 6500 850 50  0001 C CNN
+F 3 "" H 6500 850 50  0001 C CNN
+	1    6500 850 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 61299E64
-P 6300 1450
-F 0 "#PWR0102" H 6300 1200 50  0001 C CNN
-F 1 "GND" H 6305 1277 50  0000 C CNN
-F 2 "" H 6300 1450 50  0001 C CNN
-F 3 "" H 6300 1450 50  0001 C CNN
-	1    6300 1450
+P 6500 1500
+F 0 "#PWR0102" H 6500 1250 50  0001 C CNN
+F 1 "GND" H 6505 1327 50  0000 C CNN
+F 2 "" H 6500 1500 50  0001 C CNN
+F 3 "" H 6500 1500 50  0001 C CNN
+	1    6500 1500
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 1400
+Connection ~ 6500 1450
 Wire Wire Line
-	6300 1400 6500 1400
-Connection ~ 6300 850 
+	6500 1450 6700 1450
+Connection ~ 6500 900 
 Wire Wire Line
-	6300 850  6500 850 
+	6500 900  6700 900 
 $Comp
 L Device:D_TVS D1
 U 1 1 61298C46
-P 6500 1150
-F 0 "D1" V 6454 1230 50  0000 L CNN
-F 1 "D_TVS" V 6545 1230 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 6500 1150 50  0001 C CNN
-F 3 "~" H 6500 1150 50  0001 C CNN
-	1    6500 1150
+P 6700 1200
+F 0 "D1" V 6654 1280 50  0000 L CNN
+F 1 "D_TVS" V 6745 1280 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 6700 1200 50  0001 C CNN
+F 3 "~" H 6700 1200 50  0001 C CNN
+	1    6700 1200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 1400 6300 1400
-Connection ~ 6200 1400
+	6400 1450 6500 1450
+Connection ~ 6400 1450
 Wire Wire Line
-	6100 1400 6200 1400
-Connection ~ 6100 1400
+	6300 1450 6400 1450
+Connection ~ 6300 1450
 Wire Wire Line
-	6000 1400 6100 1400
+	6200 1450 6300 1450
 Wire Wire Line
-	6000 850  6100 850 
+	6200 900  6300 900 
 Wire Wire Line
-	6000 900  6000 850 
+	6200 950  6200 900 
 Wire Wire Line
-	6100 850  6200 850 
-Connection ~ 6100 850 
+	6300 900  6400 900 
+Connection ~ 6300 900 
 Wire Wire Line
-	6100 900  6100 850 
+	6300 950  6300 900 
 Wire Wire Line
-	6200 850  6300 850 
-Connection ~ 6200 850 
+	6400 900  6500 900 
+Connection ~ 6400 900 
 Wire Wire Line
-	6200 900  6200 850 
+	6400 950  6400 900 
 Wire Wire Line
-	6300 850  6300 900 
+	6500 900  6500 950 
 $Comp
 L Connector_Generic:Conn_02x04_Counter_Clockwise J1
 U 1 1 611A366D
-P 6100 1200
-F 0 "J1" H 6150 1400 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 6150 1426 50  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" H 6100 1200 50  0001 C CNN
-F 3 "~" H 6100 1200 50  0001 C CNN
-	1    6100 1200
+P 6300 1250
+F 0 "J1" H 6350 1450 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 6350 1476 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" H 6300 1250 50  0001 C CNN
+F 3 "~" H 6300 1250 50  0001 C CNN
+	1    6300 1250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1183,38 +1054,199 @@ Wire Wire Line
 Wire Wire Line
 	2650 1400 2650 1250
 $Sheet
-S 8550 1950 700  400 
+S 7950 2400 700  400 
 U 614B514C
 F0 "sheet614B5146" 50
 F1 "dcdc.sch" 50
-F2 "5V" I L 8550 2100 50 
-F3 "DISABLE" I R 9250 2200 50 
-F4 "VIN" I R 9250 2100 50 
-F5 "3V3" I L 8550 2200 50 
+F2 "5V" I L 7950 2550 50 
+F3 "DISABLE" I R 8650 2650 50 
+F4 "VIN" I R 8650 2550 50 
+F5 "3V3" I L 7950 2650 50 
 $EndSheet
 $Comp
 L power:+12V #PWR?
 U 1 1 614B5154
-P 9650 2050
-F 0 "#PWR?" H 9650 1900 50  0001 C CNN
-F 1 "+12V" H 9665 2223 50  0000 C CNN
-F 2 "" H 9650 2050 50  0001 C CNN
-F 3 "" H 9650 2050 50  0001 C CNN
-	1    9650 2050
+P 9050 2500
+F 0 "#PWR?" H 9050 2350 50  0001 C CNN
+F 1 "+12V" H 9065 2673 50  0000 C CNN
+F 2 "" H 9050 2500 50  0001 C CNN
+F 3 "" H 9050 2500 50  0001 C CNN
+	1    9050 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 2100 9650 2050
+	9050 2550 9050 2500
 Wire Wire Line
-	9250 2100 9650 2100
-Wire Wire Line
-	7600 2100 8550 2100
-Text Label 8100 2200 0    50   ~ 0
+	8650 2550 9050 2550
+Text Label 7500 2650 0    50   ~ 0
 3V3_MGMT
 Wire Wire Line
-	8100 2200 8550 2200
-Text Label 9200 4450 0    50   ~ 0
+	7500 2650 7950 2650
+Text Label 8900 3450 0    50   ~ 0
 3V3_MGMT
 Wire Wire Line
-	9600 4450 9100 4450
+	9300 3450 8800 3450
+Wire Wire Line
+	7300 2550 7950 2550
+$Sheet
+S 6150 2400 1150 2050
+U 613B5606
+F0 "mgm" 50
+F1 "mgm.sch" 50
+F2 "c1_boot" I L 6150 2550 50 
+F3 "c1_rx" I L 6150 2750 50 
+F4 "c1_tx" I L 6150 2850 50 
+F5 "5V" I R 7300 2550 50 
+F6 "USB+" I R 7300 3750 50 
+F7 "USB-" I R 7300 3650 50 
+F8 "c2_tx" I L 6150 3300 50 
+F9 "c2_rx" I L 6150 3400 50 
+F10 "c3_tx" I L 6150 3750 50 
+F11 "c3_rx" I L 6150 3850 50 
+F12 "c4_tx" I L 6150 4200 50 
+F13 "c4_rx" I L 6150 4300 50 
+F14 "c2_disable" I L 6150 3200 50 
+F15 "c3_disable" I L 6150 3650 50 
+F16 "c4_disable" I L 6150 4100 50 
+F17 "c1_disable" I L 6150 2650 50 
+F18 "c2_boot" I L 6150 3100 50 
+F19 "c3_boot" I L 6150 3550 50 
+F20 "c4_boot" I L 6150 4000 50 
+$EndSheet
+$Comp
+L power:GND #PWR?
+U 1 1 61D74BD2
+P 5650 6950
+F 0 "#PWR?" H 5650 6700 50  0001 C CNN
+F 1 "GND" H 5655 6777 50  0000 C CNN
+F 2 "" H 5650 6950 50  0001 C CNN
+F 3 "" H 5650 6950 50  0001 C CNN
+	1    5650 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 61DA2572
+P 5650 7450
+F 0 "FID?" H 5550 7550 50  0000 L CNN
+F 1 "Fiducial" H 5735 7405 50  0001 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5650 7450 50  0001 C CNN
+F 3 "~" H 5650 7450 50  0001 C CNN
+	1    5650 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO?
+U 1 1 61DA8664
+P 6500 7450
+F 0 "#LOGO?" H 6500 7725 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 6500 7225 50  0001 C CNN
+F 2 "" H 6500 7450 50  0001 C CNN
+F 3 "~" H 6500 7450 50  0001 C CNN
+	1    6500 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6950 5850 6950
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61DAAD7C
+P 5650 6850
+F 0 "H?" H 5600 7050 50  0000 L CNN
+F 1 "MountingHole" H 5750 6808 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 5650 6850 50  0001 C CNN
+F 3 "~" H 5650 6850 50  0001 C CNN
+	1    5650 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 6950
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61DAAF7A
+P 5850 6850
+F 0 "H?" H 5800 7050 50  0000 L CNN
+F 1 "MountingHole" H 5950 6808 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 5850 6850 50  0001 C CNN
+F 3 "~" H 5850 6850 50  0001 C CNN
+	1    5850 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 6950
+Wire Wire Line
+	5850 6950 6050 6950
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61DAB345
+P 6050 6850
+F 0 "H?" H 6000 7050 50  0000 L CNN
+F 1 "MountingHole" H 6150 6808 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6050 6850 50  0001 C CNN
+F 3 "~" H 6050 6850 50  0001 C CNN
+	1    6050 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 6950
+Wire Wire Line
+	6050 6950 6250 6950
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61DAB5CB
+P 6250 6850
+F 0 "H?" H 6200 7050 50  0000 L CNN
+F 1 "MountingHole" H 6350 6808 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6250 6850 50  0001 C CNN
+F 3 "~" H 6250 6850 50  0001 C CNN
+	1    6250 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 6950
+Wire Wire Line
+	6250 6950 6450 6950
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61DAB81D
+P 6450 6850
+F 0 "H?" H 6400 7050 50  0000 L CNN
+F 1 "MountingHole" H 6550 6808 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6450 6850 50  0001 C CNN
+F 3 "~" H 6450 6850 50  0001 C CNN
+	1    6450 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 6950
+Wire Wire Line
+	6450 6950 6650 6950
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61DABA9B
+P 6650 6850
+F 0 "H?" H 6600 7050 50  0000 L CNN
+F 1 "MountingHole" H 6750 6808 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6650 6850 50  0001 C CNN
+F 3 "~" H 6650 6850 50  0001 C CNN
+	1    6650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 61DBB05F
+P 5850 7450
+F 0 "FID?" H 5750 7550 50  0000 L CNN
+F 1 "Fiducial" H 5935 7405 50  0001 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5850 7450 50  0001 C CNN
+F 3 "~" H 5850 7450 50  0001 C CNN
+	1    5850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 61DBB1D9
+P 6050 7450
+F 0 "FID?" H 5950 7550 50  0000 L CNN
+F 1 "Fiducial" H 6135 7405 50  0001 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 6050 7450 50  0001 C CNN
+F 3 "~" H 6050 7450 50  0001 C CNN
+	1    6050 7450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

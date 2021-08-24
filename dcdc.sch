@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 12
+Sheet 11 12
 Title ""
 Date ""
 Rev ""
@@ -866,44 +866,52 @@ Text Label 10050 1650 2    50   ~ 0
 DISABLE_DCDC
 Text HLabel 9000 1650 0    50   Input ~ 0
 DISABLE
-$Comp
-L Device:R R?
-U 1 1 61184138
-P 9250 1650
-AR Path="/611D29B0/61184138" Ref="R?"  Part="1" 
-AR Path="/613B6F05/61184138" Ref="R19"  Part="1" 
-AR Path="/620E19B9/61184138" Ref="R?"  Part="1" 
-AR Path="/620FBA52/61184138" Ref="R?"  Part="1" 
-AR Path="/62117961/61184138" Ref="R?"  Part="1" 
-AR Path="/62132900/61184138" Ref="R?"  Part="1" 
-AR Path="/62156477/61184138" Ref="R?"  Part="1" 
-AR Path="/62171C70/61184138" Ref="R?"  Part="1" 
-AR Path="/6218DDBF/61184138" Ref="R?"  Part="1" 
-AR Path="/61DCBD06/61184138" Ref="R28"  Part="1" 
-AR Path="/612EF6CB/61184138" Ref="R?"  Part="1" 
-AR Path="/612FBF62/61184138" Ref="R?"  Part="1" 
-AR Path="/613399E1/61184138" Ref="R?"  Part="1" 
-AR Path="/61347D33/61184138" Ref="R?"  Part="1" 
-AR Path="/6135BFB1/61184138" Ref="R?"  Part="1" 
-AR Path="/61397EA3/61184138" Ref="R?"  Part="1" 
-AR Path="/613FE97C/61184138" Ref="R?"  Part="1" 
-AR Path="/61409D5F/61184138" Ref="R?"  Part="1" 
-AR Path="/61416F4C/61184138" Ref="R?"  Part="1" 
-AR Path="/6142DC7D/61184138" Ref="R?"  Part="1" 
-AR Path="/6143BBB2/61184138" Ref="R?"  Part="1" 
-AR Path="/6144BA6D/61184138" Ref="R?"  Part="1" 
-AR Path="/614B514C/61184138" Ref="R?"  Part="1" 
-F 0 "R?" V 9350 1650 50  0000 C CNN
-F 1 "DNC" V 9250 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9180 1650 50  0001 C CNN
-F 3 "~" H 9250 1650 50  0001 C CNN
-	1    9250 1650
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9100 1650 9000 1650
 Wire Wire Line
 	9400 1650 10050 1650
 Text Notes 8600 1450 0    50   ~ 0
 Jumper to Bypass Mosfet Disable Control.
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 61DF2ADC
+P 9250 1650
+AR Path="/610DBB8D/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/613B6218/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/613B6EFF/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/613B79B7/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/613B8664/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/613B8F90/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/611D29AA/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/620E19B3/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/620FBA4C/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/6211795B/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/621328FA/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/62156471/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/62171C6A/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/6218DDB9/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/61E646BE/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/612EF6EF/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/612FBF86/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/61339A05/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/61347D57/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/6135BFD5/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/61397EC7/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/613FE9A0/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/61409D83/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/61416F70/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/6142DC9F/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/6143BBD4/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/6144BA8F/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/613B5606/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/6142DC7D/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/6143BBB2/61DF2ADC" Ref="JP?"  Part="1" 
+AR Path="/614B514C/61DF2ADC" Ref="JP?"  Part="1" 
+F 0 "JP?" H 9400 1700 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9250 1764 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9250 1650 50  0001 C CNN
+F 3 "~" H 9250 1650 50  0001 C CNN
+	1    9250 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
