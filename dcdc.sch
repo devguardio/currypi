@@ -16,19 +16,19 @@ $EndDescr
 Text HLabel 4450 1700 0    50   Input ~ 0
 5V
 $Comp
-L power:GND #PWR0103
+L power:GND #PWR016
 U 1 1 61F5E18B
 P 4000 1800
-AR Path="/613B6F05/61F5E18B" Ref="#PWR0103"  Part="1" 
-AR Path="/611D29B0/61F5E18B" Ref="#PWR0106"  Part="1" 
-AR Path="/620E19B9/61F5E18B" Ref="#PWR0190"  Part="1" 
-AR Path="/620FBA52/61F5E18B" Ref="#PWR0234"  Part="1" 
-AR Path="/62117961/61F5E18B" Ref="#PWR0247"  Part="1" 
-AR Path="/62132900/61F5E18B" Ref="#PWR0270"  Part="1" 
-AR Path="/62156477/61F5E18B" Ref="#PWR013"  Part="1" 
-AR Path="/62171C70/61F5E18B" Ref="#PWR027"  Part="1" 
-AR Path="/6218DDBF/61F5E18B" Ref="#PWR041"  Part="1" 
-AR Path="/61DCBD06/61F5E18B" Ref="#PWR0124"  Part="1" 
+AR Path="/613B6F05/61F5E18B" Ref="#PWR016"  Part="1" 
+AR Path="/611D29B0/61F5E18B" Ref="#PWR?"  Part="1" 
+AR Path="/620E19B9/61F5E18B" Ref="#PWR?"  Part="1" 
+AR Path="/620FBA52/61F5E18B" Ref="#PWR?"  Part="1" 
+AR Path="/62117961/61F5E18B" Ref="#PWR?"  Part="1" 
+AR Path="/62132900/61F5E18B" Ref="#PWR?"  Part="1" 
+AR Path="/62156477/61F5E18B" Ref="#PWR?"  Part="1" 
+AR Path="/62171C70/61F5E18B" Ref="#PWR?"  Part="1" 
+AR Path="/6218DDBF/61F5E18B" Ref="#PWR?"  Part="1" 
+AR Path="/61DCBD06/61F5E18B" Ref="#PWR?"  Part="1" 
 AR Path="/612EF6CB/61F5E18B" Ref="#PWR?"  Part="1" 
 AR Path="/612FBF62/61F5E18B" Ref="#PWR?"  Part="1" 
 AR Path="/613399E1/61F5E18B" Ref="#PWR?"  Part="1" 
@@ -38,11 +38,11 @@ AR Path="/61397EA3/61F5E18B" Ref="#PWR?"  Part="1"
 AR Path="/613FE97C/61F5E18B" Ref="#PWR?"  Part="1" 
 AR Path="/61409D5F/61F5E18B" Ref="#PWR?"  Part="1" 
 AR Path="/61416F4C/61F5E18B" Ref="#PWR?"  Part="1" 
-AR Path="/6142DC7D/61F5E18B" Ref="#PWR?"  Part="1" 
-AR Path="/6143BBB2/61F5E18B" Ref="#PWR?"  Part="1" 
-AR Path="/6144BA6D/61F5E18B" Ref="#PWR?"  Part="1" 
-AR Path="/614B514C/61F5E18B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4000 1550 50  0001 C CNN
+AR Path="/6142DC7D/61F5E18B" Ref="#PWR043"  Part="1" 
+AR Path="/6143BBB2/61F5E18B" Ref="#PWR061"  Part="1" 
+AR Path="/6144BA6D/61F5E18B" Ref="#PWR079"  Part="1" 
+AR Path="/614B514C/61F5E18B" Ref="#PWR097"  Part="1" 
+F 0 "#PWR097" H 4000 1550 50  0001 C CNN
 F 1 "GND" H 4005 1627 50  0000 C CNN
 F 2 "" H 4000 1800 50  0001 C CNN
 F 3 "" H 4000 1800 50  0001 C CNN
@@ -50,19 +50,19 @@ F 3 "" H 4000 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L dg_power:OKR-T_6-W12-C IC2
+L dg_power:OKR-T_6-W12-C IC?
 U 1 1 6205DE31
 P 4550 1600
-AR Path="/611D29B0/6205DE31" Ref="IC2"  Part="1" 
+AR Path="/611D29B0/6205DE31" Ref="IC?"  Part="1" 
 AR Path="/613B6F05/6205DE31" Ref="IC1"  Part="1" 
-AR Path="/620E19B9/6205DE31" Ref="IC3"  Part="1" 
+AR Path="/620E19B9/6205DE31" Ref="IC?"  Part="1" 
 AR Path="/620FBA52/6205DE31" Ref="IC?"  Part="1" 
 AR Path="/62117961/6205DE31" Ref="IC?"  Part="1" 
 AR Path="/62132900/6205DE31" Ref="IC?"  Part="1" 
-AR Path="/62156477/6205DE31" Ref="IC5"  Part="1" 
-AR Path="/62171C70/6205DE31" Ref="IC7"  Part="1" 
-AR Path="/6218DDBF/6205DE31" Ref="IC9"  Part="1" 
-AR Path="/61DCBD06/6205DE31" Ref="IC3"  Part="1" 
+AR Path="/62156477/6205DE31" Ref="IC?"  Part="1" 
+AR Path="/62171C70/6205DE31" Ref="IC?"  Part="1" 
+AR Path="/6218DDBF/6205DE31" Ref="IC?"  Part="1" 
+AR Path="/61DCBD06/6205DE31" Ref="IC?"  Part="1" 
 AR Path="/612EF6CB/6205DE31" Ref="IC?"  Part="1" 
 AR Path="/612FBF62/6205DE31" Ref="IC?"  Part="1" 
 AR Path="/613399E1/6205DE31" Ref="IC?"  Part="1" 
@@ -72,11 +72,11 @@ AR Path="/61397EA3/6205DE31" Ref="IC?"  Part="1"
 AR Path="/613FE97C/6205DE31" Ref="IC?"  Part="1" 
 AR Path="/61409D5F/6205DE31" Ref="IC?"  Part="1" 
 AR Path="/61416F4C/6205DE31" Ref="IC?"  Part="1" 
-AR Path="/6142DC7D/6205DE31" Ref="IC?"  Part="1" 
-AR Path="/6143BBB2/6205DE31" Ref="IC?"  Part="1" 
-AR Path="/6144BA6D/6205DE31" Ref="IC?"  Part="1" 
-AR Path="/614B514C/6205DE31" Ref="IC?"  Part="1" 
-F 0 "IC?" H 6000 1750 50  0000 L CNN
+AR Path="/6142DC7D/6205DE31" Ref="IC3"  Part="1" 
+AR Path="/6143BBB2/6205DE31" Ref="IC5"  Part="1" 
+AR Path="/6144BA6D/6205DE31" Ref="IC7"  Part="1" 
+AR Path="/614B514C/6205DE31" Ref="IC9"  Part="1" 
+F 0 "IC9" H 6000 1750 50  0000 L CNN
 F 1 "OKR-T_6-W12-C" H 5450 1650 50  0000 L CNN
 F 2 "dg_power:MURATACASEC90" H 6200 1700 50  0001 L CNN
 F 3 "http://power.murata.com/data/power/okr-t6-w12.pdf" H 6200 1600 50  0001 L CNN
@@ -92,19 +92,19 @@ F 11 "https://www.arrow.com/en/products/okr-t6-w12-c/murata-power-solutions" H 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R?
 U 1 1 6205EE37
 P 4150 1600
-AR Path="/611D29B0/6205EE37" Ref="R2"  Part="1" 
+AR Path="/611D29B0/6205EE37" Ref="R?"  Part="1" 
 AR Path="/613B6F05/6205EE37" Ref="R1"  Part="1" 
-AR Path="/620E19B9/6205EE37" Ref="R11"  Part="1" 
+AR Path="/620E19B9/6205EE37" Ref="R?"  Part="1" 
 AR Path="/620FBA52/6205EE37" Ref="R?"  Part="1" 
 AR Path="/62117961/6205EE37" Ref="R?"  Part="1" 
 AR Path="/62132900/6205EE37" Ref="R?"  Part="1" 
-AR Path="/62156477/6205EE37" Ref="R81"  Part="1" 
-AR Path="/62171C70/6205EE37" Ref="R95"  Part="1" 
-AR Path="/6218DDBF/6205EE37" Ref="R110"  Part="1" 
-AR Path="/61DCBD06/6205EE37" Ref="R14"  Part="1" 
+AR Path="/62156477/6205EE37" Ref="R?"  Part="1" 
+AR Path="/62171C70/6205EE37" Ref="R?"  Part="1" 
+AR Path="/6218DDBF/6205EE37" Ref="R?"  Part="1" 
+AR Path="/61DCBD06/6205EE37" Ref="R?"  Part="1" 
 AR Path="/612EF6CB/6205EE37" Ref="R?"  Part="1" 
 AR Path="/612FBF62/6205EE37" Ref="R?"  Part="1" 
 AR Path="/613399E1/6205EE37" Ref="R?"  Part="1" 
@@ -114,11 +114,11 @@ AR Path="/61397EA3/6205EE37" Ref="R?"  Part="1"
 AR Path="/613FE97C/6205EE37" Ref="R?"  Part="1" 
 AR Path="/61409D5F/6205EE37" Ref="R?"  Part="1" 
 AR Path="/61416F4C/6205EE37" Ref="R?"  Part="1" 
-AR Path="/6142DC7D/6205EE37" Ref="R?"  Part="1" 
-AR Path="/6143BBB2/6205EE37" Ref="R?"  Part="1" 
-AR Path="/6144BA6D/6205EE37" Ref="R?"  Part="1" 
-AR Path="/614B514C/6205EE37" Ref="R?"  Part="1" 
-F 0 "R?" V 4250 1550 50  0000 L CNN
+AR Path="/6142DC7D/6205EE37" Ref="R22"  Part="1" 
+AR Path="/6143BBB2/6205EE37" Ref="R36"  Part="1" 
+AR Path="/6144BA6D/6205EE37" Ref="R50"  Part="1" 
+AR Path="/614B514C/6205EE37" Ref="R64"  Part="1" 
+F 0 "R64" V 4250 1550 50  0000 L CNN
 F 1 "268" V 4150 1500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4080 1600 50  0001 C CNN
 F 3 "~" H 4150 1600 50  0001 C CNN
@@ -126,18 +126,18 @@ F 3 "~" H 4150 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J2
+L Connector_Generic:Conn_02x03_Odd_Even J7
 U 1 1 620CBF19
 P 2400 2500
-AR Path="/613B6F05/620CBF19" Ref="J2"  Part="1" 
-AR Path="/620E19B9/620CBF19" Ref="J10"  Part="1" 
+AR Path="/613B6F05/620CBF19" Ref="J7"  Part="1" 
+AR Path="/620E19B9/620CBF19" Ref="J?"  Part="1" 
 AR Path="/620FBA52/620CBF19" Ref="J?"  Part="1" 
 AR Path="/62117961/620CBF19" Ref="J?"  Part="1" 
 AR Path="/62132900/620CBF19" Ref="J?"  Part="1" 
-AR Path="/62156477/620CBF19" Ref="J11"  Part="1" 
-AR Path="/62171C70/620CBF19" Ref="J12"  Part="1" 
-AR Path="/6218DDBF/620CBF19" Ref="J13"  Part="1" 
-AR Path="/61DCBD06/620CBF19" Ref="J4"  Part="1" 
+AR Path="/62156477/620CBF19" Ref="J?"  Part="1" 
+AR Path="/62171C70/620CBF19" Ref="J?"  Part="1" 
+AR Path="/6218DDBF/620CBF19" Ref="J?"  Part="1" 
+AR Path="/61DCBD06/620CBF19" Ref="J?"  Part="1" 
 AR Path="/612EF6CB/620CBF19" Ref="J?"  Part="1" 
 AR Path="/612FBF62/620CBF19" Ref="J?"  Part="1" 
 AR Path="/613399E1/620CBF19" Ref="J?"  Part="1" 
@@ -147,11 +147,11 @@ AR Path="/61397EA3/620CBF19" Ref="J?"  Part="1"
 AR Path="/613FE97C/620CBF19" Ref="J?"  Part="1" 
 AR Path="/61409D5F/620CBF19" Ref="J?"  Part="1" 
 AR Path="/61416F4C/620CBF19" Ref="J?"  Part="1" 
-AR Path="/6142DC7D/620CBF19" Ref="J?"  Part="1" 
-AR Path="/6143BBB2/620CBF19" Ref="J?"  Part="1" 
-AR Path="/6144BA6D/620CBF19" Ref="J?"  Part="1" 
-AR Path="/614B514C/620CBF19" Ref="J?"  Part="1" 
-F 0 "J?" H 2400 2700 50  0000 L CNN
+AR Path="/6142DC7D/620CBF19" Ref="J9"  Part="1" 
+AR Path="/6143BBB2/620CBF19" Ref="J10"  Part="1" 
+AR Path="/6144BA6D/620CBF19" Ref="J11"  Part="1" 
+AR Path="/614B514C/620CBF19" Ref="J12"  Part="1" 
+F 0 "J12" H 2400 2700 50  0000 L CNN
 F 1 "Header_2x6_2.54mm" H 2050 2250 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2400 2500 50  0001 C CNN
 F 3 "~" H 2400 2500 50  0001 C CNN
@@ -173,7 +173,7 @@ L Device:Polyfuse F1
 U 1 1 624CFE29
 P 2300 1600
 AR Path="/613B6F05/624CFE29" Ref="F1"  Part="1" 
-AR Path="/61DCBD06/624CFE29" Ref="F2"  Part="1" 
+AR Path="/61DCBD06/624CFE29" Ref="F?"  Part="1" 
 AR Path="/612EF6CB/624CFE29" Ref="F?"  Part="1" 
 AR Path="/612FBF62/624CFE29" Ref="F?"  Part="1" 
 AR Path="/613399E1/624CFE29" Ref="F?"  Part="1" 
@@ -183,11 +183,11 @@ AR Path="/61397EA3/624CFE29" Ref="F?"  Part="1"
 AR Path="/613FE97C/624CFE29" Ref="F?"  Part="1" 
 AR Path="/61409D5F/624CFE29" Ref="F?"  Part="1" 
 AR Path="/61416F4C/624CFE29" Ref="F?"  Part="1" 
-AR Path="/6142DC7D/624CFE29" Ref="F?"  Part="1" 
-AR Path="/6143BBB2/624CFE29" Ref="F?"  Part="1" 
-AR Path="/6144BA6D/624CFE29" Ref="F?"  Part="1" 
-AR Path="/614B514C/624CFE29" Ref="F?"  Part="1" 
-F 0 "F?" V 2400 1550 50  0000 L CNN
+AR Path="/6142DC7D/624CFE29" Ref="F2"  Part="1" 
+AR Path="/6143BBB2/624CFE29" Ref="F3"  Part="1" 
+AR Path="/6144BA6D/624CFE29" Ref="F4"  Part="1" 
+AR Path="/614B514C/624CFE29" Ref="F5"  Part="1" 
+F 0 "F5" V 2400 1550 50  0000 L CNN
 F 1 "Polyfuse" V 2200 1400 50  0000 L CNN
 F 2 "" H 2350 1400 50  0001 L CNN
 F 3 "~" H 2300 1600 50  0001 C CNN
@@ -199,7 +199,7 @@ L dg_relay:G3VM-61VY2-TR RLA1
 U 1 1 61CDA64C
 P 7750 2550
 AR Path="/613B6F05/61CDA64C" Ref="RLA1"  Part="1" 
-AR Path="/61DCBD06/61CDA64C" Ref="RLA2"  Part="1" 
+AR Path="/61DCBD06/61CDA64C" Ref="RLA?"  Part="1" 
 AR Path="/612EF6CB/61CDA64C" Ref="RLA?"  Part="1" 
 AR Path="/612FBF62/61CDA64C" Ref="RLA?"  Part="1" 
 AR Path="/613399E1/61CDA64C" Ref="RLA?"  Part="1" 
@@ -209,11 +209,11 @@ AR Path="/61397EA3/61CDA64C" Ref="RLA?"  Part="1"
 AR Path="/613FE97C/61CDA64C" Ref="RLA?"  Part="1" 
 AR Path="/61409D5F/61CDA64C" Ref="RLA?"  Part="1" 
 AR Path="/61416F4C/61CDA64C" Ref="RLA?"  Part="1" 
-AR Path="/6142DC7D/61CDA64C" Ref="RLA?"  Part="1" 
-AR Path="/6143BBB2/61CDA64C" Ref="RLA?"  Part="1" 
-AR Path="/6144BA6D/61CDA64C" Ref="RLA?"  Part="1" 
-AR Path="/614B514C/61CDA64C" Ref="RLA?"  Part="1" 
-F 0 "RLA?" H 8450 2777 60  0000 C CNN
+AR Path="/6142DC7D/61CDA64C" Ref="RLA2"  Part="1" 
+AR Path="/6143BBB2/61CDA64C" Ref="RLA3"  Part="1" 
+AR Path="/6144BA6D/61CDA64C" Ref="RLA4"  Part="1" 
+AR Path="/614B514C/61CDA64C" Ref="RLA5"  Part="1" 
+F 0 "RLA5" H 8450 2777 60  0000 C CNN
 F 1 "G3VM-61VY2-TR" H 8450 2671 60  0000 C CNN
 F 2 "dg_relay:G3VM-SOP" H 8650 2690 60  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/307/omron_04102018_G3VM-6_G__61VY1_DS_E-1317117.pdf" H 7750 2550 60  0001 C CNN
@@ -222,10 +222,10 @@ F 4 "C306896" H 8450 2573 50  0000 C CNN "LCSC#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0117
+L power:GND #PWR022
 U 1 1 61CE3867
 P 9000 3150
-AR Path="/613B6F05/61CE3867" Ref="#PWR0117"  Part="1" 
+AR Path="/613B6F05/61CE3867" Ref="#PWR022"  Part="1" 
 AR Path="/611D29B0/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/620E19B9/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/620FBA52/61CE3867" Ref="#PWR?"  Part="1" 
@@ -234,7 +234,7 @@ AR Path="/62132900/61CE3867" Ref="#PWR?"  Part="1"
 AR Path="/62156477/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/62171C70/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/6218DDBF/61CE3867" Ref="#PWR?"  Part="1" 
-AR Path="/61DCBD06/61CE3867" Ref="#PWR0127"  Part="1" 
+AR Path="/61DCBD06/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/612EF6CB/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/612FBF62/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/613399E1/61CE3867" Ref="#PWR?"  Part="1" 
@@ -244,11 +244,11 @@ AR Path="/61397EA3/61CE3867" Ref="#PWR?"  Part="1"
 AR Path="/613FE97C/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/61409D5F/61CE3867" Ref="#PWR?"  Part="1" 
 AR Path="/61416F4C/61CE3867" Ref="#PWR?"  Part="1" 
-AR Path="/6142DC7D/61CE3867" Ref="#PWR?"  Part="1" 
-AR Path="/6143BBB2/61CE3867" Ref="#PWR?"  Part="1" 
-AR Path="/6144BA6D/61CE3867" Ref="#PWR?"  Part="1" 
-AR Path="/614B514C/61CE3867" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9000 2900 50  0001 C CNN
+AR Path="/6142DC7D/61CE3867" Ref="#PWR049"  Part="1" 
+AR Path="/6143BBB2/61CE3867" Ref="#PWR067"  Part="1" 
+AR Path="/6144BA6D/61CE3867" Ref="#PWR085"  Part="1" 
+AR Path="/614B514C/61CE3867" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 9000 2900 50  0001 C CNN
 F 1 "GND" H 9005 2977 50  0000 C CNN
 F 2 "" H 9000 3150 50  0001 C CNN
 F 3 "" H 9000 3150 50  0001 C CNN
@@ -262,7 +262,7 @@ L Device:R R?
 U 1 1 61CE43D9
 P 7650 2650
 AR Path="/611D29B0/61CE43D9" Ref="R?"  Part="1" 
-AR Path="/613B6F05/61CE43D9" Ref="R4"  Part="1" 
+AR Path="/613B6F05/61CE43D9" Ref="R3"  Part="1" 
 AR Path="/620E19B9/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/620FBA52/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/62117961/61CE43D9" Ref="R?"  Part="1" 
@@ -270,7 +270,7 @@ AR Path="/62132900/61CE43D9" Ref="R?"  Part="1"
 AR Path="/62156477/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/62171C70/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/6218DDBF/61CE43D9" Ref="R?"  Part="1" 
-AR Path="/61DCBD06/61CE43D9" Ref="R13"  Part="1" 
+AR Path="/61DCBD06/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/612EF6CB/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/612FBF62/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/613399E1/61CE43D9" Ref="R?"  Part="1" 
@@ -280,11 +280,11 @@ AR Path="/61397EA3/61CE43D9" Ref="R?"  Part="1"
 AR Path="/613FE97C/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/61409D5F/61CE43D9" Ref="R?"  Part="1" 
 AR Path="/61416F4C/61CE43D9" Ref="R?"  Part="1" 
-AR Path="/6142DC7D/61CE43D9" Ref="R?"  Part="1" 
-AR Path="/6143BBB2/61CE43D9" Ref="R?"  Part="1" 
-AR Path="/6144BA6D/61CE43D9" Ref="R?"  Part="1" 
-AR Path="/614B514C/61CE43D9" Ref="R?"  Part="1" 
-F 0 "R?" V 7857 2650 50  0000 C CNN
+AR Path="/6142DC7D/61CE43D9" Ref="R24"  Part="1" 
+AR Path="/6143BBB2/61CE43D9" Ref="R38"  Part="1" 
+AR Path="/6144BA6D/61CE43D9" Ref="R52"  Part="1" 
+AR Path="/614B514C/61CE43D9" Ref="R66"  Part="1" 
+F 0 "R66" V 7857 2650 50  0000 C CNN
 F 1 "1K" V 7766 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7580 2650 50  0001 C CNN
 F 3 "~" H 7650 2650 50  0001 C CNN
@@ -315,8 +315,8 @@ AR Path="/621328FA/611489B3" Ref="D?"  Part="1"
 AR Path="/62156471/611489B3" Ref="D?"  Part="1" 
 AR Path="/62171C6A/611489B3" Ref="D?"  Part="1" 
 AR Path="/6218DDB9/611489B3" Ref="D?"  Part="1" 
-AR Path="/613B6F05/611489B3" Ref="D8"  Part="1" 
-AR Path="/61DCBD06/611489B3" Ref="D10"  Part="1" 
+AR Path="/613B6F05/611489B3" Ref="D3"  Part="1" 
+AR Path="/61DCBD06/611489B3" Ref="D?"  Part="1" 
 AR Path="/612EF6CB/611489B3" Ref="D?"  Part="1" 
 AR Path="/612FBF62/611489B3" Ref="D?"  Part="1" 
 AR Path="/613399E1/611489B3" Ref="D?"  Part="1" 
@@ -326,11 +326,11 @@ AR Path="/61397EA3/611489B3" Ref="D?"  Part="1"
 AR Path="/613FE97C/611489B3" Ref="D?"  Part="1" 
 AR Path="/61409D5F/611489B3" Ref="D?"  Part="1" 
 AR Path="/61416F4C/611489B3" Ref="D?"  Part="1" 
-AR Path="/6142DC7D/611489B3" Ref="D?"  Part="1" 
-AR Path="/6143BBB2/611489B3" Ref="D?"  Part="1" 
-AR Path="/6144BA6D/611489B3" Ref="D?"  Part="1" 
-AR Path="/614B514C/611489B3" Ref="D?"  Part="1" 
-F 0 "D?" H 7600 1550 50  0000 C CNN
+AR Path="/6142DC7D/611489B3" Ref="D7"  Part="1" 
+AR Path="/6143BBB2/611489B3" Ref="D11"  Part="1" 
+AR Path="/6144BA6D/611489B3" Ref="D15"  Part="1" 
+AR Path="/614B514C/611489B3" Ref="D19"  Part="1" 
+F 0 "D19" H 7600 1550 50  0000 C CNN
 F 1 "LED" H 7350 1700 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7500 1650 50  0001 C CNN
 F 3 "~" H 7500 1650 50  0001 C CNN
@@ -361,8 +361,8 @@ AR Path="/621328FA/611489C2" Ref="D?"  Part="1"
 AR Path="/62156471/611489C2" Ref="D?"  Part="1" 
 AR Path="/62171C6A/611489C2" Ref="D?"  Part="1" 
 AR Path="/6218DDB9/611489C2" Ref="D?"  Part="1" 
-AR Path="/613B6F05/611489C2" Ref="D9"  Part="1" 
-AR Path="/61DCBD06/611489C2" Ref="D11"  Part="1" 
+AR Path="/613B6F05/611489C2" Ref="D4"  Part="1" 
+AR Path="/61DCBD06/611489C2" Ref="D?"  Part="1" 
 AR Path="/612EF6CB/611489C2" Ref="D?"  Part="1" 
 AR Path="/612FBF62/611489C2" Ref="D?"  Part="1" 
 AR Path="/613399E1/611489C2" Ref="D?"  Part="1" 
@@ -372,11 +372,11 @@ AR Path="/61397EA3/611489C2" Ref="D?"  Part="1"
 AR Path="/613FE97C/611489C2" Ref="D?"  Part="1" 
 AR Path="/61409D5F/611489C2" Ref="D?"  Part="1" 
 AR Path="/61416F4C/611489C2" Ref="D?"  Part="1" 
-AR Path="/6142DC7D/611489C2" Ref="D?"  Part="1" 
-AR Path="/6143BBB2/611489C2" Ref="D?"  Part="1" 
-AR Path="/6144BA6D/611489C2" Ref="D?"  Part="1" 
-AR Path="/614B514C/611489C2" Ref="D?"  Part="1" 
-F 0 "D?" H 7600 1800 50  0000 C CNN
+AR Path="/6142DC7D/611489C2" Ref="D8"  Part="1" 
+AR Path="/6143BBB2/611489C2" Ref="D12"  Part="1" 
+AR Path="/6144BA6D/611489C2" Ref="D16"  Part="1" 
+AR Path="/614B514C/611489C2" Ref="D20"  Part="1" 
+F 0 "D20" H 7600 1800 50  0000 C CNN
 F 1 "LED" H 7350 1950 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7500 1900 50  0001 C CNN
 F 3 "~" H 7500 1900 50  0001 C CNN
@@ -403,8 +403,8 @@ AR Path="/621328FA/611489D8" Ref="#PWR?"  Part="1"
 AR Path="/62156471/611489D8" Ref="#PWR?"  Part="1" 
 AR Path="/62171C6A/611489D8" Ref="#PWR?"  Part="1" 
 AR Path="/6218DDB9/611489D8" Ref="#PWR?"  Part="1" 
-AR Path="/613B6F05/611489D8" Ref="#PWR0126"  Part="1" 
-AR Path="/61DCBD06/611489D8" Ref="#PWR0135"  Part="1" 
+AR Path="/613B6F05/611489D8" Ref="#PWR020"  Part="1" 
+AR Path="/61DCBD06/611489D8" Ref="#PWR?"  Part="1" 
 AR Path="/612EF6CB/611489D8" Ref="#PWR?"  Part="1" 
 AR Path="/612FBF62/611489D8" Ref="#PWR?"  Part="1" 
 AR Path="/613399E1/611489D8" Ref="#PWR?"  Part="1" 
@@ -414,11 +414,11 @@ AR Path="/61397EA3/611489D8" Ref="#PWR?"  Part="1"
 AR Path="/613FE97C/611489D8" Ref="#PWR?"  Part="1" 
 AR Path="/61409D5F/611489D8" Ref="#PWR?"  Part="1" 
 AR Path="/61416F4C/611489D8" Ref="#PWR?"  Part="1" 
-AR Path="/6142DC7D/611489D8" Ref="#PWR?"  Part="1" 
-AR Path="/6143BBB2/611489D8" Ref="#PWR?"  Part="1" 
-AR Path="/6144BA6D/611489D8" Ref="#PWR?"  Part="1" 
-AR Path="/614B514C/611489D8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8250 1400 50  0001 C CNN
+AR Path="/6142DC7D/611489D8" Ref="#PWR047"  Part="1" 
+AR Path="/6143BBB2/611489D8" Ref="#PWR065"  Part="1" 
+AR Path="/6144BA6D/611489D8" Ref="#PWR083"  Part="1" 
+AR Path="/614B514C/611489D8" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 8250 1400 50  0001 C CNN
 F 1 "GND" H 8255 1477 50  0000 C CNN
 F 2 "" H 8250 1650 50  0001 C CNN
 F 3 "" H 8250 1650 50  0001 C CNN
@@ -432,7 +432,7 @@ L Device:R R?
 U 1 1 61149574
 P 7950 1650
 AR Path="/611D29B0/61149574" Ref="R?"  Part="1" 
-AR Path="/613B6F05/61149574" Ref="R3"  Part="1" 
+AR Path="/613B6F05/61149574" Ref="R4"  Part="1" 
 AR Path="/620E19B9/61149574" Ref="R?"  Part="1" 
 AR Path="/620FBA52/61149574" Ref="R?"  Part="1" 
 AR Path="/62117961/61149574" Ref="R?"  Part="1" 
@@ -440,7 +440,7 @@ AR Path="/62132900/61149574" Ref="R?"  Part="1"
 AR Path="/62156477/61149574" Ref="R?"  Part="1" 
 AR Path="/62171C70/61149574" Ref="R?"  Part="1" 
 AR Path="/6218DDBF/61149574" Ref="R?"  Part="1" 
-AR Path="/61DCBD06/61149574" Ref="R21"  Part="1" 
+AR Path="/61DCBD06/61149574" Ref="R?"  Part="1" 
 AR Path="/612EF6CB/61149574" Ref="R?"  Part="1" 
 AR Path="/612FBF62/61149574" Ref="R?"  Part="1" 
 AR Path="/613399E1/61149574" Ref="R?"  Part="1" 
@@ -450,11 +450,11 @@ AR Path="/61397EA3/61149574" Ref="R?"  Part="1"
 AR Path="/613FE97C/61149574" Ref="R?"  Part="1" 
 AR Path="/61409D5F/61149574" Ref="R?"  Part="1" 
 AR Path="/61416F4C/61149574" Ref="R?"  Part="1" 
-AR Path="/6142DC7D/61149574" Ref="R?"  Part="1" 
-AR Path="/6143BBB2/61149574" Ref="R?"  Part="1" 
-AR Path="/6144BA6D/61149574" Ref="R?"  Part="1" 
-AR Path="/614B514C/61149574" Ref="R?"  Part="1" 
-F 0 "R?" V 8050 1650 50  0000 C CNN
+AR Path="/6142DC7D/61149574" Ref="R25"  Part="1" 
+AR Path="/6143BBB2/61149574" Ref="R39"  Part="1" 
+AR Path="/6144BA6D/61149574" Ref="R53"  Part="1" 
+AR Path="/614B514C/61149574" Ref="R67"  Part="1" 
+F 0 "R67" V 8050 1650 50  0000 C CNN
 F 1 "1k" V 7950 1650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7880 1650 50  0001 C CNN
 F 3 "~" H 7950 1650 50  0001 C CNN
@@ -481,8 +481,8 @@ AR Path="/621328FA/6114B6A4" Ref="#PWR?"  Part="1"
 AR Path="/62156471/6114B6A4" Ref="#PWR?"  Part="1" 
 AR Path="/62171C6A/6114B6A4" Ref="#PWR?"  Part="1" 
 AR Path="/6218DDB9/6114B6A4" Ref="#PWR?"  Part="1" 
-AR Path="/613B6F05/6114B6A4" Ref="#PWR0128"  Part="1" 
-AR Path="/61DCBD06/6114B6A4" Ref="#PWR0137"  Part="1" 
+AR Path="/613B6F05/6114B6A4" Ref="#PWR021"  Part="1" 
+AR Path="/61DCBD06/6114B6A4" Ref="#PWR?"  Part="1" 
 AR Path="/612EF6CB/6114B6A4" Ref="#PWR?"  Part="1" 
 AR Path="/612FBF62/6114B6A4" Ref="#PWR?"  Part="1" 
 AR Path="/613399E1/6114B6A4" Ref="#PWR?"  Part="1" 
@@ -492,11 +492,11 @@ AR Path="/61397EA3/6114B6A4" Ref="#PWR?"  Part="1"
 AR Path="/613FE97C/6114B6A4" Ref="#PWR?"  Part="1" 
 AR Path="/61409D5F/6114B6A4" Ref="#PWR?"  Part="1" 
 AR Path="/61416F4C/6114B6A4" Ref="#PWR?"  Part="1" 
-AR Path="/6142DC7D/6114B6A4" Ref="#PWR?"  Part="1" 
-AR Path="/6143BBB2/6114B6A4" Ref="#PWR?"  Part="1" 
-AR Path="/6144BA6D/6114B6A4" Ref="#PWR?"  Part="1" 
-AR Path="/614B514C/6114B6A4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8250 1650 50  0001 C CNN
+AR Path="/6142DC7D/6114B6A4" Ref="#PWR048"  Part="1" 
+AR Path="/6143BBB2/6114B6A4" Ref="#PWR066"  Part="1" 
+AR Path="/6144BA6D/6114B6A4" Ref="#PWR084"  Part="1" 
+AR Path="/614B514C/6114B6A4" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 8250 1650 50  0001 C CNN
 F 1 "GND" H 8255 1727 50  0000 C CNN
 F 2 "" H 8250 1900 50  0001 C CNN
 F 3 "" H 8250 1900 50  0001 C CNN
@@ -510,7 +510,7 @@ L Device:R R?
 U 1 1 6114B6AB
 P 7950 1900
 AR Path="/611D29B0/6114B6AB" Ref="R?"  Part="1" 
-AR Path="/613B6F05/6114B6AB" Ref="R15"  Part="1" 
+AR Path="/613B6F05/6114B6AB" Ref="R5"  Part="1" 
 AR Path="/620E19B9/6114B6AB" Ref="R?"  Part="1" 
 AR Path="/620FBA52/6114B6AB" Ref="R?"  Part="1" 
 AR Path="/62117961/6114B6AB" Ref="R?"  Part="1" 
@@ -518,7 +518,7 @@ AR Path="/62132900/6114B6AB" Ref="R?"  Part="1"
 AR Path="/62156477/6114B6AB" Ref="R?"  Part="1" 
 AR Path="/62171C70/6114B6AB" Ref="R?"  Part="1" 
 AR Path="/6218DDBF/6114B6AB" Ref="R?"  Part="1" 
-AR Path="/61DCBD06/6114B6AB" Ref="R22"  Part="1" 
+AR Path="/61DCBD06/6114B6AB" Ref="R?"  Part="1" 
 AR Path="/612EF6CB/6114B6AB" Ref="R?"  Part="1" 
 AR Path="/612FBF62/6114B6AB" Ref="R?"  Part="1" 
 AR Path="/613399E1/6114B6AB" Ref="R?"  Part="1" 
@@ -528,11 +528,11 @@ AR Path="/61397EA3/6114B6AB" Ref="R?"  Part="1"
 AR Path="/613FE97C/6114B6AB" Ref="R?"  Part="1" 
 AR Path="/61409D5F/6114B6AB" Ref="R?"  Part="1" 
 AR Path="/61416F4C/6114B6AB" Ref="R?"  Part="1" 
-AR Path="/6142DC7D/6114B6AB" Ref="R?"  Part="1" 
-AR Path="/6143BBB2/6114B6AB" Ref="R?"  Part="1" 
-AR Path="/6144BA6D/6114B6AB" Ref="R?"  Part="1" 
-AR Path="/614B514C/6114B6AB" Ref="R?"  Part="1" 
-F 0 "R?" V 8050 1900 50  0000 C CNN
+AR Path="/6142DC7D/6114B6AB" Ref="R26"  Part="1" 
+AR Path="/6143BBB2/6114B6AB" Ref="R40"  Part="1" 
+AR Path="/6144BA6D/6114B6AB" Ref="R54"  Part="1" 
+AR Path="/614B514C/6114B6AB" Ref="R68"  Part="1" 
+F 0 "R68" V 8050 1900 50  0000 C CNN
 F 1 "1k" V 7950 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7880 1900 50  0001 C CNN
 F 3 "~" H 7950 1900 50  0001 C CNN
@@ -552,10 +552,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 1600 4550 1600
 $Comp
-L power:GND #PWR0129
+L power:GND #PWR015
 U 1 1 6115EC66
 P 4000 1600
-AR Path="/613B6F05/6115EC66" Ref="#PWR0129"  Part="1" 
+AR Path="/613B6F05/6115EC66" Ref="#PWR015"  Part="1" 
 AR Path="/611D29B0/6115EC66" Ref="#PWR?"  Part="1" 
 AR Path="/620E19B9/6115EC66" Ref="#PWR?"  Part="1" 
 AR Path="/620FBA52/6115EC66" Ref="#PWR?"  Part="1" 
@@ -564,7 +564,7 @@ AR Path="/62132900/6115EC66" Ref="#PWR?"  Part="1"
 AR Path="/62156477/6115EC66" Ref="#PWR?"  Part="1" 
 AR Path="/62171C70/6115EC66" Ref="#PWR?"  Part="1" 
 AR Path="/6218DDBF/6115EC66" Ref="#PWR?"  Part="1" 
-AR Path="/61DCBD06/6115EC66" Ref="#PWR0139"  Part="1" 
+AR Path="/61DCBD06/6115EC66" Ref="#PWR?"  Part="1" 
 AR Path="/612EF6CB/6115EC66" Ref="#PWR?"  Part="1" 
 AR Path="/612FBF62/6115EC66" Ref="#PWR?"  Part="1" 
 AR Path="/613399E1/6115EC66" Ref="#PWR?"  Part="1" 
@@ -574,11 +574,11 @@ AR Path="/61397EA3/6115EC66" Ref="#PWR?"  Part="1"
 AR Path="/613FE97C/6115EC66" Ref="#PWR?"  Part="1" 
 AR Path="/61409D5F/6115EC66" Ref="#PWR?"  Part="1" 
 AR Path="/61416F4C/6115EC66" Ref="#PWR?"  Part="1" 
-AR Path="/6142DC7D/6115EC66" Ref="#PWR?"  Part="1" 
-AR Path="/6143BBB2/6115EC66" Ref="#PWR?"  Part="1" 
-AR Path="/6144BA6D/6115EC66" Ref="#PWR?"  Part="1" 
-AR Path="/614B514C/6115EC66" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4000 1350 50  0001 C CNN
+AR Path="/6142DC7D/6115EC66" Ref="#PWR042"  Part="1" 
+AR Path="/6143BBB2/6115EC66" Ref="#PWR060"  Part="1" 
+AR Path="/6144BA6D/6115EC66" Ref="#PWR078"  Part="1" 
+AR Path="/614B514C/6115EC66" Ref="#PWR096"  Part="1" 
+F 0 "#PWR096" H 4000 1350 50  0001 C CNN
 F 1 "GND" H 4005 1427 50  0000 C CNN
 F 2 "" H 4000 1600 50  0001 C CNN
 F 3 "" H 4000 1600 50  0001 C CNN
@@ -588,10 +588,10 @@ $EndComp
 Wire Wire Line
 	4000 1800 4550 1800
 $Comp
-L power:GND #PWR0130
+L power:GND #PWR018
 U 1 1 61162826
 P 4000 2600
-AR Path="/613B6F05/61162826" Ref="#PWR0130"  Part="1" 
+AR Path="/613B6F05/61162826" Ref="#PWR018"  Part="1" 
 AR Path="/611D29B0/61162826" Ref="#PWR?"  Part="1" 
 AR Path="/620E19B9/61162826" Ref="#PWR?"  Part="1" 
 AR Path="/620FBA52/61162826" Ref="#PWR?"  Part="1" 
@@ -600,7 +600,7 @@ AR Path="/62132900/61162826" Ref="#PWR?"  Part="1"
 AR Path="/62156477/61162826" Ref="#PWR?"  Part="1" 
 AR Path="/62171C70/61162826" Ref="#PWR?"  Part="1" 
 AR Path="/6218DDBF/61162826" Ref="#PWR?"  Part="1" 
-AR Path="/61DCBD06/61162826" Ref="#PWR0140"  Part="1" 
+AR Path="/61DCBD06/61162826" Ref="#PWR?"  Part="1" 
 AR Path="/612EF6CB/61162826" Ref="#PWR?"  Part="1" 
 AR Path="/612FBF62/61162826" Ref="#PWR?"  Part="1" 
 AR Path="/613399E1/61162826" Ref="#PWR?"  Part="1" 
@@ -610,11 +610,11 @@ AR Path="/61397EA3/61162826" Ref="#PWR?"  Part="1"
 AR Path="/613FE97C/61162826" Ref="#PWR?"  Part="1" 
 AR Path="/61409D5F/61162826" Ref="#PWR?"  Part="1" 
 AR Path="/61416F4C/61162826" Ref="#PWR?"  Part="1" 
-AR Path="/6142DC7D/61162826" Ref="#PWR?"  Part="1" 
-AR Path="/6143BBB2/61162826" Ref="#PWR?"  Part="1" 
-AR Path="/6144BA6D/61162826" Ref="#PWR?"  Part="1" 
-AR Path="/614B514C/61162826" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4000 2350 50  0001 C CNN
+AR Path="/6142DC7D/61162826" Ref="#PWR045"  Part="1" 
+AR Path="/6143BBB2/61162826" Ref="#PWR063"  Part="1" 
+AR Path="/6144BA6D/61162826" Ref="#PWR081"  Part="1" 
+AR Path="/614B514C/61162826" Ref="#PWR099"  Part="1" 
+F 0 "#PWR099" H 4000 2350 50  0001 C CNN
 F 1 "GND" H 4005 2427 50  0000 C CNN
 F 2 "" H 4000 2600 50  0001 C CNN
 F 3 "" H 4000 2600 50  0001 C CNN
@@ -634,7 +634,7 @@ AR Path="/62132900/61162834" Ref="IC?"  Part="1"
 AR Path="/62156477/61162834" Ref="IC?"  Part="1" 
 AR Path="/62171C70/61162834" Ref="IC?"  Part="1" 
 AR Path="/6218DDBF/61162834" Ref="IC?"  Part="1" 
-AR Path="/61DCBD06/61162834" Ref="IC4"  Part="1" 
+AR Path="/61DCBD06/61162834" Ref="IC?"  Part="1" 
 AR Path="/612EF6CB/61162834" Ref="IC?"  Part="1" 
 AR Path="/612FBF62/61162834" Ref="IC?"  Part="1" 
 AR Path="/613399E1/61162834" Ref="IC?"  Part="1" 
@@ -644,11 +644,11 @@ AR Path="/61397EA3/61162834" Ref="IC?"  Part="1"
 AR Path="/613FE97C/61162834" Ref="IC?"  Part="1" 
 AR Path="/61409D5F/61162834" Ref="IC?"  Part="1" 
 AR Path="/61416F4C/61162834" Ref="IC?"  Part="1" 
-AR Path="/6142DC7D/61162834" Ref="IC?"  Part="1" 
-AR Path="/6143BBB2/61162834" Ref="IC?"  Part="1" 
-AR Path="/6144BA6D/61162834" Ref="IC?"  Part="1" 
-AR Path="/614B514C/61162834" Ref="IC?"  Part="1" 
-F 0 "IC?" H 6000 2550 50  0000 L CNN
+AR Path="/6142DC7D/61162834" Ref="IC4"  Part="1" 
+AR Path="/6143BBB2/61162834" Ref="IC6"  Part="1" 
+AR Path="/6144BA6D/61162834" Ref="IC8"  Part="1" 
+AR Path="/614B514C/61162834" Ref="IC10"  Part="1" 
+F 0 "IC10" H 6000 2550 50  0000 L CNN
 F 1 "OKR-T_6-W12-C" H 5450 2450 50  0000 L CNN
 F 2 "dg_power:MURATACASEC90" H 6200 2500 50  0001 L CNN
 F 3 "http://power.murata.com/data/power/okr-t6-w12.pdf" H 6200 2400 50  0001 L CNN
@@ -676,7 +676,7 @@ AR Path="/62132900/6116283A" Ref="R?"  Part="1"
 AR Path="/62156477/6116283A" Ref="R?"  Part="1" 
 AR Path="/62171C70/6116283A" Ref="R?"  Part="1" 
 AR Path="/6218DDBF/6116283A" Ref="R?"  Part="1" 
-AR Path="/61DCBD06/6116283A" Ref="R20"  Part="1" 
+AR Path="/61DCBD06/6116283A" Ref="R?"  Part="1" 
 AR Path="/612EF6CB/6116283A" Ref="R?"  Part="1" 
 AR Path="/612FBF62/6116283A" Ref="R?"  Part="1" 
 AR Path="/613399E1/6116283A" Ref="R?"  Part="1" 
@@ -686,11 +686,11 @@ AR Path="/61397EA3/6116283A" Ref="R?"  Part="1"
 AR Path="/613FE97C/6116283A" Ref="R?"  Part="1" 
 AR Path="/61409D5F/6116283A" Ref="R?"  Part="1" 
 AR Path="/61416F4C/6116283A" Ref="R?"  Part="1" 
-AR Path="/6142DC7D/6116283A" Ref="R?"  Part="1" 
-AR Path="/6143BBB2/6116283A" Ref="R?"  Part="1" 
-AR Path="/6144BA6D/6116283A" Ref="R?"  Part="1" 
-AR Path="/614B514C/6116283A" Ref="R?"  Part="1" 
-F 0 "R?" V 4250 2350 50  0000 L CNN
+AR Path="/6142DC7D/6116283A" Ref="R23"  Part="1" 
+AR Path="/6143BBB2/6116283A" Ref="R37"  Part="1" 
+AR Path="/6144BA6D/6116283A" Ref="R51"  Part="1" 
+AR Path="/614B514C/6116283A" Ref="R65"  Part="1" 
+F 0 "R65" V 4250 2350 50  0000 L CNN
 F 1 "436" V 4150 2300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4080 2400 50  0001 C CNN
 F 3 "~" H 4150 2400 50  0001 C CNN
@@ -702,10 +702,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 2400 4550 2400
 $Comp
-L power:GND #PWR0131
+L power:GND #PWR017
 U 1 1 61162845
 P 4000 2400
-AR Path="/613B6F05/61162845" Ref="#PWR0131"  Part="1" 
+AR Path="/613B6F05/61162845" Ref="#PWR017"  Part="1" 
 AR Path="/611D29B0/61162845" Ref="#PWR?"  Part="1" 
 AR Path="/620E19B9/61162845" Ref="#PWR?"  Part="1" 
 AR Path="/620FBA52/61162845" Ref="#PWR?"  Part="1" 
@@ -714,7 +714,7 @@ AR Path="/62132900/61162845" Ref="#PWR?"  Part="1"
 AR Path="/62156477/61162845" Ref="#PWR?"  Part="1" 
 AR Path="/62171C70/61162845" Ref="#PWR?"  Part="1" 
 AR Path="/6218DDBF/61162845" Ref="#PWR?"  Part="1" 
-AR Path="/61DCBD06/61162845" Ref="#PWR0141"  Part="1" 
+AR Path="/61DCBD06/61162845" Ref="#PWR?"  Part="1" 
 AR Path="/612EF6CB/61162845" Ref="#PWR?"  Part="1" 
 AR Path="/612FBF62/61162845" Ref="#PWR?"  Part="1" 
 AR Path="/613399E1/61162845" Ref="#PWR?"  Part="1" 
@@ -724,11 +724,11 @@ AR Path="/61397EA3/61162845" Ref="#PWR?"  Part="1"
 AR Path="/613FE97C/61162845" Ref="#PWR?"  Part="1" 
 AR Path="/61409D5F/61162845" Ref="#PWR?"  Part="1" 
 AR Path="/61416F4C/61162845" Ref="#PWR?"  Part="1" 
-AR Path="/6142DC7D/61162845" Ref="#PWR?"  Part="1" 
-AR Path="/6143BBB2/61162845" Ref="#PWR?"  Part="1" 
-AR Path="/6144BA6D/61162845" Ref="#PWR?"  Part="1" 
-AR Path="/614B514C/61162845" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4000 2150 50  0001 C CNN
+AR Path="/6142DC7D/61162845" Ref="#PWR044"  Part="1" 
+AR Path="/6143BBB2/61162845" Ref="#PWR062"  Part="1" 
+AR Path="/6144BA6D/61162845" Ref="#PWR080"  Part="1" 
+AR Path="/614B514C/61162845" Ref="#PWR098"  Part="1" 
+F 0 "#PWR098" H 4000 2150 50  0001 C CNN
 F 1 "GND" H 4005 2227 50  0000 C CNN
 F 2 "" H 4000 2400 50  0001 C CNN
 F 3 "" H 4000 2400 50  0001 C CNN
@@ -776,7 +776,7 @@ L Device:R R?
 U 1 1 6116D895
 P 9200 2450
 AR Path="/611D29B0/6116D895" Ref="R?"  Part="1" 
-AR Path="/613B6F05/6116D895" Ref="R18"  Part="1" 
+AR Path="/613B6F05/6116D895" Ref="R6"  Part="1" 
 AR Path="/620E19B9/6116D895" Ref="R?"  Part="1" 
 AR Path="/620FBA52/6116D895" Ref="R?"  Part="1" 
 AR Path="/62117961/6116D895" Ref="R?"  Part="1" 
@@ -784,7 +784,7 @@ AR Path="/62132900/6116D895" Ref="R?"  Part="1"
 AR Path="/62156477/6116D895" Ref="R?"  Part="1" 
 AR Path="/62171C70/6116D895" Ref="R?"  Part="1" 
 AR Path="/6218DDBF/6116D895" Ref="R?"  Part="1" 
-AR Path="/61DCBD06/6116D895" Ref="R23"  Part="1" 
+AR Path="/61DCBD06/6116D895" Ref="R?"  Part="1" 
 AR Path="/612EF6CB/6116D895" Ref="R?"  Part="1" 
 AR Path="/612FBF62/6116D895" Ref="R?"  Part="1" 
 AR Path="/613399E1/6116D895" Ref="R?"  Part="1" 
@@ -794,11 +794,11 @@ AR Path="/61397EA3/6116D895" Ref="R?"  Part="1"
 AR Path="/613FE97C/6116D895" Ref="R?"  Part="1" 
 AR Path="/61409D5F/6116D895" Ref="R?"  Part="1" 
 AR Path="/61416F4C/6116D895" Ref="R?"  Part="1" 
-AR Path="/6142DC7D/6116D895" Ref="R?"  Part="1" 
-AR Path="/6143BBB2/6116D895" Ref="R?"  Part="1" 
-AR Path="/6144BA6D/6116D895" Ref="R?"  Part="1" 
-AR Path="/614B514C/6116D895" Ref="R?"  Part="1" 
-F 0 "R?" V 9300 2450 50  0000 C CNN
+AR Path="/6142DC7D/6116D895" Ref="R27"  Part="1" 
+AR Path="/6143BBB2/6116D895" Ref="R41"  Part="1" 
+AR Path="/6144BA6D/6116D895" Ref="R55"  Part="1" 
+AR Path="/614B514C/6116D895" Ref="R69"  Part="1" 
+F 0 "R69" V 9300 2450 50  0000 C CNN
 F 1 "1k" V 9200 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9130 2450 50  0001 C CNN
 F 3 "~" H 9200 2450 50  0001 C CNN
@@ -814,10 +814,10 @@ VIN_DCDC_5V
 Wire Wire Line
 	9350 2450 9850 2450
 $Comp
-L power:GND #PWR0134
+L power:GND #PWR019
 U 1 1 61173063
 P 7900 3150
-AR Path="/613B6F05/61173063" Ref="#PWR0134"  Part="1" 
+AR Path="/613B6F05/61173063" Ref="#PWR019"  Part="1" 
 AR Path="/611D29B0/61173063" Ref="#PWR?"  Part="1" 
 AR Path="/620E19B9/61173063" Ref="#PWR?"  Part="1" 
 AR Path="/620FBA52/61173063" Ref="#PWR?"  Part="1" 
@@ -826,7 +826,7 @@ AR Path="/62132900/61173063" Ref="#PWR?"  Part="1"
 AR Path="/62156477/61173063" Ref="#PWR?"  Part="1" 
 AR Path="/62171C70/61173063" Ref="#PWR?"  Part="1" 
 AR Path="/6218DDBF/61173063" Ref="#PWR?"  Part="1" 
-AR Path="/61DCBD06/61173063" Ref="#PWR0142"  Part="1" 
+AR Path="/61DCBD06/61173063" Ref="#PWR?"  Part="1" 
 AR Path="/612EF6CB/61173063" Ref="#PWR?"  Part="1" 
 AR Path="/612FBF62/61173063" Ref="#PWR?"  Part="1" 
 AR Path="/613399E1/61173063" Ref="#PWR?"  Part="1" 
@@ -836,11 +836,11 @@ AR Path="/61397EA3/61173063" Ref="#PWR?"  Part="1"
 AR Path="/613FE97C/61173063" Ref="#PWR?"  Part="1" 
 AR Path="/61409D5F/61173063" Ref="#PWR?"  Part="1" 
 AR Path="/61416F4C/61173063" Ref="#PWR?"  Part="1" 
-AR Path="/6142DC7D/61173063" Ref="#PWR?"  Part="1" 
-AR Path="/6143BBB2/61173063" Ref="#PWR?"  Part="1" 
-AR Path="/6144BA6D/61173063" Ref="#PWR?"  Part="1" 
-AR Path="/614B514C/61173063" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7900 2900 50  0001 C CNN
+AR Path="/6142DC7D/61173063" Ref="#PWR046"  Part="1" 
+AR Path="/6143BBB2/61173063" Ref="#PWR064"  Part="1" 
+AR Path="/6144BA6D/61173063" Ref="#PWR082"  Part="1" 
+AR Path="/614B514C/61173063" Ref="#PWR0100"  Part="1" 
+F 0 "#PWR0100" H 7900 2900 50  0001 C CNN
 F 1 "GND" H 7905 2977 50  0000 C CNN
 F 2 "" H 7900 3150 50  0001 C CNN
 F 3 "" H 7900 3150 50  0001 C CNN
@@ -904,10 +904,12 @@ AR Path="/6142DC9F/61DF2ADC" Ref="JP?"  Part="1"
 AR Path="/6143BBD4/61DF2ADC" Ref="JP?"  Part="1" 
 AR Path="/6144BA8F/61DF2ADC" Ref="JP?"  Part="1" 
 AR Path="/613B5606/61DF2ADC" Ref="JP?"  Part="1" 
-AR Path="/6142DC7D/61DF2ADC" Ref="JP?"  Part="1" 
-AR Path="/6143BBB2/61DF2ADC" Ref="JP?"  Part="1" 
-AR Path="/614B514C/61DF2ADC" Ref="JP?"  Part="1" 
-F 0 "JP?" H 9400 1700 50  0000 C CNN
+AR Path="/6142DC7D/61DF2ADC" Ref="JP6"  Part="1" 
+AR Path="/6143BBB2/61DF2ADC" Ref="JP11"  Part="1" 
+AR Path="/614B514C/61DF2ADC" Ref="JP21"  Part="1" 
+AR Path="/613B6F05/61DF2ADC" Ref="JP1"  Part="1" 
+AR Path="/6144BA6D/61DF2ADC" Ref="JP16"  Part="1" 
+F 0 "JP21" H 9400 1700 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9250 1764 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9250 1650 50  0001 C CNN
 F 3 "~" H 9250 1650 50  0001 C CNN
