@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 12
+Sheet 7 12
 Title ""
 Date ""
 Rev ""
@@ -189,7 +189,7 @@ AR Path="/6144BA6D/624CFE29" Ref="F4"  Part="1"
 AR Path="/614B514C/624CFE29" Ref="F5"  Part="1" 
 F 0 "F5" V 2400 1550 50  0000 L CNN
 F 1 "Polyfuse" V 2200 1400 50  0000 L CNN
-F 2 "" H 2350 1400 50  0001 L CNN
+F 2 "Fuse:Fuse_1210_3225Metric_Castellated" H 2350 1400 50  0001 L CNN
 F 3 "~" H 2300 1600 50  0001 C CNN
 	1    2300 1600
 	0    -1   -1   0   
