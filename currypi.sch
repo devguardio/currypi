@@ -668,17 +668,17 @@ F 3 "" H 5150 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3950 3050 0    50   ~ 0
-c1_boot
+c2_boot
 Text Label 3950 3150 0    50   ~ 0
-c1_rx
+c2_rx
 Text Label 3950 3250 0    50   ~ 0
-c1_tx
+c2_tx
 Text Label 3950 3450 0    50   ~ 0
-c1_usb+
+c2_usb+
 Text Label 3950 3550 0    50   ~ 0
-c1_usb-
+c2_usb-
 Text Label 4850 2650 0    50   ~ 0
-c1_disable
+c2_disable
 Wire Wire Line
 	4750 2650 5250 2650
 $Sheet
@@ -846,17 +846,17 @@ F 3 "" H 5150 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3950 4700 0    50   ~ 0
-c1_boot
+c3_boot
 Text Label 3950 4800 0    50   ~ 0
-c1_rx
+c3_rx
 Text Label 3950 4900 0    50   ~ 0
-c1_tx
+c3_tx
 Text Label 3950 5100 0    50   ~ 0
-c1_usb+
+c3_usb+
 Text Label 3950 5200 0    50   ~ 0
-c1_usb-
+c3_usb-
 Text Label 4850 4300 0    50   ~ 0
-c1_disable
+c3_disable
 Wire Wire Line
 	4750 4300 5250 4300
 $Sheet
@@ -1024,17 +1024,17 @@ F 3 "" H 5150 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3950 6350 0    50   ~ 0
-c1_boot
+c4_boot
 Text Label 3950 6450 0    50   ~ 0
-c1_rx
+c4_rx
 Text Label 3950 6550 0    50   ~ 0
-c1_tx
+c4_tx
 Text Label 3950 6750 0    50   ~ 0
-c1_usb+
+c4_usb+
 Text Label 3950 6850 0    50   ~ 0
-c1_usb-
+c4_usb-
 Text Label 4850 5950 0    50   ~ 0
-c1_disable
+c4_disable
 Wire Wire Line
 	4750 5950 5250 5950
 $Sheet
