@@ -81,8 +81,8 @@ AR Path="/621328FA/618D9DD5" Ref="U?"  Part="1"
 AR Path="/62156471/618D9DD5" Ref="U?"  Part="1" 
 AR Path="/62171C6A/618D9DD5" Ref="U?"  Part="1" 
 AR Path="/6218DDB9/618D9DD5" Ref="U?"  Part="1" 
-AR Path="/613B5606/618D9DD5" Ref="U1"  Part="6" 
-F 0 "U1" H 4600 1165 50  0000 C CNN
+AR Path="/613B5606/618D9DD5" Ref="U10"  Part="6" 
+F 0 "U10" H 4600 1165 50  0000 C CNN
 F 1 "rpi_cm4" H 4600 1074 50  0000 C CNN
 F 2 "dg_rpi:rpi_cm4" H 4750 -4550 50  0001 C CNN
 F 3 "" H 5300 800 50  0001 C CNN
@@ -405,45 +405,6 @@ Wire Wire Line
 Text HLabel 1450 7000 0    50   Input ~ 0
 5V
 $Comp
-L Device:C C?
-U 1 1 612AF71F
-P 2550 7200
-AR Path="/610DBB8D/612AF71F" Ref="C?"  Part="1" 
-AR Path="/613B6218/612AF71F" Ref="C?"  Part="1" 
-AR Path="/613B6EFF/612AF71F" Ref="C?"  Part="1" 
-AR Path="/613B79B7/612AF71F" Ref="C?"  Part="1" 
-AR Path="/613B8664/612AF71F" Ref="C?"  Part="1" 
-AR Path="/613B8F90/612AF71F" Ref="C?"  Part="1" 
-AR Path="/611D29AA/612AF71F" Ref="C?"  Part="1" 
-AR Path="/620E19B3/612AF71F" Ref="C?"  Part="1" 
-AR Path="/620FBA4C/612AF71F" Ref="C?"  Part="1" 
-AR Path="/6211795B/612AF71F" Ref="C?"  Part="1" 
-AR Path="/621328FA/612AF71F" Ref="C?"  Part="1" 
-AR Path="/62156471/612AF71F" Ref="C?"  Part="1" 
-AR Path="/62171C6A/612AF71F" Ref="C?"  Part="1" 
-AR Path="/6218DDB9/612AF71F" Ref="C?"  Part="1" 
-AR Path="/61E646BE/612AF71F" Ref="C?"  Part="1" 
-AR Path="/612EF6EF/612AF71F" Ref="C?"  Part="1" 
-AR Path="/612FBF86/612AF71F" Ref="C?"  Part="1" 
-AR Path="/61339A05/612AF71F" Ref="C?"  Part="1" 
-AR Path="/61347D57/612AF71F" Ref="C?"  Part="1" 
-AR Path="/6135BFD5/612AF71F" Ref="C?"  Part="1" 
-AR Path="/61397EC7/612AF71F" Ref="C?"  Part="1" 
-AR Path="/613FE9A0/612AF71F" Ref="C?"  Part="1" 
-AR Path="/61409D83/612AF71F" Ref="C?"  Part="1" 
-AR Path="/61416F70/612AF71F" Ref="C?"  Part="1" 
-AR Path="/6142DC9F/612AF71F" Ref="C?"  Part="1" 
-AR Path="/6143BBD4/612AF71F" Ref="C?"  Part="1" 
-AR Path="/6144BA8F/612AF71F" Ref="C?"  Part="1" 
-AR Path="/613B5606/612AF71F" Ref="C85"  Part="1" 
-F 0 "C85" H 2600 7300 50  0000 L CNN
-F 1 "10uF" H 2600 7100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 7050 50  0001 C CNN
-F 3 "~" H 2550 7200 50  0001 C CNN
-	1    2550 7200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 612AF725
 P 1500 7400
@@ -482,11 +443,6 @@ F 3 "" H 1500 7400 50  0001 C CNN
 	1    1500 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 7000 2550 7000
-Wire Wire Line
-	2550 7050 2550 7000
-Connection ~ 2550 7000
 $Comp
 L Device:C C?
 U 1 1 612AF72E
@@ -646,8 +602,6 @@ $EndComp
 Wire Wire Line
 	1500 7400 1800 7400
 Wire Wire Line
-	2550 7400 2550 7350
-Wire Wire Line
 	1450 7000 1500 7000
 Wire Wire Line
 	1500 7050 1500 7000
@@ -671,12 +625,8 @@ Wire Wire Line
 	2300 7400 2300 7350
 Connection ~ 2300 7400
 Wire Wire Line
-	2300 7400 2550 7400
-Wire Wire Line
 	2300 7050 2300 7000
 Connection ~ 2300 7000
-Wire Wire Line
-	2300 7000 2550 7000
 Wire Wire Line
 	2050 7050 2050 7000
 Connection ~ 2050 7000
@@ -687,45 +637,6 @@ Wire Wire Line
 Connection ~ 1800 7000
 Wire Wire Line
 	1800 7000 2050 7000
-$Comp
-L Device:C C?
-U 1 1 612AF760
-P 3150 7200
-AR Path="/610DBB8D/612AF760" Ref="C?"  Part="1" 
-AR Path="/613B6218/612AF760" Ref="C?"  Part="1" 
-AR Path="/613B6EFF/612AF760" Ref="C?"  Part="1" 
-AR Path="/613B79B7/612AF760" Ref="C?"  Part="1" 
-AR Path="/613B8664/612AF760" Ref="C?"  Part="1" 
-AR Path="/613B8F90/612AF760" Ref="C?"  Part="1" 
-AR Path="/611D29AA/612AF760" Ref="C?"  Part="1" 
-AR Path="/620E19B3/612AF760" Ref="C?"  Part="1" 
-AR Path="/620FBA4C/612AF760" Ref="C?"  Part="1" 
-AR Path="/6211795B/612AF760" Ref="C?"  Part="1" 
-AR Path="/621328FA/612AF760" Ref="C?"  Part="1" 
-AR Path="/62156471/612AF760" Ref="C?"  Part="1" 
-AR Path="/62171C6A/612AF760" Ref="C?"  Part="1" 
-AR Path="/6218DDB9/612AF760" Ref="C?"  Part="1" 
-AR Path="/61E646BE/612AF760" Ref="C?"  Part="1" 
-AR Path="/612EF6EF/612AF760" Ref="C?"  Part="1" 
-AR Path="/612FBF86/612AF760" Ref="C?"  Part="1" 
-AR Path="/61339A05/612AF760" Ref="C?"  Part="1" 
-AR Path="/61347D57/612AF760" Ref="C?"  Part="1" 
-AR Path="/6135BFD5/612AF760" Ref="C?"  Part="1" 
-AR Path="/61397EC7/612AF760" Ref="C?"  Part="1" 
-AR Path="/613FE9A0/612AF760" Ref="C?"  Part="1" 
-AR Path="/61409D83/612AF760" Ref="C?"  Part="1" 
-AR Path="/61416F70/612AF760" Ref="C?"  Part="1" 
-AR Path="/6142DC9F/612AF760" Ref="C?"  Part="1" 
-AR Path="/6143BBD4/612AF760" Ref="C?"  Part="1" 
-AR Path="/6144BA8F/612AF760" Ref="C?"  Part="1" 
-AR Path="/613B5606/612AF760" Ref="C87"  Part="1" 
-F 0 "C87" H 3200 7300 50  0000 L CNN
-F 1 "100nF" H 3200 7100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3188 7050 50  0001 C CNN
-F 3 "~" H 3150 7200 50  0001 C CNN
-	1    3150 7200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 612AF766
@@ -766,22 +677,9 @@ F 3 "~" H 2850 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 7400 3150 7350
-Wire Wire Line
-	3150 7400 2850 7400
-Wire Wire Line
 	2850 7400 2850 7350
 Wire Wire Line
-	2850 7400 2550 7400
-Connection ~ 2850 7400
-Connection ~ 2550 7400
-Wire Wire Line
 	2850 7050 2850 7000
-Wire Wire Line
-	2850 7000 3150 7000
-Wire Wire Line
-	3150 7000 3150 7050
-Connection ~ 2850 7000
 Text Notes 2050 6950 0    50   ~ 0
 CM4 Decoupling
 Wire Wire Line
@@ -1536,22 +1434,6 @@ Wire Wire Line
 	5150 1450 5550 1450
 Wire Wire Line
 	5550 1350 5150 1350
-Wire Wire Line
-	5550 2750 5150 2750
-Wire Wire Line
-	5550 2850 5150 2850
-Wire Wire Line
-	5550 2950 5150 2950
-Wire Wire Line
-	5550 3050 5150 3050
-Wire Wire Line
-	5550 3150 5150 3150
-Wire Wire Line
-	5550 3250 5150 3250
-Wire Wire Line
-	5550 3350 5150 3350
-Wire Wire Line
-	5550 3450 5150 3450
 Text Notes 5100 1000 0    50   ~ 0
 UART RX/TX Pairs \nSwapped in this section.
 Wire Wire Line
@@ -2045,4 +1927,24 @@ F 3 "~" H 7100 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7250 1150 7400 1150
+Wire Wire Line
+	2300 7000 2850 7000
+Wire Wire Line
+	2300 7400 2850 7400
+Wire Wire Line
+	5550 2750 5150 2750
+Wire Wire Line
+	5150 2850 5550 2850
+Wire Wire Line
+	5550 2950 5150 2950
+Wire Wire Line
+	5150 3050 5550 3050
+Wire Wire Line
+	5550 3150 5150 3150
+Wire Wire Line
+	5150 3250 5550 3250
+Wire Wire Line
+	5550 3350 5150 3350
+Wire Wire Line
+	5150 3450 5550 3450
 $EndSCHEMATC
