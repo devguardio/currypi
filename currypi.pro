@@ -1,4 +1,4 @@
-update=30.08.2021 17:29:22
+update=30.08.2021 17:43:35
 version=1
 last_client=kicad
 [general]
@@ -235,6 +235,28 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
+Clearance=0.11
+TrackWidth=0.11
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.11
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=mgm_eth
+Clearance=0.11
+TrackWidth=0.11
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.11
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=usb
 Clearance=0.11
 TrackWidth=0.11
 ViaDiameter=0.5
