@@ -1757,7 +1757,7 @@ $EndComp
 Wire Wire Line
 	6500 1750 6150 1750
 Wire Wire Line
-	7400 1450 7400 1600
+	7400 1450 7400 1500
 Wire Wire Line
 	7100 1500 7100 1550
 $Comp
@@ -1881,9 +1881,6 @@ Wire Wire Line
 	8700 2600 9200 2600
 Text Label 7900 1500 2    50   ~ 0
 fan_pwm_in
-Wire Wire Line
-	7100 1500 7900 1500
-Connection ~ 7100 1500
 Text Notes 6400 2550 0    50   ~ 0
 Two Options to drive Fans.\nResistor between fanpwm-fan_pwm_in is to \nbypass mosfet drive. \n12V must be disabled before bypassing.
 $Comp
@@ -1947,4 +1944,12 @@ Wire Wire Line
 	5550 3350 5150 3350
 Wire Wire Line
 	5150 3450 5550 3450
+Connection ~ 7100 1500
+Wire Wire Line
+	7100 1500 7400 1500
+Connection ~ 7400 1500
+Wire Wire Line
+	7400 1500 7400 1600
+Wire Wire Line
+	7400 1500 7900 1500
 $EndSCHEMATC
