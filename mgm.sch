@@ -1952,4 +1952,150 @@ Wire Wire Line
 	7400 1500 7400 1600
 Wire Wire Line
 	7400 1500 7900 1500
+$Comp
+L Motor:Fan_4pin M?
+U 1 1 61425EE3
+P 7550 3250
+AR Path="/6133068E/61425EE3" Ref="M?"  Part="1" 
+AR Path="/61425EE3" Ref="M?"  Part="1" 
+AR Path="/613B5606/61425EE3" Ref="M3"  Part="1" 
+F 0 "M3" H 7708 3346 50  0000 L CNN
+F 1 "Fan_4pin" H 7708 3255 50  0000 L CNN
+F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 7550 3260 50  0001 C CNN
+F 3 "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf" H 7550 3260 50  0001 C CNN
+	1    7550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61425EE9
+P 7550 3450
+AR Path="/61425EE9" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB1CB4/61425EE9" Ref="#PWR?"  Part="1" 
+AR Path="/5FECBD46/61425EE9" Ref="#PWR?"  Part="1" 
+AR Path="/5FECD465/61425EE9" Ref="#PWR?"  Part="1" 
+AR Path="/5FECEB82/61425EE9" Ref="#PWR?"  Part="1" 
+AR Path="/5FDF5C30/61425EE9" Ref="#PWR?"  Part="1" 
+AR Path="/5FDF9B9D/61425EE9" Ref="#PWR?"  Part="1" 
+AR Path="/5FDFE7F4/61425EE9" Ref="#PWR?"  Part="1" 
+AR Path="/6133068E/61425EE9" Ref="#PWR?"  Part="1" 
+AR Path="/613B5606/61425EE9" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 7550 3200 50  0001 C CNN
+F 1 "GND" H 7555 3277 50  0000 C CNN
+F 2 "" H 7550 3450 50  0001 C CNN
+F 3 "" H 7550 3450 50  0001 C CNN
+	1    7550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 61425EEF
+P 7550 2950
+AR Path="/6133068E/61425EEF" Ref="#PWR?"  Part="1" 
+AR Path="/61425EEF" Ref="#PWR?"  Part="1" 
+AR Path="/613B5606/61425EEF" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 7550 2800 50  0001 C CNN
+F 1 "+12V" H 7565 3123 50  0000 C CNN
+F 2 "" H 7550 2950 50  0001 C CNN
+F 3 "" H 7550 2950 50  0001 C CNN
+	1    7550 2950
+	1    0    0    -1  
+$EndComp
+Text Label 6600 3150 2    50   ~ 0
+tach3
+Wire Wire Line
+	7000 3150 7100 3150
+Text Label 6600 2950 2    50   ~ 0
+pi3V3
+Wire Wire Line
+	6700 2950 6400 2950
+$Comp
+L Device:R R?
+U 1 1 61425EF9
+P 6850 3150
+AR Path="/611D29B0/61425EF9" Ref="R?"  Part="1" 
+AR Path="/613B6F05/61425EF9" Ref="R?"  Part="1" 
+AR Path="/620E19B9/61425EF9" Ref="R?"  Part="1" 
+AR Path="/620FBA52/61425EF9" Ref="R?"  Part="1" 
+AR Path="/62117961/61425EF9" Ref="R?"  Part="1" 
+AR Path="/62132900/61425EF9" Ref="R?"  Part="1" 
+AR Path="/62156477/61425EF9" Ref="R?"  Part="1" 
+AR Path="/62171C70/61425EF9" Ref="R?"  Part="1" 
+AR Path="/6218DDBF/61425EF9" Ref="R?"  Part="1" 
+AR Path="/61DCBD06/61425EF9" Ref="R?"  Part="1" 
+AR Path="/613B6EFF/61425EF9" Ref="R?"  Part="1" 
+AR Path="/61E646BE/61425EF9" Ref="R?"  Part="1" 
+AR Path="/612EF6EF/61425EF9" Ref="R?"  Part="1" 
+AR Path="/612FBF86/61425EF9" Ref="R?"  Part="1" 
+AR Path="/61339A05/61425EF9" Ref="R?"  Part="1" 
+AR Path="/61347D57/61425EF9" Ref="R?"  Part="1" 
+AR Path="/6135BFD5/61425EF9" Ref="R?"  Part="1" 
+AR Path="/61397EC7/61425EF9" Ref="R?"  Part="1" 
+AR Path="/613FE9A0/61425EF9" Ref="R?"  Part="1" 
+AR Path="/61409D83/61425EF9" Ref="R?"  Part="1" 
+AR Path="/61416F70/61425EF9" Ref="R?"  Part="1" 
+AR Path="/6142DC9F/61425EF9" Ref="R?"  Part="1" 
+AR Path="/6143BBD4/61425EF9" Ref="R?"  Part="1" 
+AR Path="/6144BA8F/61425EF9" Ref="R?"  Part="1" 
+AR Path="/613B5606/61425EF9" Ref="R83"  Part="1" 
+F 0 "R83" V 6950 3150 50  0000 C CNN
+F 1 "0" V 6850 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 3150 50  0001 C CNN
+F 3 "~" H 6850 3150 50  0001 C CNN
+	1    6850 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 3150 7100 2950
+Wire Wire Line
+	7100 2950 7000 2950
+Connection ~ 7100 3150
+Wire Wire Line
+	7100 3150 7250 3150
+Wire Wire Line
+	6700 3150 6400 3150
+$Comp
+L Device:R R?
+U 1 1 61425F04
+P 6850 2950
+AR Path="/611D29B0/61425F04" Ref="R?"  Part="1" 
+AR Path="/613B6F05/61425F04" Ref="R?"  Part="1" 
+AR Path="/620E19B9/61425F04" Ref="R?"  Part="1" 
+AR Path="/620FBA52/61425F04" Ref="R?"  Part="1" 
+AR Path="/62117961/61425F04" Ref="R?"  Part="1" 
+AR Path="/62132900/61425F04" Ref="R?"  Part="1" 
+AR Path="/62156477/61425F04" Ref="R?"  Part="1" 
+AR Path="/62171C70/61425F04" Ref="R?"  Part="1" 
+AR Path="/6218DDBF/61425F04" Ref="R?"  Part="1" 
+AR Path="/61DCBD06/61425F04" Ref="R?"  Part="1" 
+AR Path="/613B6EFF/61425F04" Ref="R?"  Part="1" 
+AR Path="/61E646BE/61425F04" Ref="R?"  Part="1" 
+AR Path="/612EF6EF/61425F04" Ref="R?"  Part="1" 
+AR Path="/612FBF86/61425F04" Ref="R?"  Part="1" 
+AR Path="/61339A05/61425F04" Ref="R?"  Part="1" 
+AR Path="/61347D57/61425F04" Ref="R?"  Part="1" 
+AR Path="/6135BFD5/61425F04" Ref="R?"  Part="1" 
+AR Path="/61397EC7/61425F04" Ref="R?"  Part="1" 
+AR Path="/613FE9A0/61425F04" Ref="R?"  Part="1" 
+AR Path="/61409D83/61425F04" Ref="R?"  Part="1" 
+AR Path="/61416F70/61425F04" Ref="R?"  Part="1" 
+AR Path="/6142DC9F/61425F04" Ref="R?"  Part="1" 
+AR Path="/6143BBD4/61425F04" Ref="R?"  Part="1" 
+AR Path="/6144BA8F/61425F04" Ref="R?"  Part="1" 
+AR Path="/613B5606/61425F04" Ref="R82"  Part="1" 
+F 0 "R82" V 6950 2950 50  0000 C CNN
+F 1 "1k" V 6850 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 2950 50  0001 C CNN
+F 3 "~" H 6850 2950 50  0001 C CNN
+	1    6850 2950
+	0    -1   -1   0   
+$EndComp
+Text Label 7200 3350 2    50   ~ 0
+fan_pwm_in
+Wire Wire Line
+	6750 3350 7250 3350
+Text Label 5250 2650 0    50   ~ 0
+tach3
+Wire Wire Line
+	5450 2650 5150 2650
 $EndSCHEMATC
