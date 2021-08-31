@@ -1191,7 +1191,8 @@ AR Path="/6143BBB2/615BF249" Ref="JP?"  Part="1"
 AR Path="/614B514C/615BF249" Ref="JP?"  Part="1" 
 AR Path="/613B6F05/615BF249" Ref="JP?"  Part="1" 
 AR Path="/6144BA6D/615BF249" Ref="JP?"  Part="1" 
-F 0 "JP?" H 8050 3200 50  0000 C CNN
+AR Path="/615BF249" Ref="JP27"  Part="1" 
+F 0 "JP27" H 8050 3200 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 7900 3264 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7900 3150 50  0001 C CNN
 F 3 "~" H 7900 3150 50  0001 C CNN
