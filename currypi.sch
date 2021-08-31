@@ -1154,4 +1154,56 @@ Wire Wire Line
 	2600 6300 2600 6350
 Wire Wire Line
 	2600 6350 2850 6350
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 615BF249
+P 7900 3150
+AR Path="/610DBB8D/615BF249" Ref="JP?"  Part="1" 
+AR Path="/613B6218/615BF249" Ref="JP?"  Part="1" 
+AR Path="/613B6EFF/615BF249" Ref="JP?"  Part="1" 
+AR Path="/613B79B7/615BF249" Ref="JP?"  Part="1" 
+AR Path="/613B8664/615BF249" Ref="JP?"  Part="1" 
+AR Path="/613B8F90/615BF249" Ref="JP?"  Part="1" 
+AR Path="/611D29AA/615BF249" Ref="JP?"  Part="1" 
+AR Path="/620E19B3/615BF249" Ref="JP?"  Part="1" 
+AR Path="/620FBA4C/615BF249" Ref="JP?"  Part="1" 
+AR Path="/6211795B/615BF249" Ref="JP?"  Part="1" 
+AR Path="/621328FA/615BF249" Ref="JP?"  Part="1" 
+AR Path="/62156471/615BF249" Ref="JP?"  Part="1" 
+AR Path="/62171C6A/615BF249" Ref="JP?"  Part="1" 
+AR Path="/6218DDB9/615BF249" Ref="JP?"  Part="1" 
+AR Path="/61E646BE/615BF249" Ref="JP?"  Part="1" 
+AR Path="/612EF6EF/615BF249" Ref="JP?"  Part="1" 
+AR Path="/612FBF86/615BF249" Ref="JP?"  Part="1" 
+AR Path="/61339A05/615BF249" Ref="JP?"  Part="1" 
+AR Path="/61347D57/615BF249" Ref="JP?"  Part="1" 
+AR Path="/6135BFD5/615BF249" Ref="JP?"  Part="1" 
+AR Path="/61397EC7/615BF249" Ref="JP?"  Part="1" 
+AR Path="/613FE9A0/615BF249" Ref="JP?"  Part="1" 
+AR Path="/61409D83/615BF249" Ref="JP?"  Part="1" 
+AR Path="/61416F70/615BF249" Ref="JP?"  Part="1" 
+AR Path="/6142DC9F/615BF249" Ref="JP?"  Part="1" 
+AR Path="/6143BBD4/615BF249" Ref="JP?"  Part="1" 
+AR Path="/6144BA8F/615BF249" Ref="JP?"  Part="1" 
+AR Path="/613B5606/615BF249" Ref="JP?"  Part="1" 
+AR Path="/6142DC7D/615BF249" Ref="JP?"  Part="1" 
+AR Path="/6143BBB2/615BF249" Ref="JP?"  Part="1" 
+AR Path="/614B514C/615BF249" Ref="JP?"  Part="1" 
+AR Path="/613B6F05/615BF249" Ref="JP?"  Part="1" 
+AR Path="/6144BA6D/615BF249" Ref="JP?"  Part="1" 
+F 0 "JP?" H 8050 3200 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7900 3264 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7900 3150 50  0001 C CNN
+F 3 "~" H 7900 3150 50  0001 C CNN
+	1    7900 3150
+	1    0    0    -1  
+$EndComp
+Text Label 8600 3150 2    50   ~ 0
+3V3_MGMT
+Text Label 7450 3150 0    50   ~ 0
+LED_3V3
+Wire Wire Line
+	8050 3150 8600 3150
+Wire Wire Line
+	7750 3150 7450 3150
 $EndSCHEMATC
