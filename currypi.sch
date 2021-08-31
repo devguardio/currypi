@@ -136,12 +136,6 @@ Wire Wire Line
 	1700 1500 2850 1500
 Wire Wire Line
 	1700 1600 2850 1600
-Wire Wire Line
-	2850 1300 1700 1300
-Wire Wire Line
-	2850 1400 2650 1400
-Wire Wire Line
-	2450 1200 1700 1200
 Text Notes 1900 1200 0    50   ~ 0
 Blue
 Text Notes 1900 1300 0    50   ~ 0
@@ -536,12 +530,6 @@ Text Notes 1900 2750 0    50   ~ 0
 Green White
 Text Notes 1900 3050 0    50   ~ 0
 Green
-Wire Wire Line
-	2550 3050 2550 2850
-Wire Wire Line
-	2550 2850 2850 2850
-Wire Wire Line
-	1700 3050 2550 3050
 Text Notes 1900 3150 0    50   ~ 0
 Brown White
 Text Notes 1900 3250 0    50   ~ 0
@@ -550,18 +538,6 @@ Wire Wire Line
 	1700 3150 2850 3150
 Wire Wire Line
 	1700 3250 2850 3250
-Wire Wire Line
-	2850 2950 1700 2950
-Wire Wire Line
-	2850 3050 2650 3050
-Wire Wire Line
-	2650 3050 2650 2900
-Wire Wire Line
-	2650 2900 2450 2900
-Wire Wire Line
-	2450 2900 2450 2850
-Wire Wire Line
-	2450 2850 1700 2850
 Text Notes 1900 2850 0    50   ~ 0
 Blue
 Text Notes 1900 2950 0    50   ~ 0
@@ -675,12 +651,6 @@ Text Notes 1900 4400 0    50   ~ 0
 Green White
 Text Notes 1900 4700 0    50   ~ 0
 Green
-Wire Wire Line
-	2550 4700 2550 4500
-Wire Wire Line
-	2550 4500 2850 4500
-Wire Wire Line
-	1700 4700 2550 4700
 Text Notes 1900 4800 0    50   ~ 0
 Brown White
 Text Notes 1900 4900 0    50   ~ 0
@@ -689,18 +659,6 @@ Wire Wire Line
 	1700 4800 2850 4800
 Wire Wire Line
 	1700 4900 2850 4900
-Wire Wire Line
-	2850 4600 1700 4600
-Wire Wire Line
-	2850 4700 2650 4700
-Wire Wire Line
-	2650 4700 2650 4550
-Wire Wire Line
-	2650 4550 2450 4550
-Wire Wire Line
-	2450 4550 2450 4500
-Wire Wire Line
-	2450 4500 1700 4500
 Text Notes 1900 4500 0    50   ~ 0
 Blue
 Text Notes 1900 4600 0    50   ~ 0
@@ -814,12 +772,6 @@ Text Notes 1900 6050 0    50   ~ 0
 Green White
 Text Notes 1900 6350 0    50   ~ 0
 Green
-Wire Wire Line
-	2550 6350 2550 6150
-Wire Wire Line
-	2550 6150 2850 6150
-Wire Wire Line
-	1700 6350 2550 6350
 Text Notes 1900 6450 0    50   ~ 0
 Brown White
 Text Notes 1900 6550 0    50   ~ 0
@@ -828,18 +780,6 @@ Wire Wire Line
 	1700 6450 2850 6450
 Wire Wire Line
 	1700 6550 2850 6550
-Wire Wire Line
-	2850 6250 1700 6250
-Wire Wire Line
-	2850 6350 2650 6350
-Wire Wire Line
-	2650 6350 2650 6200
-Wire Wire Line
-	2650 6200 2450 6200
-Wire Wire Line
-	2450 6200 2450 6150
-Wire Wire Line
-	2450 6150 1700 6150
 Text Notes 1900 6150 0    50   ~ 0
 Blue
 Text Notes 1900 6250 0    50   ~ 0
@@ -870,12 +810,6 @@ Wire Wire Line
 	5150 5850 5150 5800
 Wire Wire Line
 	4750 5850 5150 5850
-Wire Wire Line
-	2450 1250 2450 1200
-Wire Wire Line
-	2650 1250 2450 1250
-Wire Wire Line
-	2650 1400 2650 1250
 $Sheet
 S 7950 2400 700  400 
 U 614B514C
@@ -1132,4 +1066,92 @@ F 7 "27.41mm" H 1100 6450 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 	4    1100 6450
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	2850 1300 2450 1300
+Wire Wire Line
+	2450 1300 2450 1200
+Wire Wire Line
+	2450 1200 1700 1200
+Wire Wire Line
+	1700 1300 2400 1300
+Wire Wire Line
+	2400 1300 2400 1350
+Wire Wire Line
+	2400 1350 2600 1350
+Wire Wire Line
+	2600 1350 2600 1400
+Wire Wire Line
+	2600 1400 2850 1400
+Wire Wire Line
+	2550 3050 2550 2850
+Wire Wire Line
+	2550 2850 2850 2850
+Wire Wire Line
+	1700 3050 2550 3050
+Text Notes 1900 3150 0    50   ~ 0
+Brown White
+Wire Wire Line
+	2850 2950 2450 2950
+Wire Wire Line
+	2450 2950 2450 2850
+Wire Wire Line
+	2450 2850 1700 2850
+Wire Wire Line
+	1700 2950 2400 2950
+Wire Wire Line
+	2400 2950 2400 3000
+Wire Wire Line
+	2400 3000 2600 3000
+Wire Wire Line
+	2600 3000 2600 3050
+Wire Wire Line
+	2600 3050 2850 3050
+Wire Wire Line
+	2550 4700 2550 4500
+Wire Wire Line
+	2550 4500 2850 4500
+Wire Wire Line
+	1700 4700 2550 4700
+Text Notes 1900 4800 0    50   ~ 0
+Brown White
+Wire Wire Line
+	2850 4600 2450 4600
+Wire Wire Line
+	2450 4600 2450 4500
+Wire Wire Line
+	2450 4500 1700 4500
+Wire Wire Line
+	1700 4600 2400 4600
+Wire Wire Line
+	2400 4600 2400 4650
+Wire Wire Line
+	2400 4650 2600 4650
+Wire Wire Line
+	2600 4650 2600 4700
+Wire Wire Line
+	2600 4700 2850 4700
+Wire Wire Line
+	2550 6350 2550 6150
+Wire Wire Line
+	2550 6150 2850 6150
+Wire Wire Line
+	1700 6350 2550 6350
+Text Notes 1900 6450 0    50   ~ 0
+Brown White
+Wire Wire Line
+	2850 6250 2450 6250
+Wire Wire Line
+	2450 6250 2450 6150
+Wire Wire Line
+	2450 6150 1700 6150
+Wire Wire Line
+	1700 6250 2400 6250
+Wire Wire Line
+	2400 6250 2400 6300
+Wire Wire Line
+	2400 6300 2600 6300
+Wire Wire Line
+	2600 6300 2600 6350
+Wire Wire Line
+	2600 6350 2850 6350
 $EndSCHEMATC
