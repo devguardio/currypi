@@ -1,4 +1,4 @@
-update=30.08.2021 20:24:22
+update=31.08.2021 11:02:41
 version=1
 last_client=kicad
 [general]
@@ -16,7 +16,7 @@ LibDir=
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=6
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -80,12 +80,12 @@ Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
-Type=1
-Enabled=1
+Type=0
+Enabled=0
 [pcbnew/Layer.In4.Cu]
 Name=In4.Cu
-Type=1
-Enabled=1
+Type=0
+Enabled=0
 [pcbnew/Layer.In5.Cu]
 Name=In5.Cu
 Type=0
