@@ -191,7 +191,7 @@ Connection ~ 6800 1750
 $Comp
 L Device:C C?
 U 1 1 61706E5A
-P 4300 5600
+P 3700 5600
 AR Path="/610DBB8D/61706E5A" Ref="C?"  Part="1" 
 AR Path="/613B6218/61706E5A" Ref="C?"  Part="1" 
 AR Path="/613B6EFF/61706E5A" Ref="C?"  Part="1" 
@@ -220,19 +220,19 @@ AR Path="/6142DC9F/61706E5A" Ref="C?"  Part="1"
 AR Path="/6143BBD4/61706E5A" Ref="C?"  Part="1" 
 AR Path="/6144BA8F/61706E5A" Ref="C?"  Part="1" 
 AR Path="/6130ED51/61706E5A" Ref="C19"  Part="1" 
-F 0 "C19" H 4350 5700 50  0000 L CNN
-F 1 "10uF" H 4350 5500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4338 5450 50  0001 C CNN
-F 3 "~" H 4300 5600 50  0001 C CNN
-	1    4300 5600
+F 0 "C19" H 3750 5700 50  0000 L CNN
+F 1 "10uF" H 3750 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3738 5450 50  0001 C CNN
+F 3 "~" H 3700 5600 50  0001 C CNN
+	1    3700 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 5800 4300 5750
+	3700 5800 3700 5750
 $Comp
 L Device:C C?
 U 1 1 61706EA1
-P 4600 5600
+P 4000 5600
 AR Path="/610DBB8D/61706EA1" Ref="C?"  Part="1" 
 AR Path="/613B6218/61706EA1" Ref="C?"  Part="1" 
 AR Path="/613B6EFF/61706EA1" Ref="C?"  Part="1" 
@@ -261,21 +261,21 @@ AR Path="/6142DC9F/61706EA1" Ref="C?"  Part="1"
 AR Path="/6143BBD4/61706EA1" Ref="C?"  Part="1" 
 AR Path="/6144BA8F/61706EA1" Ref="C?"  Part="1" 
 AR Path="/6130ED51/61706EA1" Ref="C20"  Part="1" 
-F 0 "C20" H 4650 5700 50  0000 L CNN
-F 1 "100nF" H 4650 5500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4638 5450 50  0001 C CNN
-F 3 "~" H 4600 5600 50  0001 C CNN
-	1    4600 5600
+F 0 "C20" H 4050 5700 50  0000 L CNN
+F 1 "100nF" H 4050 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4038 5450 50  0001 C CNN
+F 3 "~" H 4000 5600 50  0001 C CNN
+	1    4000 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 5800 4600 5750
+	4000 5800 4000 5750
 Wire Wire Line
-	4600 5800 4300 5800
+	4000 5800 3700 5800
 $Comp
 L power:GND #PWR?
 U 1 1 6170E13F
-P 4300 5800
+P 3700 5800
 AR Path="/6170E13F" Ref="#PWR?"  Part="1" 
 AR Path="/5FEB1CB4/6170E13F" Ref="#PWR?"  Part="1" 
 AR Path="/5FECBD46/6170E13F" Ref="#PWR?"  Part="1" 
@@ -286,23 +286,22 @@ AR Path="/5FDF9B9D/6170E13F" Ref="#PWR?"  Part="1"
 AR Path="/5FDFE7F4/6170E13F" Ref="#PWR?"  Part="1" 
 AR Path="/6133068E/6170E13F" Ref="#PWR?"  Part="1" 
 AR Path="/6130ED51/6170E13F" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 4300 5550 50  0001 C CNN
-F 1 "GND" H 4305 5627 50  0000 C CNN
-F 2 "" H 4300 5800 50  0001 C CNN
-F 3 "" H 4300 5800 50  0001 C CNN
-	1    4300 5800
+F 0 "#PWR033" H 3700 5550 50  0001 C CNN
+F 1 "GND" H 3705 5627 50  0000 C CNN
+F 2 "" H 3700 5800 50  0001 C CNN
+F 3 "" H 3700 5800 50  0001 C CNN
+	1    3700 5800
 	1    0    0    -1  
 $EndComp
-Connection ~ 4300 5800
-Text HLabel 5000 5350 2    50   Input ~ 0
+Connection ~ 3700 5800
+Text HLabel 5100 5350 2    50   Input ~ 0
 3.3V
 Wire Wire Line
-	4600 5450 4600 5350
+	4000 5450 4000 5350
 Wire Wire Line
-	4600 5350 4300 5350
+	4300 5350 4000 5350
 Wire Wire Line
-	4300 5350 4300 5450
-Connection ~ 4600 5350
+	3700 5350 3700 5450
 $Comp
 L Device:R R?
 U 1 1 61730EDE
@@ -459,7 +458,7 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 61763195
-P 4900 5600
+P 4300 5600
 AR Path="/610DBB8D/61763195" Ref="C?"  Part="1" 
 AR Path="/613B6218/61763195" Ref="C?"  Part="1" 
 AR Path="/613B6EFF/61763195" Ref="C?"  Part="1" 
@@ -488,25 +487,20 @@ AR Path="/6142DC9F/61763195" Ref="C?"  Part="1"
 AR Path="/6143BBD4/61763195" Ref="C?"  Part="1" 
 AR Path="/6144BA8F/61763195" Ref="C?"  Part="1" 
 AR Path="/6130ED51/61763195" Ref="C21"  Part="1" 
-F 0 "C21" H 4950 5700 50  0000 L CNN
-F 1 "100nF" H 4950 5500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4938 5450 50  0001 C CNN
-F 3 "~" H 4900 5600 50  0001 C CNN
-	1    4900 5600
+F 0 "C21" H 4350 5700 50  0000 L CNN
+F 1 "100nF" H 4350 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4338 5450 50  0001 C CNN
+F 3 "~" H 4300 5600 50  0001 C CNN
+	1    4300 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 5350 4900 5350
+	4300 5450 4300 5350
 Wire Wire Line
-	4900 5450 4900 5350
-Connection ~ 4900 5350
+	4300 5750 4300 5800
 Wire Wire Line
-	4900 5350 5000 5350
-Wire Wire Line
-	4900 5750 4900 5800
-Wire Wire Line
-	4900 5800 4600 5800
-Connection ~ 4600 5800
+	4300 5800 4000 5800
+Connection ~ 4000 5800
 $Comp
 L Device:C C?
 U 1 1 61787B5E
@@ -956,4 +950,108 @@ Wire Wire Line
 	4650 2700 5400 2700
 Wire Wire Line
 	5400 2800 4650 2800
+$Comp
+L Device:C C?
+U 1 1 6165E040
+P 4650 5600
+AR Path="/610DBB8D/6165E040" Ref="C?"  Part="1" 
+AR Path="/613B6218/6165E040" Ref="C?"  Part="1" 
+AR Path="/613B6EFF/6165E040" Ref="C?"  Part="1" 
+AR Path="/613B79B7/6165E040" Ref="C?"  Part="1" 
+AR Path="/613B8664/6165E040" Ref="C?"  Part="1" 
+AR Path="/613B8F90/6165E040" Ref="C?"  Part="1" 
+AR Path="/611D29AA/6165E040" Ref="C?"  Part="1" 
+AR Path="/620E19B3/6165E040" Ref="C?"  Part="1" 
+AR Path="/620FBA4C/6165E040" Ref="C?"  Part="1" 
+AR Path="/6211795B/6165E040" Ref="C?"  Part="1" 
+AR Path="/621328FA/6165E040" Ref="C?"  Part="1" 
+AR Path="/62156471/6165E040" Ref="C?"  Part="1" 
+AR Path="/62171C6A/6165E040" Ref="C?"  Part="1" 
+AR Path="/6218DDB9/6165E040" Ref="C?"  Part="1" 
+AR Path="/61E646BE/6165E040" Ref="C?"  Part="1" 
+AR Path="/612EF6EF/6165E040" Ref="C?"  Part="1" 
+AR Path="/612FBF86/6165E040" Ref="C?"  Part="1" 
+AR Path="/61339A05/6165E040" Ref="C?"  Part="1" 
+AR Path="/61347D57/6165E040" Ref="C?"  Part="1" 
+AR Path="/6135BFD5/6165E040" Ref="C?"  Part="1" 
+AR Path="/61397EC7/6165E040" Ref="C?"  Part="1" 
+AR Path="/613FE9A0/6165E040" Ref="C?"  Part="1" 
+AR Path="/61409D83/6165E040" Ref="C?"  Part="1" 
+AR Path="/61416F70/6165E040" Ref="C?"  Part="1" 
+AR Path="/6142DC9F/6165E040" Ref="C?"  Part="1" 
+AR Path="/6143BBD4/6165E040" Ref="C?"  Part="1" 
+AR Path="/6144BA8F/6165E040" Ref="C?"  Part="1" 
+AR Path="/6130ED51/6165E040" Ref="C5"  Part="1" 
+F 0 "C5" H 4700 5700 50  0000 L CNN
+F 1 "100nF" H 4700 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4688 5450 50  0001 C CNN
+F 3 "~" H 4650 5600 50  0001 C CNN
+	1    4650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61662277
+P 5000 5600
+AR Path="/610DBB8D/61662277" Ref="C?"  Part="1" 
+AR Path="/613B6218/61662277" Ref="C?"  Part="1" 
+AR Path="/613B6EFF/61662277" Ref="C?"  Part="1" 
+AR Path="/613B79B7/61662277" Ref="C?"  Part="1" 
+AR Path="/613B8664/61662277" Ref="C?"  Part="1" 
+AR Path="/613B8F90/61662277" Ref="C?"  Part="1" 
+AR Path="/611D29AA/61662277" Ref="C?"  Part="1" 
+AR Path="/620E19B3/61662277" Ref="C?"  Part="1" 
+AR Path="/620FBA4C/61662277" Ref="C?"  Part="1" 
+AR Path="/6211795B/61662277" Ref="C?"  Part="1" 
+AR Path="/621328FA/61662277" Ref="C?"  Part="1" 
+AR Path="/62156471/61662277" Ref="C?"  Part="1" 
+AR Path="/62171C6A/61662277" Ref="C?"  Part="1" 
+AR Path="/6218DDB9/61662277" Ref="C?"  Part="1" 
+AR Path="/61E646BE/61662277" Ref="C?"  Part="1" 
+AR Path="/612EF6EF/61662277" Ref="C?"  Part="1" 
+AR Path="/612FBF86/61662277" Ref="C?"  Part="1" 
+AR Path="/61339A05/61662277" Ref="C?"  Part="1" 
+AR Path="/61347D57/61662277" Ref="C?"  Part="1" 
+AR Path="/6135BFD5/61662277" Ref="C?"  Part="1" 
+AR Path="/61397EC7/61662277" Ref="C?"  Part="1" 
+AR Path="/613FE9A0/61662277" Ref="C?"  Part="1" 
+AR Path="/61409D83/61662277" Ref="C?"  Part="1" 
+AR Path="/61416F70/61662277" Ref="C?"  Part="1" 
+AR Path="/6142DC9F/61662277" Ref="C?"  Part="1" 
+AR Path="/6143BBD4/61662277" Ref="C?"  Part="1" 
+AR Path="/6144BA8F/61662277" Ref="C?"  Part="1" 
+AR Path="/6130ED51/61662277" Ref="C7"  Part="1" 
+F 0 "C7" H 5050 5700 50  0000 L CNN
+F 1 "100nF" H 5050 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5038 5450 50  0001 C CNN
+F 3 "~" H 5000 5600 50  0001 C CNN
+	1    5000 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5450 5000 5350
+Connection ~ 5000 5350
+Wire Wire Line
+	5000 5350 5100 5350
+Wire Wire Line
+	4300 5350 4650 5350
+Connection ~ 4300 5350
+Wire Wire Line
+	4650 5450 4650 5350
+Connection ~ 4650 5350
+Wire Wire Line
+	4650 5350 5000 5350
+Wire Wire Line
+	5000 5750 5000 5800
+Wire Wire Line
+	5000 5800 4650 5800
+Connection ~ 4300 5800
+Wire Wire Line
+	4650 5750 4650 5800
+Connection ~ 4650 5800
+Wire Wire Line
+	4650 5800 4300 5800
+Wire Wire Line
+	4000 5350 3700 5350
+Connection ~ 4000 5350
 $EndSCHEMATC
