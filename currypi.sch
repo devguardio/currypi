@@ -25,8 +25,6 @@ F5 "3V3" I L 4050 1000 50
 $EndSheet
 Wire Wire Line
 	4050 900  3850 900 
-Wire Wire Line
-	3850 1000 4050 1000
 $Comp
 L power:+12V #PWR05
 U 1 1 6246A7A4
@@ -76,6 +74,7 @@ F15 "ETH3-" I L 2850 1600 50
 F16 "3V3" I R 3850 1000 50 
 F17 "eth_act_ledg" I L 2850 1800 50 
 F18 "eth_speed_ledy" I L 2850 1900 50 
+F19 "3V3_INT" I L 2850 1700 50 
 $EndSheet
 $Comp
 L power:GND #PWR01
@@ -158,10 +157,6 @@ Wire Wire Line
 	1900 1900 1900 2000
 Wire Wire Line
 	1900 2000 1700 2000
-Text Label 1900 1700 0    50   ~ 0
-LED_3V3
-Wire Wire Line
-	1800 1700 2250 1700
 Wire Wire Line
 	7300 3750 7450 3750
 Wire Wire Line
@@ -459,8 +454,6 @@ F5 "3V3" I L 4050 2650 50
 $EndSheet
 Wire Wire Line
 	4050 2550 3850 2550
-Wire Wire Line
-	3850 2650 4050 2650
 $Comp
 L power:+12V #PWR06
 U 1 1 6142DC85
@@ -508,6 +501,7 @@ F15 "ETH3-" I L 2850 3250 50
 F16 "3V3" I R 3850 2650 50 
 F17 "eth_act_ledg" I L 2850 3450 50 
 F18 "eth_speed_ledy" I L 2850 3550 50 
+F19 "3V3_INT" I L 2850 3350 50 
 $EndSheet
 Wire Wire Line
 	1700 3550 1800 3550
@@ -560,10 +554,6 @@ Wire Wire Line
 	1900 3550 1900 3650
 Wire Wire Line
 	1900 3650 1700 3650
-Text Label 1900 3350 0    50   ~ 0
-LED_3V3
-Wire Wire Line
-	1800 3350 2250 3350
 Wire Wire Line
 	5150 2550 5150 2500
 Wire Wire Line
@@ -580,8 +570,6 @@ F5 "3V3" I L 4050 4300 50
 $EndSheet
 Wire Wire Line
 	4050 4200 3850 4200
-Wire Wire Line
-	3850 4300 4050 4300
 $Comp
 L power:+12V #PWR07
 U 1 1 6143BBBA
@@ -629,6 +617,7 @@ F15 "ETH3-" I L 2850 4900 50
 F16 "3V3" I R 3850 4300 50 
 F17 "eth_act_ledg" I L 2850 5100 50 
 F18 "eth_speed_ledy" I L 2850 5200 50 
+F19 "3V3_INT" I L 2850 5000 50 
 $EndSheet
 Wire Wire Line
 	1700 5200 1800 5200
@@ -681,10 +670,6 @@ Wire Wire Line
 	1900 5200 1900 5300
 Wire Wire Line
 	1900 5300 1700 5300
-Text Label 1900 5000 0    50   ~ 0
-LED_3V3
-Wire Wire Line
-	1800 5000 2250 5000
 Wire Wire Line
 	5150 4200 5150 4150
 Wire Wire Line
@@ -701,8 +686,6 @@ F5 "3V3" I L 4050 5950 50
 $EndSheet
 Wire Wire Line
 	4050 5850 3850 5850
-Wire Wire Line
-	3850 5950 4050 5950
 $Comp
 L power:+12V #PWR08
 U 1 1 6144BA75
@@ -750,6 +733,7 @@ F15 "ETH3-" I L 2850 6550 50
 F16 "3V3" I R 3850 5950 50 
 F17 "eth_act_ledg" I L 2850 6750 50 
 F18 "eth_speed_ledy" I L 2850 6850 50 
+F19 "3V3_INT" I L 2850 6650 50 
 $EndSheet
 Wire Wire Line
 	1700 6850 1800 6850
@@ -802,10 +786,6 @@ Wire Wire Line
 	1900 6850 1900 6950
 Wire Wire Line
 	1900 6950 1700 6950
-Text Label 1900 6650 0    50   ~ 0
-LED_3V3
-Wire Wire Line
-	1800 6650 2250 6650
 Wire Wire Line
 	5150 5850 5150 5800
 Wire Wire Line
@@ -1207,4 +1187,20 @@ Wire Wire Line
 	8050 3150 8600 3150
 Wire Wire Line
 	7750 3150 7450 3150
+Wire Wire Line
+	3850 1000 4050 1000
+Wire Wire Line
+	3850 2650 4050 2650
+Wire Wire Line
+	3850 4300 4050 4300
+Wire Wire Line
+	3850 5950 4050 5950
+Wire Wire Line
+	1800 3350 2850 3350
+Wire Wire Line
+	1800 1700 2850 1700
+Wire Wire Line
+	1800 5000 2850 5000
+Wire Wire Line
+	1800 6650 2850 6650
 $EndSCHEMATC

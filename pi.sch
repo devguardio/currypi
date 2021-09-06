@@ -2433,4 +2433,9 @@ Wire Wire Line
 	2050 7100 2600 7100
 Wire Wire Line
 	2050 7500 2600 7500
+Text HLabel 1400 2450 0    50   Input ~ 0
+3V3_INT
+Wire Wire Line
+	1600 2450 1400 2450
+Connection ~ 1600 2450
 $EndSCHEMATC
