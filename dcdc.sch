@@ -774,7 +774,7 @@ Text HLabel 4450 2500 0    50   Input ~ 0
 $Comp
 L Device:R R?
 U 1 1 6116D895
-P 9200 2450
+P 7900 2850
 AR Path="/611D29B0/6116D895" Ref="R?"  Part="1" 
 AR Path="/613B6F05/6116D895" Ref="R6"  Part="1" 
 AR Path="/620E19B9/6116D895" Ref="R?"  Part="1" 
@@ -798,21 +798,13 @@ AR Path="/6142DC7D/6116D895" Ref="R27"  Part="1"
 AR Path="/6143BBB2/6116D895" Ref="R41"  Part="1" 
 AR Path="/6144BA6D/6116D895" Ref="R55"  Part="1" 
 AR Path="/614B514C/6116D895" Ref="R69"  Part="1" 
-F 0 "R6" V 9300 2450 50  0000 C CNN
-F 1 "1k" V 9200 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9130 2450 50  0001 C CNN
-F 3 "~" H 9200 2450 50  0001 C CNN
-	1    9200 2450
-	0    1    1    0   
+F 0 "R6" V 8000 2850 50  0000 C CNN
+F 1 "100k" H 7750 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7830 2850 50  0001 C CNN
+F 3 "~" H 7900 2850 50  0001 C CNN
+	1    7900 2850
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9000 2650 9050 2650
-Wire Wire Line
-	9050 2650 9050 2450
-Text Label 9850 2450 2    50   ~ 0
-VIN_DCDC_5V
-Wire Wire Line
-	9350 2450 9850 2450
 $Comp
 L power:GND #PWR019
 U 1 1 61173063
@@ -847,8 +839,6 @@ F 3 "" H 7900 3150 50  0001 C CNN
 	1    7900 3150
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 3150 7900 3050
 Text Label 4550 2000 2    50   ~ 0
 DISABLE_DCDC
 Wire Wire Line
@@ -859,9 +849,6 @@ Wire Wire Line
 	4000 2800 4550 2800
 Text Label 9850 2650 2    50   ~ 0
 DISABLE_DCDC
-Wire Wire Line
-	9050 2650 9850 2650
-Connection ~ 9050 2650
 Text Label 10050 1650 2    50   ~ 0
 DISABLE_DCDC
 Text HLabel 9000 1650 0    50   Input ~ 0
@@ -916,4 +903,14 @@ F 3 "~" H 9250 1650 50  0001 C CNN
 	1    9250 1650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7900 2700 7900 2650
+Connection ~ 7900 2650
+Wire Wire Line
+	7900 3000 7900 3050
+Connection ~ 7900 3050
+Wire Wire Line
+	7900 3050 7900 3150
+Wire Wire Line
+	9000 2650 9850 2650
 $EndSCHEMATC
