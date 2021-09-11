@@ -853,12 +853,12 @@ $EndSheet
 $Comp
 L power:GND #PWR09
 U 1 1 61D74BD2
-P 5650 6950
-F 0 "#PWR09" H 5650 6700 50  0001 C CNN
-F 1 "GND" H 5655 6777 50  0000 C CNN
-F 2 "" H 5650 6950 50  0001 C CNN
-F 3 "" H 5650 6950 50  0001 C CNN
-	1    5650 6950
+P 5850 6950
+F 0 "#PWR09" H 5850 6700 50  0001 C CNN
+F 1 "GND" H 5855 6777 50  0000 C CNN
+F 2 "" H 5850 6950 50  0001 C CNN
+F 3 "" H 5850 6950 50  0001 C CNN
+	1    5850 6950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -883,29 +883,26 @@ F 3 "~" H 6500 7450 50  0001 C CNN
 	1    6500 7450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5650 6950 5850 6950
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 61DAAD7C
-P 5650 6850
-F 0 "H1" H 5600 7050 50  0000 L CNN
-F 1 "MountingHole" H 5750 6808 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 5650 6850 50  0001 C CNN
-F 3 "~" H 5650 6850 50  0001 C CNN
-	1    5650 6850
-	1    0    0    -1  
-$EndComp
-Connection ~ 5650 6950
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 61DAAF7A
 P 5850 6850
-F 0 "H2" H 5800 7050 50  0000 L CNN
+F 0 "H1" H 5800 7050 50  0000 L CNN
 F 1 "MountingHole" H 5950 6808 50  0001 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 5850 6850 50  0001 C CNN
 F 3 "~" H 5850 6850 50  0001 C CNN
 	1    5850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 61DAAF7A
+P 5450 6850
+F 0 "H2" H 5400 7050 50  0000 L CNN
+F 1 "MountingHole" H 5550 6808 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 5450 6850 50  0001 C CNN
+F 3 "~" H 5450 6850 50  0001 C CNN
+	1    5450 6850
 	1    0    0    -1  
 $EndComp
 Connection ~ 5850 6950
