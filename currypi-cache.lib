@@ -995,6 +995,27 @@ X 4 4 1250 -100 300 L 59 59 1 1 U
 ENDDRAW
 ENDDEF
 #
+# dg_rpi_DF40HC_3.0_-100DS-0.4V_51_PNP_OVERLAY
+#
+DEF dg_rpi_DF40HC_3.0_-100DS-0.4V_51_PNP_OVERLAY J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "dg_rpi_DF40HC_3.0_-100DS-0.4V_51_PNP_OVERLAY" 850 200 50 H V L CNN
+F2 "dg_rpi:HRS_DF40HC(3.0)-100DS-0.4V(58)_PNP_OVERLAY" 850 100 50 H I L CNN
+F3 "" 850 0 50 H I L CNN
+F4 "Board to Board & Mezzanine Connectors 100P 2R 3MM RECPT SMT VERT 0.4MM PITCH" 850 -100 50 H I L CNN "Description"
+F5 "3.05" 850 -200 50 H I L CNN "Height"
+F6 "Hirose" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DF40HC(3.0)-100DS-0.4V(51" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "798-DF40HC30100DS451" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V51?qs=%252BAZVS4b%2FkgIV%252B3vHYy2dCA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "DF40HC(3.0)-100DS-0.4V(51" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/df40hc-3.0-100ds-0.4v-51/hirose-electric" 850 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "C424649" 0 0 50 H V C CNN "LCSC#"
+DRAW
+P 5 0 1 6 -350 200 250 200 250 -200 -350 -200 -350 200 N
+ENDDRAW
+ENDDEF
+#
 # dg_rpi_rpi_cm4
 #
 DEF dg_rpi_rpi_cm4 U 0 40 Y Y 8 L N
@@ -1224,20 +1245,24 @@ X HDMI0_SCL 200 -550 -400 150 R 50 50 8 1 B
 ENDDRAW
 ENDDEF
 #
-# dg_transformers_QT24A01
+# dg_transformers_H5007NLT
 #
-DEF dg_transformers_QT24A01 T 0 30 Y Y 1 F N
-F0 "T" 250 150 50 H V L CNN
-F1 "dg_transformers_QT24A01" 550 150 50 H V L CNN
-F2 "dg_transformers:SOP100P1000X450-24N" 150 -1350 50 H I L CNN
+DEF dg_transformers_H5007NLT T 0 30 Y Y 1 F N
+F0 "T" 950 300 50 H V L CNN
+F1 "dg_transformers_H5007NLT" 950 200 50 H V L CNN
+F2 "dg_transformers:SOIC127P1600X551-24N" 950 100 50 H I L CNN
 F3 "" 950 0 50 H I L CNN
-F4 "10/100/1000Base-T Single Port Transformer Module" 150 -1450 50 H I L CNN "Description"
-F5 "4.5" 950 -1550 50 H I L CNN "Height"
-F6 "TNK" 150 -1550 50 H I L CNN "Manufacturer_Name"
-F7 "QT24A01" 400 -1550 50 H I L CNN "Manufacturer_Part_Number"
-F8 "C216359" 350 -1250 50 H V C CNN "LCSC#"
+F4 "Audio Transformers / Signal Transformers 1000BaseT SMD NonPoE 350uH .65Ohms 1-Port" 950 -100 50 H I L CNN "Description"
+F5 "5.51" 950 -200 50 H I L CNN "Height"
+F6 "Pulse" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "H5007NLT" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "673-H5007NLT" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/H5007NLT?qs=EKu32SdDin%252B3U21HrYPGPw%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "H5007NLT" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/h5007nlt/pulse-electronics-corporation" 950 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "C110248" 0 0 50 H V C CNN "JLC#"
 DRAW
-P 5 0 1 6 200 100 900 100 900 -1200 200 -1200 200 100 f
+P 5 0 1 6 200 100 900 100 900 -1200 200 -1200 200 100 N
 X TCT1 1 0 0 200 R 50 50 0 0 P
 X TCT4 10 0 -900 200 R 50 50 0 0 P
 X TD4+ 11 0 -1000 200 R 50 50 0 0 P
