@@ -1640,7 +1640,7 @@ AR Path="/6143BBD4/61B21EED" Ref="R?"  Part="1"
 AR Path="/6144BA8F/61B21EED" Ref="R?"  Part="1" 
 AR Path="/613B5606/61B21EED" Ref="R76"  Part="1" 
 F 0 "R76" V 7500 1300 50  0000 C CNN
-F 1 "7.2K" V 7400 1300 50  0000 C CNN
+F 1 "15.8K" V 7400 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7330 1300 50  0001 C CNN
 F 3 "~" H 7400 1300 50  0001 C CNN
 	1    7400 1300
@@ -1676,7 +1676,7 @@ AR Path="/6143BBD4/61B22572" Ref="R?"  Part="1"
 AR Path="/6144BA8F/61B22572" Ref="R?"  Part="1" 
 AR Path="/613B5606/61B22572" Ref="R77"  Part="1" 
 F 0 "R77" V 7500 1750 50  0000 C CNN
-F 1 "5K" V 7400 1750 50  0000 C CNN
+F 1 "6K" V 7400 1750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7330 1750 50  0001 C CNN
 F 3 "~" H 7400 1750 50  0001 C CNN
 	1    7400 1750
@@ -2101,51 +2101,51 @@ Wire Wire Line
 $Comp
 L dg_rpi:DF40HC_3.0_-100DS-0.4V_51_PNP_OVERLAY J?
 U 1 1 61404CBC
-P 11550 6800
+P 4350 7350
 AR Path="/613B6EFF/61404CBC" Ref="J?"  Part="1" 
 AR Path="/6142DC9F/61404CBC" Ref="J?"  Part="1" 
 AR Path="/6143BBD4/61404CBC" Ref="J?"  Part="1" 
 AR Path="/6144BA8F/61404CBC" Ref="J?"  Part="1" 
 AR Path="/613B5606/61404CBC" Ref="J19"  Part="1" 
-F 0 "J19" H 11828 6891 50  0000 L CNN
-F 1 "DF40HC_3.0_-100DS-0.4V_51_PNP_OVERLAY" H 11828 6800 50  0000 L CNN
-F 2 "dg_rpi:HRS_DF40HC(3.0)-100DS-0.4V(58)_PNP_OVERLAY" H 12400 6900 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/DF40HC(3.0)-100DS-0.4V(51.pdf" H 12400 6800 50  0001 L CNN
-F 4 "Board to Board & Mezzanine Connectors 100P 2R 3MM RECPT SMT VERT 0.4MM PITCH" H 12400 6700 50  0001 L CNN "Description"
-F 5 "3.05" H 12400 6600 50  0001 L CNN "Height"
-F 6 "Hirose" H 12400 6500 50  0001 L CNN "Manufacturer_Name"
-F 7 "DF40HC(3.0)-100DS-0.4V(51" H 12400 6400 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "798-DF40HC30100DS451" H 12400 6300 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V51?qs=%252BAZVS4b%2FkgIV%252B3vHYy2dCA%3D%3D" H 12400 6200 50  0001 L CNN "Mouser Price/Stock"
-F 10 "DF40HC(3.0)-100DS-0.4V(51" H 12400 6100 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/df40hc-3.0-100ds-0.4v-51/hirose-electric" H 12400 6000 50  0001 L CNN "Arrow Price/Stock"
-F 12 "C424649" H 11828 6709 50  0000 L CNN "LCSC#"
-	1    11550 6800
+F 0 "J19" H 4628 7441 50  0000 L CNN
+F 1 "DF40HC_3.0_-100DS-0.4V_51_PNP_OVERLAY" H 4628 7350 50  0000 L CNN
+F 2 "dg_rpi:HRS_DF40HC(3.0)-100DS-0.4V(58)_PNP_OVERLAY" H 5200 7450 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/DF40HC(3.0)-100DS-0.4V(51.pdf" H 5200 7350 50  0001 L CNN
+F 4 "Board to Board & Mezzanine Connectors 100P 2R 3MM RECPT SMT VERT 0.4MM PITCH" H 5200 7250 50  0001 L CNN "Description"
+F 5 "3.05" H 5200 7150 50  0001 L CNN "Height"
+F 6 "Hirose" H 5200 7050 50  0001 L CNN "Manufacturer_Name"
+F 7 "DF40HC(3.0)-100DS-0.4V(51" H 5200 6950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "798-DF40HC30100DS451" H 5200 6850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V51?qs=%252BAZVS4b%2FkgIV%252B3vHYy2dCA%3D%3D" H 5200 6750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "DF40HC(3.0)-100DS-0.4V(51" H 5200 6650 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/df40hc-3.0-100ds-0.4v-51/hirose-electric" H 5200 6550 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C424649" H 4628 7259 50  0000 L CNN "LCSC#"
+	1    4350 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L dg_rpi:DF40HC_3.0_-100DS-0.4V_51_PNP_OVERLAY J?
 U 1 1 61404CCB
-P 11550 6350
+P 4350 6900
 AR Path="/613B6EFF/61404CCB" Ref="J?"  Part="1" 
 AR Path="/6142DC9F/61404CCB" Ref="J?"  Part="1" 
 AR Path="/6143BBD4/61404CCB" Ref="J?"  Part="1" 
 AR Path="/6144BA8F/61404CCB" Ref="J?"  Part="1" 
 AR Path="/613B5606/61404CCB" Ref="J18"  Part="1" 
-F 0 "J18" H 11828 6441 50  0000 L CNN
-F 1 "DF40HC_3.0_-100DS-0.4V_51_PNP_OVERLAY" H 11828 6350 50  0000 L CNN
-F 2 "dg_rpi:HRS_DF40HC(3.0)-100DS-0.4V(58)_PNP_OVERLAY" H 12400 6450 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/DF40HC(3.0)-100DS-0.4V(51.pdf" H 12400 6350 50  0001 L CNN
-F 4 "Board to Board & Mezzanine Connectors 100P 2R 3MM RECPT SMT VERT 0.4MM PITCH" H 12400 6250 50  0001 L CNN "Description"
-F 5 "3.05" H 12400 6150 50  0001 L CNN "Height"
-F 6 "Hirose" H 12400 6050 50  0001 L CNN "Manufacturer_Name"
-F 7 "DF40HC(3.0)-100DS-0.4V(51" H 12400 5950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "798-DF40HC30100DS451" H 12400 5850 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V51?qs=%252BAZVS4b%2FkgIV%252B3vHYy2dCA%3D%3D" H 12400 5750 50  0001 L CNN "Mouser Price/Stock"
-F 10 "DF40HC(3.0)-100DS-0.4V(51" H 12400 5650 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/df40hc-3.0-100ds-0.4v-51/hirose-electric" H 12400 5550 50  0001 L CNN "Arrow Price/Stock"
-F 12 "C424649" H 11828 6259 50  0000 L CNN "LCSC#"
-	1    11550 6350
+F 0 "J18" H 4628 6991 50  0000 L CNN
+F 1 "DF40HC_3.0_-100DS-0.4V_51_PNP_OVERLAY" H 4628 6900 50  0000 L CNN
+F 2 "dg_rpi:HRS_DF40HC(3.0)-100DS-0.4V(58)_PNP_OVERLAY" H 5200 7000 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/DF40HC(3.0)-100DS-0.4V(51.pdf" H 5200 6900 50  0001 L CNN
+F 4 "Board to Board & Mezzanine Connectors 100P 2R 3MM RECPT SMT VERT 0.4MM PITCH" H 5200 6800 50  0001 L CNN "Description"
+F 5 "3.05" H 5200 6700 50  0001 L CNN "Height"
+F 6 "Hirose" H 5200 6600 50  0001 L CNN "Manufacturer_Name"
+F 7 "DF40HC(3.0)-100DS-0.4V(51" H 5200 6500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "798-DF40HC30100DS451" H 5200 6400 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V51?qs=%252BAZVS4b%2FkgIV%252B3vHYy2dCA%3D%3D" H 5200 6300 50  0001 L CNN "Mouser Price/Stock"
+F 10 "DF40HC(3.0)-100DS-0.4V(51" H 5200 6200 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/df40hc-3.0-100ds-0.4v-51/hirose-electric" H 5200 6100 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C424649" H 4628 6809 50  0000 L CNN "LCSC#"
+	1    4350 6900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

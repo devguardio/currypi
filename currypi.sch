@@ -628,12 +628,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 61DAAF7A
-P 10400 7750
-F 0 "H2" H 10350 7950 50  0000 L CNN
-F 1 "MountingHole" H 10500 7708 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10400 7750 50  0001 C CNN
-F 3 "~" H 10400 7750 50  0001 C CNN
-	1    10400 7750
+P 10600 7750
+F 0 "H2" H 10550 7950 50  0000 L CNN
+F 1 "MountingHole" H 10700 7708 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10600 7750 50  0001 C CNN
+F 3 "~" H 10600 7750 50  0001 C CNN
+	1    10600 7750
 	1    0    0    -1  
 $EndComp
 Connection ~ 10800 7850
@@ -1641,5 +1641,5 @@ Wire Wire Line
 Wire Wire Line
 	2950 10200 2000 10200
 Wire Wire Line
-	10800 7850 10400 7850
+	10800 7850 10600 7850
 $EndSCHEMATC
