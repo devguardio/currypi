@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 2000 -1300 0    394  ~ 0
-TODO: replace usb hub
+TODO: replace usb hub with mux\nTODO: dont place components under nvme\nTODO: cannot connect enable/disable pin of two power modules\nTODO: uart c2,c3,c4 are swapped\nTODO: c1 is unreliable. should we use a separate uart chip?  \nTODO: can we use uart2?\nTODO: switch to link-pp magjack\nDONE: thermal relief on the power modules for hand soldering
 Wire Wire Line
 	12250 4650 12400 4650
 Wire Wire Line
