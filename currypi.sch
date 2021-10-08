@@ -61,6 +61,10 @@ F9 "c3_usb+" I R 13750 4900 50
 F10 "c4_usb-" I R 13750 5200 50 
 F11 "c4_usb+" I R 13750 5100 50 
 F12 "3.3V" I R 13750 4350 50 
+F13 "root_usb_sel0" I L 12400 4950 50 
+F14 "root_usb_enable" I L 12400 4850 50 
+F15 "root_usb_sel2" I L 12400 5150 50 
+F16 "root_usb_sel1" I L 12400 5050 50 
 $EndSheet
 Wire Wire Line
 	13750 5200 13850 5200
