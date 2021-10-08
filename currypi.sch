@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2000 -1300 0    394  ~ 0
-TODO: replace usb hub with mux\nTODO: dont place components under nvme\nTODO: cannot connect enable/disable pin of two power modules\nTODO: uart c2,c3,c4 are swapped\nTODO: c1 is unreliable. should we use a separate uart chip?  \nTODO: can we use uart2?\nTODO: switch to link-pp magjack\nDONE: thermal relief on the power modules for hand soldering
 Wire Wire Line
 	12250 4650 12400 4650
 Wire Wire Line
@@ -24,15 +22,7 @@ Wire Wire Line
 Text Label 11000 5000 2    50   ~ 0
 c4_disable
 Wire Wire Line
-	11000 5200 11100 5200
-Wire Wire Line
-	11100 5100 11000 5100
-Wire Wire Line
 	11000 5000 11100 5000
-Text Label 11000 5200 2    50   ~ 0
-c4_tx
-Text Label 11000 5100 2    50   ~ 0
-c4_rx
 Text Label 11000 4900 2    50   ~ 0
 c4_boot
 Wire Wire Line
@@ -40,15 +30,7 @@ Wire Wire Line
 Text Label 11000 4550 2    50   ~ 0
 c3_disable
 Wire Wire Line
-	11000 4750 11100 4750
-Wire Wire Line
-	11100 4650 11000 4650
-Wire Wire Line
 	11000 4550 11100 4550
-Text Label 11000 4750 2    50   ~ 0
-c3_tx
-Text Label 11000 4650 2    50   ~ 0
-c3_rx
 Text Label 11000 4450 2    50   ~ 0
 c3_boot
 Wire Wire Line
@@ -56,15 +38,7 @@ Wire Wire Line
 Text Label 11000 4100 2    50   ~ 0
 c2_disable
 Wire Wire Line
-	11000 4300 11100 4300
-Wire Wire Line
-	11100 4200 11000 4200
-Wire Wire Line
 	11000 4100 11100 4100
-Text Label 11000 4300 2    50   ~ 0
-c2_tx
-Text Label 11000 4200 2    50   ~ 0
-c2_rx
 Text Label 11000 4000 2    50   ~ 0
 c2_boot
 Wire Wire Line
@@ -1057,10 +1031,6 @@ F 3 "" H 5800 1150 50  0001 C CNN
 $EndComp
 Text Label 4600 1700 0    50   ~ 0
 c1_boot
-Text Label 4600 1800 0    50   ~ 0
-c1_rx
-Text Label 4600 1900 0    50   ~ 0
-c1_tx
 Text Label 4600 2100 0    50   ~ 0
 c1_usb+
 Text Label 4600 2200 0    50   ~ 0
@@ -1644,4 +1614,34 @@ Wire Wire Line
 	2950 10200 2000 10200
 Wire Wire Line
 	10800 7850 10600 7850
+Text Label 4600 1900 0    50   ~ 0
+c1_tx
+Text Label 4600 1800 0    50   ~ 0
+c1_rx
+Text Label 11000 5100 2    50   ~ 0
+c4_tx
+Wire Wire Line
+	11000 5200 11100 5200
+Text Label 11000 5200 2    50   ~ 0
+c4_rx
+Wire Wire Line
+	11100 5100 11000 5100
+Text Label 11000 4650 2    50   ~ 0
+c3_tx
+Wire Wire Line
+	11000 4750 11100 4750
+Text Label 11000 4750 2    50   ~ 0
+c3_rx
+Wire Wire Line
+	11100 4650 11000 4650
+Text Label 11000 4200 2    50   ~ 0
+c2_tx
+Wire Wire Line
+	11000 4300 11100 4300
+Text Label 11000 4300 2    50   ~ 0
+c2_rx
+Wire Wire Line
+	11100 4200 11000 4200
+Text Notes 2000 -1300 0    394  ~ 0
+TODO: replace usb hub with mux\nTODO: dont place components under nvme\nTODO: cannot connect enable/disable pin of two power modules\nTODO: uart c2,c3,c4 are swapped\nTODO: c1 is unreliable. should we use a separate uart chip?  \nTODO: can we use uart2?\nTODO: switch to link-pp magjack\nTODO: thermal relief on the power modules
 $EndSCHEMATC
